@@ -1,0 +1,2357 @@
+Row,Block,Tree,nursery_id,year_planted,guard_tree,check_tree,dead_tree,PLANTID,PLANTID_ALT1,ACCID,ACP,ACNO,ACS,kentville_block,origin,apple_id,type
+15,North,6,5010,2013,0,0,1,"Aargauer Jubilaums",,134397,PI,134819,.04,NULL,USDA,390,dessert
+15,South,38,5011,2013,0,0,0,"Aargauer Jubilaums",,134397,PI,134819,.04,NULL,USDA,390,dessert
+12,North,20,6160,2013,0,0,0,Acme,,241500,PI,325531,.07,NULL,USDA,546,dessert
+11,South,50,6162,2013,0,0,0,Acme,,241500,PI,325531,.07,NULL,USDA,546,dessert
+10,North,5,5072,2013,0,0,0,Aivania,,331997,PI,437061,.06,NULL,USDA,411,cider
+9,South,55,5074,2013,0,0,0,Aivania,,331997,PI,437061,.06,NULL,USDA,411,cider
+4,North,58,3244,2013,0,0,0,Akane,"Prime Red",196060,PI,255899,,113,Kentville,245,dessert
+3,South,17,3245,2013,0,0,0,Akane,"Prime Red",196060,PI,255899,,113,Kentville,245,dessert
+18,North,13,3246,2014,0,0,0,Akane,"Prime Red",196060,PI,255899,,113,Kentville,245,dessert
+16,North,31,6019,2013,0,0,0,Akin,,6176,PI,588958,.10,NULL,USDA,501,dessert
+5,South,14,6021,2013,0,0,0,Akin,,6176,PI,588958,.10,NULL,USDA,501,dessert
+12,North,6,6196,2013,0,0,0,Alexander,,9141,PI,589107,.09,NULL,USDA,558,cider
+9,South,40,6198,2013,0,0,1,Alexander,,9141,PI,589107,.09,NULL,USDA,558,cider
+2,North,22,1232,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+10,North,2,1234,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+5,North,4,6236,2013,0,0,0,Amelia,,235953,PI,316482,.05,NULL,USDA,571,dessert
+14,South,49,6237,2013,0,0,0,Amelia,,235953,PI,316482,.05,NULL,USDA,571,dessert
+15,North,2,5022,2013,0,0,0,"American Summer Pearmain",,12112,PI,589214,.09,NULL,USDA,394,dessert
+17,South,34,5023,2013,0,0,0,"American Summer Pearmain",,12112,PI,589214,.09,NULL,USDA,394,dessert
+11,North,45,5246,2013,0,0,0,"Amur Naliv",,17947,PI,589541,.04,NULL,USDA,469,dessert
+4,South,49,5247,2013,0,0,0,"Amur Naliv",,17947,PI,589541,.04,NULL,USDA,469,dessert
+17,South,1,5248,2013,1,0,0,"Amur Naliv",,17947,PI,589541,.04,NULL,USDA,469,dessert
+15,North,34,5244,2013,0,0,1,"Ananas Berzenicki",,201598,PI,267939,.08,NULL,USDA,468,dessert
+5,South,48,5245,2013,0,0,0,"Ananas Berzenicki",,201598,PI,267939,.08,NULL,USDA,468,dessert
+13,North,41,5318,2013,0,0,0,"Anis Aliy K-32",,17536,PI,589487,.05,NULL,USDA,493,dessert
+16,South,8,5320,2013,0,0,0,"Anis Aliy K-32",,17536,PI,589487,.05,NULL,USDA,493,dessert
+2,North,60,3106,2013,0,0,0,Anna,,208689,PI,280400,.17,NULL,USDA,204,dessert
+1,South,60,3107,2013,0,0,0,Anna,,208689,PI,280400,.17,NULL,USDA,204,dessert
+18,North,33,6226,2013,0,0,1,"Annie Elizabeth",,7684,PI,589046,.06,NULL,USDA,568,cider
+8,South,36,6228,2013,0,0,1,"Annie Elizabeth",,7684,PI,589046,.06,NULL,USDA,568,cider
+15,North,53,6055,2013,0,0,0,Anoka,,21810,PI,589883,.06,NULL,USDA,513,cider
+9,South,49,6056,2013,0,0,1,Anoka,,21810,PI,589883,.06,NULL,USDA,513,cider
+11,North,40,5267,2013,0,0,0,Antonovka,,2440,PI,588784,.07,NULL,USDA,476,dessert
+18,South,45,5268,2013,0,0,0,Antonovka,,2440,PI,588784,.07,NULL,USDA,476,dessert
+2,North,28,2336,2013,0,0,0,"Antonovka 1.5 pounds",,128736,PI,107196,.11,NULL,USDA,174,cider
+6,South,31,2337,2013,0,0,0,"Antonovka 1.5 pounds",,128736,PI,107196,.11,NULL,USDA,174,cider
+2,North,21,2287,2013,0,0,0,"Antonovka Kamenichka",,6738,PI,588995,.15,NULL,USDA,162,dessert
+3,South,38,2288,2013,0,0,0,"Antonovka Kamenichka",,6738,PI,588995,.15,NULL,USDA,162,dessert
+11,North,21,6016,2013,0,0,0,"Apfel aus Grunheide",,132689,PI,125223,.07,NULL,USDA,500,dessert
+6,South,45,6018,2013,0,0,0,"Apfel aus Grunheide",,132689,PI,125223,.07,NULL,USDA,500,dessert
+5,North,19,6146,2013,0,0,1,"Arkad Zimnyi",,197617,PI,259446,.07,NULL,USDA,541,dessert
+16,South,59,6147,2013,0,0,1,"Arkad Zimnyi",,197617,PI,259446,.07,NULL,USDA,541,dessert
+6,North,23,5042,2013,0,0,0,"Arkansas Black",,9300,PI,589117,.07,NULL,USDA,401,cider
+11,South,16,5043,2013,0,0,0,"Arkansas Black",,9300,PI,589117,.07,NULL,USDA,401,cider
+16,North,49,1218,2013,0,0,0,Arlet,,17192,PI,589443,,113,Kentville,72,dessert
+5,South,19,1219,2013,0,0,0,Arlet,,17192,PI,589443,,113,Kentville,72,dessert
+2,North,61,1190,2013,0,0,0,Aroma,,14964,PI,589352,,113,Kentville,63,dessert
+10,South,25,1192,2013,0,0,0,Aroma,,14964,PI,589352,,113,Kentville,63,dessert
+7,North,49,6106,2013,0,0,0,"Ashmead's Kernel",,18745,PI,589654,.09,NULL,USDA,529,dessert
+7,South,40,6108,2013,0,0,1,"Ashmead's Kernel",,18745,PI,589654,.09,NULL,USDA,529,dessert
+15,North,41,5174,2013,0,0,1,Atlas,,6540,PI,588977,.12,NULL,USDA,445,dessert
+12,South,53,5175,2013,0,0,0,Atlas,,6540,PI,588977,.12,NULL,USDA,445,dessert
+1,North,48,6184,2013,0,0,0,Auralia,,257102,PI,344548,.10,NULL,USDA,554,dessert
+13,South,14,6185,2013,0,0,1,Auralia,,257102,PI,344548,.10,NULL,USDA,554,dessert
+14,North,53,5228,2013,0,0,0,"Autumn Arctic",,10184,PI,589141,.08,NULL,USDA,463,dessert
+2,South,41,5230,2013,0,0,0,"Autumn Arctic",,10184,PI,589141,.08,NULL,USDA,463,dessert
+9,North,29,6103,2013,0,0,1,Balancier,,18227,PI,589578,.05,NULL,USDA,1240,cider
+8,South,49,6105,2013,0,0,0,Balancier,,18227,PI,589578,.05,NULL,USDA,1240,cider
+5,North,56,2263,2013,0,0,0,Baldwin,,21813,PI,589884,.04,NULL,USDA,155,dessert
+19,South,47,2264,2013,0,0,0,Baldwin,,21813,PI,589884,.04,NULL,USDA,155,dessert
+3,North,14,4310,2013,0,0,0,Ballyfatten,,172764,PI,206021,.07,NULL,USDA,377,dessert
+9,South,27,4311,2013,0,0,0,Ballyfatten,,172764,PI,206021,.07,NULL,USDA,377,dessert
+3,North,26,6068,2013,0,0,1,Barry,,16807,PI,589428,.06,NULL,USDA,517,dessert
+12,South,50,6069,2013,0,0,0,Barry,,16807,PI,589428,.06,NULL,USDA,517,dessert
+7,North,26,6191,2013,0,0,0,Battleford,,3750,PI,588846,.05,NULL,USDA,556,cider
+19,South,29,6192,2013,0,0,0,Battleford,,3750,PI,588846,.05,NULL,USDA,556,cider
+12,North,43,6098,2013,0,0,0,Beacon,,21820,PI,589885,.06,NULL,USDA,527,dessert
+17,South,33,6099,2013,0,0,0,Beacon,,21820,PI,589885,.06,NULL,USDA,527,dessert
+1,North,13,5145,2013,0,0,1,Bean,,13751,PI,589291,.07,NULL,USDA,435,dessert
+16,South,52,5146,2013,0,0,0,Bean,,13751,PI,589291,.07,NULL,USDA,435,dessert
+11,North,49,6163,2013,0,0,0,Beatrix,,21991,PI,589914,.07,NULL,USDA,547,dessert
+11,South,5,6165,2013,0,0,0,Beatrix,,21991,PI,589914,.07,NULL,USDA,547,dessert
+13,North,53,5222,2013,0,0,0,"Beauty of Bath",,18807,PI,589664,.06,NULL,USDA,461,dessert
+18,South,46,5223,2013,0,0,1,"Beauty of Bath",,18807,PI,589664,.06,NULL,USDA,461,dessert
+19,North,5,6052,2013,0,0,1,"Bedford Red",,9352,PI,589121,.07,NULL,USDA,512,cider
+19,South,41,6053,2013,0,0,0,"Bedford Red",,9352,PI,589121,.07,NULL,USDA,512,cider
+11,South,1,6054,2013,1,0,1,"Bedford Red",,9352,PI,589121,.07,NULL,USDA,512,cider
+15,North,21,5315,2013,0,0,0,Beforest,,17959,PI,589543,.06,NULL,USDA,492,dessert
+12,South,51,5316,2013,0,0,1,Beforest,,17959,PI,589543,.06,NULL,USDA,492,dessert
+9,North,4,6166,2013,0,0,0,"Belle de Boskoop",,226719,PI,300258,.05,NULL,USDA,548,cider
+10,South,50,6167,2013,0,0,0,"Belle de Boskoop",,226719,PI,300258,.05,NULL,USDA,548,cider
+17,North,18,5126,2013,0,0,1,"Belle de Crollon",,140130,PI,162544,.07,NULL,USDA,429,cider
+9,South,57,5128,2013,0,0,1,"Belle de Crollon",,140130,PI,162544,.07,NULL,USDA,429,cider
+11,North,7,5003,2013,0,0,1,"Belle Imperiale",,133110,PI,126495,.04,NULL,USDA,388,cider
+18,South,1,5004,2013,1,0,0,"Belle Imperiale",,133110,PI,126495,.04,NULL,USDA,388,cider
+6,South,58,5005,2013,0,0,0,"Belle Imperiale",,133110,PI,126495,.04,NULL,USDA,388,cider
+1,North,18,5171,2013,0,0,1,Benoni,,9333,PI,589120,.09,NULL,USDA,444,dessert
+6,South,14,5172,2013,0,0,0,Benoni,,9333,PI,589120,.09,NULL,USDA,444,dessert
+2,North,19,6109,2013,0,0,1,"Berlepsch Red",,17161,PI,589438,.07,NULL,USDA,530,dessert
+10,South,41,6111,2013,0,0,1,"Berlepsch Red",,17161,PI,589438,.07,NULL,USDA,530,dessert
+8,North,48,6026,2013,0,0,0,"Berner Rosen",,17143,PI,589435,.06,NULL,USDA,503,dessert
+6,South,49,6027,2013,0,0,0,"Berner Rosen",,17143,PI,589435,.06,NULL,USDA,503,dessert
+11,North,53,5111,2013,0,0,1,"Bessemianka Michurina",,3710,PI,588843,.05,NULL,USDA,424,cider
+8,South,39,5113,2013,0,0,1,"Bessemianka Michurina",,3710,PI,588843,.05,NULL,USDA,424,cider
+16,North,29,5153,2013,0,0,0,"Beverly Hills",,21821,PI,589886,.04,NULL,USDA,438,cider
+2,South,49,5155,2013,0,0,0,"Beverly Hills",,21821,PI,589886,.04,NULL,USDA,438,cider
+17,North,33,6133,2013,0,0,0,"Binet Rouge",,138366,PI,158730,.04,NULL,USDA,537,cider
+8,South,14,6135,2013,0,0,0,"Binet Rouge",,138366,PI,158730,.04,NULL,USDA,537,cider
+19,North,46,4301,2013,0,0,0,Bisbee,,2583,PI,588790,.11,NULL,USDA,374,dessert
+4,South,20,4302,2013,0,0,0,Bisbee,,2583,PI,588790,.11,NULL,USDA,374,dessert
+19,North,51,5057,2013,0,0,0,"Bisbee Giant Winesap",,6388,PI,588967,.12,NULL,USDA,406,dessert
+3,South,26,5059,2013,0,0,0,"Bisbee Giant Winesap",,6388,PI,588967,.12,NULL,USDA,406,dessert
+6,North,40,5048,2013,0,0,0,"Black Ben Davis",,11021,PI,589178,.07,NULL,USDA,403,dessert
+5,South,43,5050,2013,0,0,0,"Black Ben Davis",,11021,PI,589178,.07,NULL,USDA,403,dessert
+3,North,48,4328,2013,0,0,1,"Black Crofton",,11451,PI,589197,.09,NULL,USDA,383,cider
+10,South,20,4329,2013,0,0,1,"Black Crofton",,11451,PI,589197,.09,NULL,USDA,383,cider
+9,North,49,6187,2013,0,0,0,"Black Gilliflower",,6460,PI,588973,.12,NULL,USDA,555,dessert
+9,South,56,6188,2013,0,0,0,"Black Gilliflower",,6460,PI,588973,.12,NULL,USDA,555,dessert
+7,North,14,5183,2013,0,0,0,"Black Oxford",,137647,PI,157052,.08,NULL,USDA,448,dessert
+14,South,48,5184,2013,0,0,0,"Black Oxford",,137647,PI,157052,.08,NULL,USDA,448,dessert
+7,North,27,5168,2013,0,0,0,"Blahova Ruzena",,17879,PI,589532,.08,NULL,USDA,443,dessert
+15,South,43,5169,2013,0,0,0,"Blahova Ruzena",,17879,PI,589532,.08,NULL,USDA,443,dessert
+16,North,33,5280,2013,0,0,0,Blairmont,,21827,PI,589887,.04,NULL,USDA,480,cider
+19,South,57,5281,2013,0,0,0,Blairmont,,21827,PI,589887,.04,NULL,USDA,480,cider
+2,North,5,5322,2013,0,0,1,"Blanc Mollet",,140206,PI,162719,.06,NULL,USDA,494,cider
+12,South,39,5323,2013,0,0,0,"Blanc Mollet",,140206,PI,162719,.06,NULL,USDA,494,cider
+7,North,42,5141,2013,0,0,0,Blaxtayman,,21830,PI,589888,.05,NULL,USDA,434,cider
+3,South,25,5142,2013,0,0,0,Blaxtayman,,21830,PI,589888,.05,NULL,USDA,434,cider
+9,North,19,6170,2013,0,0,0,Blaze,,21835,PI,589889,.04,NULL,USDA,549,dessert
+11,South,40,6171,2013,0,0,0,Blaze,,21835,PI,589889,.04,NULL,USDA,549,dessert
+17,North,61,5156,2013,0,0,0,"Blenheim Orange",,18328,PI,589593,.06,NULL,USDA,439,cider
+14,South,13,5158,2013,0,0,0,"Blenheim Orange",,18328,PI,589593,.06,NULL,USDA,439,cider
+6,North,14,5150,2013,0,0,0,Boiken,,9860,PI,589134,.08,NULL,USDA,437,cider
+3,South,61,5152,2013,0,0,0,Boiken,,9860,PI,589134,.08,NULL,USDA,437,cider
+7,North,17,5006,2013,0,0,0,Bonza,,24851,PI,590156,.06,NULL,USDA,389,dessert
+3,South,36,5007,2013,0,0,0,Bonza,,24851,PI,590156,.06,NULL,USDA,389,dessert
+17,North,38,3278,2013,0,0,0,Boughsweet,,NULL,,NULL,,113,Kentville,256,dessert
+6,South,57,3279,2013,0,0,0,Boughsweet,,NULL,,NULL,,113,Kentville,256,dessert
+8,North,3,5282,2013,0,0,1,Bouteille,,161196,PI,187296,.04,NULL,USDA,481,cider
+2,South,34,5284,2013,0,0,0,Bouteille,,161196,PI,187296,.04,NULL,USDA,481,cider
+17,North,24,6232,2013,0,0,0,"Bowden Seedling",,165095,PI,194199,.06,NULL,USDA,570,cider
+10,South,57,6233,2013,0,0,0,"Bowden Seedling",,165095,PI,194199,.06,NULL,USDA,570,cider
+15,North,1,6234,2013,1,0,0,"Bowden Seedling",,165095,PI,194199,.06,NULL,USDA,570,cider
+11,North,54,1118,2013,0,0,0,Braeburn,,17183,PI,589442,,113,Kentville,40,dessert
+14,South,25,1120,2013,0,0,0,Braeburn,,17183,PI,589442,,113,Kentville,40,dessert
+12,North,4,5297,2013,0,0,0,Brettacher,,18083,PI,589563,.08,NULL,USDA,486,cider
+10,South,59,5298,2013,0,0,0,Brettacher,,18083,PI,589563,.08,NULL,USDA,486,cider
+1,North,52,1071,2013,0,0,0,Britegold,,19536,PI,589726,,113,Kentville,24,cider
+14,South,32,1072,2013,0,0,0,Britegold,,19536,PI,589726,,113,Kentville,24,cider
+17,North,59,5195,2013,0,0,0,Britemac,,10129,PI,589140,.07,NULL,USDA,452,dessert
+11,South,62,5196,2013,1,0,0,Britemac,,10129,PI,589140,.07,NULL,USDA,452,dessert
+4,South,28,5197,2013,0,0,0,Britemac,,10129,PI,589140,.07,NULL,USDA,452,dessert
+4,North,46,5162,2013,0,0,0,"Brown's Apple",,18794,PI,589662,.04,NULL,USDA,441,cider
+14,South,60,5164,2013,0,0,1,"Brown's Apple",,18794,PI,589662,.04,NULL,USDA,441,cider
+16,North,20,5106,2013,0,0,0,Brusnichnoe,,222597,PI,293887,.06,NULL,USDA,422,cider
+13,South,13,5107,2013,0,0,0,Brusnichnoe,,222597,PI,293887,.06,NULL,USDA,422,cider
+7,North,53,4277,2013,0,0,1,"Bulmer Norman",,2985,PI,588808,.07,NULL,USDA,366,cider
+9,South,2,4278,2013,0,0,0,"Bulmer Norman",,2985,PI,588808,.07,NULL,USDA,366,cider
+5,North,57,3052,2013,0,0,0,Burgundy,,3582,PI,588835,.22,NULL,USDA,191,dessert
+14,South,26,3053,2013,0,0,0,Burgundy,,3582,PI,588835,.22,NULL,USDA,191,dessert
+15,North,51,4298,2013,0,0,0,"C.P. Close",,7076,PI,589017,.07,NULL,USDA,373,cider
+11,South,20,4299,2013,0,0,1,"C.P. Close",,7076,PI,589017,.07,NULL,USDA,373,cider
+13,North,27,5139,2013,0,0,0,"Captain Kidd",,19073,PI,589698,.05,NULL,USDA,433,dessert
+4,South,15,5140,2013,0,0,0,"Captain Kidd",,19073,PI,589698,.05,NULL,USDA,433,dessert
+19,North,58,5295,2013,0,0,0,Caravel,,3935,PI,588857,.06,NULL,USDA,485,dessert
+1,South,17,5296,2013,0,0,0,Caravel,,3935,PI,588857,.06,NULL,USDA,485,dessert
+1,North,53,5312,2013,0,0,1,Carlton,,8424,PI,589075,.10,NULL,USDA,491,dessert
+3,South,30,5313,2013,0,0,0,Carlton,,8424,PI,589075,.10,NULL,USDA,491,dessert
+19,North,41,4322,2013,0,0,1,Carola,,254289,PI,341068,.05,NULL,USDA,381,dessert
+4,South,23,4324,2013,0,0,1,Carola,,254289,PI,341068,.05,NULL,USDA,381,dessert
+5,North,34,5033,2013,0,0,1,Carroll,,3535,PI,588832,.05,NULL,USDA,398,cider
+12,South,5,5035,2013,0,0,0,Carroll,,3535,PI,588832,.05,NULL,USDA,398,cider
+4,North,49,3004,2013,0,0,0,"Casa Nova de Alco Baca-9",,159256,PI,183957,.07,NULL,USDA,178,cider
+17,South,39,3005,2013,0,0,0,"Casa Nova de Alco Baca-9",,159256,PI,183957,.07,NULL,USDA,178,cider
+10,North,56,6046,2013,0,0,0,Charden,,17207,PI,589445,.05,NULL,USDA,510,cider
+10,South,34,6047,2013,0,0,0,Charden,,17207,PI,589445,.05,NULL,USDA,510,cider
+6,North,45,5165,2013,0,0,0,Charlamoff,,6552,PI,588978,.14,NULL,USDA,442,dessert
+8,South,7,5167,2013,0,0,0,Charlamoff,,6552,PI,588978,.14,NULL,USDA,442,dessert
+19,North,54,4340,2013,0,0,0,"Charles Ross",,18778,PI,589659,.04,NULL,USDA,387,cider
+14,South,24,5002,2013,0,0,1,"Charles Ross",,18778,PI,589659,.04,NULL,USDA,387,cider
+10,North,61,6307,2013,0,0,0,Charlotte,,14933,PI,589348,,59,Kentville,1217,dessert
+7,South,17,6308,2013,0,0,0,Charlotte,,14933,PI,589348,,59,Kentville,1217,dessert
+15,North,13,6083,2013,0,0,0,"Cheal's Golden Gem",,215642,PI,286787,.06,NULL,USDA,522,dessert
+11,South,38,6084,2013,0,0,0,"Cheal's Golden Gem",,215642,PI,286787,.06,NULL,USDA,522,dessert
+19,North,42,5261,2013,0,0,0,Cheddar,,168661,PI,199100,.08,NULL,USDA,474,cider
+19,South,60,5262,2013,0,0,0,Cheddar,,168661,PI,199100,.08,NULL,USDA,474,cider
+15,North,19,3295,2013,0,0,0,Chehalis,,21836,PI,589890,,113,Kentville,262,dessert
+17,South,51,3296,2013,0,0,0,Chehalis,,21836,PI,589890,,113,Kentville,262,dessert
+7,North,60,4331,2013,0,0,1,"Chenango Strawberry",,12705,PI,589239,.09,NULL,USDA,384,dessert
+5,South,13,4333,2013,0,0,1,"Chenango Strawberry",,12705,PI,589239,.09,NULL,USDA,384,dessert
+13,North,35,5237,2013,0,0,0,Chieftain,,21339,PI,589854,.04,NULL,USDA,466,dessert
+4,South,33,5239,2013,0,0,0,Chieftain,,21339,PI,589854,.04,NULL,USDA,466,dessert
+2,North,9,2257,2013,0,0,1,"Chisel Jersey",,2937,PI,588806,.15,NULL,USDA,153,dessert
+7,South,58,2259,2013,0,0,1,"Chisel Jersey",,2937,PI,588806,.15,NULL,USDA,153,dessert
+2,North,18,5264,2013,0,0,1,"Chiver's Delight",,19060,PI,589696,.06,NULL,USDA,475,cider
+3,South,32,5265,2013,0,0,0,"Chiver's Delight",,19060,PI,589696,.06,NULL,USDA,475,cider
+11,North,12,5117,2013,0,0,0,"Claudius Herbstapfel",,133875,PI,131001,.14,NULL,USDA,426,dessert
+5,South,33,5118,2013,0,0,1,"Claudius Herbstapfel",,133875,PI,131001,.14,NULL,USDA,426,dessert
+7,North,12,6136,2013,0,0,0,"Clear Gold",,12258,PI,589224,.08,NULL,USDA,538,dessert
+7,South,42,6137,2013,0,0,1,"Clear Gold",,12258,PI,589224,.08,NULL,USDA,538,dessert
+17,North,40,5036,2013,0,0,0,Cleopatra,,19127,PI,589705,.07,NULL,USDA,399,cider
+18,South,56,5038,2013,0,0,0,Cleopatra,,19127,PI,589705,.07,NULL,USDA,399,cider
+19,North,39,2260,2013,0,0,0,Clivia,,257104,PI,344550,.06,NULL,USDA,154,dessert
+12,South,34,2261,2013,0,0,0,Clivia,,257104,PI,344550,.06,NULL,USDA,154,dessert
+14,North,58,6041,2013,0,0,0,"Coast Apple",,260647,PI,349324,.09,NULL,USDA,508,dessert
+19,South,8,6042,2013,0,0,0,"Coast Apple",,260647,PI,349324,.09,NULL,USDA,508,dessert
+7,North,22,5207,2013,0,0,0,"Coconut Crunch",,21332,PI,589853,.05,NULL,USDA,456,dessert
+19,South,33,5209,2013,0,0,0,"Coconut Crunch",,21332,PI,589853,.05,NULL,USDA,456,dessert
+14,North,30,5103,2013,0,0,1,"Coe's Golden Drop",,200103,PI,264556,.10,NULL,USDA,421,dessert
+4,South,25,5104,2013,0,0,1,"Coe's Golden Drop",,200103,PI,264556,.10,NULL,USDA,421,dessert
+2,North,57,6214,2013,0,0,0,Cole,,133811,PI,129820,.11,NULL,USDA,564,cider
+6,South,18,6216,2013,0,0,0,Cole,,133811,PI,129820,.11,NULL,USDA,564,cider
+18,North,31,5189,2013,0,0,1,"Collamer Twenty Ounce",,11269,PI,589191,.12,NULL,USDA,450,cider
+13,South,8,5191,2013,0,0,1,"Collamer Twenty Ounce",,11269,PI,589191,.12,NULL,USDA,450,cider
+1,North,7,6064,2013,0,0,0,Collet,,17412,PI,589470,.05,NULL,USDA,516,cider
+17,South,54,6065,2013,0,0,0,Collet,,17412,PI,589470,.05,NULL,USDA,516,cider
+11,North,30,4280,2013,0,0,0,"Collins June",,10359,PI,589149,.06,NULL,USDA,367,dessert
+1,South,53,4281,2013,0,0,0,"Collins June",,10359,PI,589149,.06,NULL,USDA,367,dessert
+12,North,16,6155,2013,0,0,0,Conrad,,14753,PI,589330,.09,NULL,USDA,544,dessert
+13,South,23,6156,2013,0,0,0,Conrad,,14753,PI,589330,.09,NULL,USDA,544,dessert
+17,North,39,4337,2013,0,0,0,"Coombs Wealthy",,11179,PI,589188,.09,NULL,USDA,386,cider
+2,South,59,4338,2013,0,0,0,"Coombs Wealthy",,11179,PI,589188,.09,NULL,USDA,386,cider
+16,North,10,5177,2013,0,0,0,"Cornish Gilliflower",,8183,PI,589065,.09,NULL,USDA,446,dessert
+13,South,53,5178,2013,0,0,0,"Cornish Gilliflower",,8183,PI,589065,.09,NULL,USDA,446,dessert
+5,North,46,2194,2013,0,0,0,Cortland,,3780,PI,588848,.17,NULL,USDA,134,dessert
+8,South,38,2195,2013,0,0,0,Cortland,,3780,PI,588848,.17,NULL,USDA,134,dessert
+14,North,32,5159,2013,0,0,1,"Court Pendu",,18373,PI,589601,.07,NULL,USDA,440,cider
+1,North,1,5160,2013,1,0,1,"Court Pendu",,18373,PI,589601,.07,NULL,USDA,440,cider
+3,South,14,5161,2013,0,0,1,"Court Pendu",,18373,PI,589601,.07,NULL,USDA,440,cider
+18,North,52,5285,2013,0,0,1,"Court Royal",,18860,PI,589671,.04,NULL,USDA,482,cider
+1,South,39,5287,2013,0,0,0,"Court Royal",,18860,PI,589671,.04,NULL,USDA,482,cider
+8,North,24,2234,2013,0,0,0,"Cox's Orange Pippin",,3860,PI,588853,.16,NULL,USDA,146,dessert
+5,South,3,2235,2013,0,0,0,"Cox's Orange Pippin",,3860,PI,588853,.16,NULL,USDA,146,dessert
+1,North,59,2272,2013,0,0,0,"Crimson Beauty",,7205,PI,589024,.18,NULL,USDA,158,dessert
+7,South,33,2273,2013,0,0,1,"Crimson Beauty",,7205,PI,589024,.18,NULL,USDA,158,dessert
+18,North,26,5045,2013,0,0,1,Crollon,,140208,PI,162721,.07,NULL,USDA,402,cider
+12,South,19,5046,2013,0,0,0,Crollon,,140208,PI,162721,.07,NULL,USDA,402,cider
+19,North,10,6119,2013,0,0,0,Crookston,,19460,PI,589712,.05,NULL,USDA,533,cider
+10,South,32,6120,2013,0,0,0,Crookston,,19460,PI,589712,.05,NULL,USDA,533,cider
+3,North,42,5027,2013,0,0,0,"Crow Egg",,11389,PI,589196,.08,NULL,USDA,396,cider
+8,South,25,5028,2013,0,0,0,"Crow Egg",,11389,PI,589196,.08,NULL,USDA,396,cider
+19,South,2,5029,2014,0,0,0,"Crow Egg",,11389,PI,589196,.08,NULL,USDA,396,cider
+4,North,53,1023,2013,0,0,0,Dayton,,24941,PI,590183,,113,Kentville,8,dessert
+13,South,4,1024,2013,0,0,0,Dayton,,24941,PI,590183,,113,Kentville,8,dessert
+13,North,15,5252,2013,0,0,0,"Deacon Jones",,6645,PI,588985,.09,NULL,USDA,471,dessert
+8,South,9,5254,2013,0,0,0,"Deacon Jones",,6645,PI,588985,.09,NULL,USDA,471,dessert
+6,North,50,6149,2013,0,0,0,"Del Cirio",,128376,PI,105505,.07,NULL,USDA,542,cider
+8,South,46,6150,2013,0,0,1,"Del Cirio",,128376,PI,105505,.07,NULL,USDA,542,cider
+18,North,5,2293,2013,0,0,0,Delicious,,21272,PI,589841,.17,NULL,USDA,164,dessert
+17,South,36,2295,2013,0,0,0,Delicious,,21272,PI,589841,.17,NULL,USDA,164,dessert
+4,North,61,5186,2013,0,0,0,Delikates,,24826,PI,590155,.06,NULL,USDA,449,dessert
+12,South,57,5187,2013,0,0,1,Delikates,,24826,PI,590155,.06,NULL,USDA,449,dessert
+19,North,15,4325,2013,0,0,0,Democrat,,9223,PI,589111,.07,NULL,USDA,382,dessert
+15,South,2,4327,2013,0,0,0,Democrat,,9223,PI,589111,.07,NULL,USDA,382,dessert
+13,North,4,5060,2013,0,0,0,"Dermen Black Stayman",,10440,PI,589152,.08,NULL,USDA,407,dessert
+2,South,53,5062,2013,0,0,1,"Dermen Black Stayman",,10440,PI,589152,.08,NULL,USDA,407,dessert
+15,North,14,5130,2013,0,0,0,"Devonshire Quarrenden",,18245,PI,589581,.07,NULL,USDA,430,dessert
+18,South,37,5131,2013,0,0,0,"Devonshire Quarrenden",,18245,PI,589581,.07,NULL,USDA,430,dessert
+17,North,23,6178,2013,0,0,0,Diana,,6285,PI,588962,.13,NULL,USDA,552,dessert
+10,North,62,6179,2013,1,0,0,Diana,,6285,PI,588962,.13,NULL,USDA,552,dessert
+7,South,47,6180,2013,0,0,1,Diana,,6285,PI,588962,.13,NULL,USDA,552,dessert
+5,North,54,5019,2013,0,0,0,"Directeur Lesage",,18305,PI,589589,.07,NULL,USDA,393,dessert
+6,South,52,5020,2013,0,0,0,"Directeur Lesage",,18305,PI,589589,.07,NULL,USDA,393,dessert
+4,North,52,5078,2013,0,0,0,Discovery,,21894,PI,589900,.07,NULL,USDA,413,dessert
+14,South,37,5080,2013,0,0,1,Discovery,,21894,PI,589900,.07,NULL,USDA,413,dessert
+12,North,12,5039,2013,0,0,0,"Dubbele Zoete Aagt",,21992,PI,589915,.06,NULL,USDA,400,dessert
+9,South,13,5040,2013,0,0,0,"Dubbele Zoete Aagt",,21992,PI,589915,.06,NULL,USDA,400,dessert
+1,North,36,6061,2013,0,0,1,Duchess,,2791,PI,588801,.07,NULL,USDA,515,dessert
+19,South,59,6062,2013,0,0,0,Duchess,,2791,PI,588801,.07,NULL,USDA,515,dessert
+11,North,29,6101,2013,0,0,0,"Dunkerton Late Sweet",,18820,PI,589666,.06,NULL,USDA,528,dessert
+14,South,57,6102,2013,0,0,0,"Dunkerton Late Sweet",,18820,PI,589666,.06,NULL,USDA,528,dessert
+18,South,17,5135,2014,0,0,0,Earliblaze,,19132,PI,589706,.04,NULL,USDA,432,cider
+11,North,41,5136,2013,0,0,0,Earliblaze,,19132,PI,589706,.04,NULL,USDA,432,cider
+3,North,31,4307,2013,0,0,0,"Early Bird Red",,19463,PI,589713,.05,NULL,USDA,376,dessert
+1,South,57,4308,2013,0,0,0,"Early Bird Red",,19463,PI,589713,.05,NULL,USDA,376,dessert
+9,North,54,5091,2013,0,0,0,"Early Harvest",,7063,PI,589015,.05,NULL,USDA,417,dessert
+9,South,53,5092,2013,0,0,0,"Early Harvest",,7063,PI,589015,.05,NULL,USDA,417,dessert
+1,North,60,1302,2013,0,0,0,"Egremont Russet",,198141,PI,260000,,59,Kentville,99,dessert
+8,South,17,1303,2013,0,0,0,"Egremont Russet",,198141,PI,260000,,59,Kentville,99,dessert
+9,North,6,3133,2013,0,0,0,"Ein Shemer",,208690,PI,280401,.20,NULL,USDA,212,dessert
+3,South,11,3134,2013,0,0,1,"Ein Shemer",,208690,PI,280401,.20,NULL,USDA,212,dessert
+2,North,31,1202,2013,0,0,0,Elstar,,17171,PI,589440,,113,Kentville,67,dessert
+5,North,1,1203,2013,1,0,0,Elstar,,17171,PI,589440,,113,Kentville,67,dessert
+14,South,34,1204,2013,0,0,0,Elstar,,17171,PI,589440,,113,Kentville,67,dessert
+16,North,48,2204,2013,0,0,0,Emilia,,132355,PI,123989,.13,NULL,USDA,137,dessert
+19,South,13,2205,2013,0,0,0,Emilia,,132355,PI,123989,.13,NULL,USDA,137,dessert
+12,North,3,2317,2013,0,0,0,Empire,,3692,PI,588842,.33,NULL,USDA,171,dessert
+16,South,1,2318,2013,1,0,0,Empire,,3692,PI,588842,.33,NULL,USDA,171,dessert
+15,South,21,2319,2013,0,0,0,Empire,,3692,PI,588842,.33,NULL,USDA,171,dessert
+14,North,49,3224,2013,0,0,0,Empress,,NULL,,NULL,,113,Kentville,239,dessert
+14,South,43,3225,2013,0,0,0,Empress,,NULL,,NULL,,113,Kentville,239,dessert
+15,North,40,1008,2013,0,0,0,Enterprise,,25048,PI,590210,,113,Kentville,3,dessert
+11,South,56,1009,2013,0,0,0,Enterprise,,25048,PI,590210,,113,Kentville,3,dessert
+2,North,6,3184,2013,0,0,0,"Esopus Spitzenburg",,2470,PI,588785,.15,NULL,USDA,227,dessert
+9,South,20,3186,2013,0,0,0,"Esopus Spitzenburg",,2470,PI,588785,.15,NULL,USDA,227,dessert
+4,North,12,1091,2013,0,0,0,Fantazja,,14948,PI,589350,,113,Kentville,31,dessert
+13,South,15,1093,2013,0,0,0,Fantazja,,14948,PI,589350,,113,Kentville,31,dessert
+7,North,23,1010,2013,0,0,0,Florina,,86849,PI,588747,,113,Kentville,4,dessert
+19,South,38,1012,2013,0,0,0,Florina,,86849,PI,588747,,113,Kentville,4,dessert
+17,North,60,1248,2013,0,0,0,Freedom,,NULL,,NULL,,113,Kentville,81,dessert
+5,South,42,1249,2013,0,0,0,Freedom,,NULL,,NULL,,113,Kentville,81,dessert
+18,North,59,2278,2013,0,0,0,"Fuji Red Sport Type 2",,3720,PI,588844,.15,NULL,USDA,160,dessert
+8,South,47,2279,2013,0,0,0,"Fuji Red Sport Type 2",,3720,PI,588844,.15,NULL,USDA,160,dessert
+9,North,41,3109,2013,0,0,0,Gala,,294439,PI,392303,.15,NULL,USDA,205,dessert
+16,South,29,3110,2013,0,0,1,Gala,,294439,PI,392303,.15,NULL,USDA,205,dessert
+7,North,47,1176,2013,0,0,1,"Ginger gold",,NULL,,NULL,,113,Kentville,58,dessert
+3,South,31,1177,2013,0,0,1,"Ginger gold",,NULL,,NULL,,113,Kentville,58,dessert
+6,North,5,3227,2013,0,0,1,"Gloster 69",,3596,PI,588836,,113,Kentville,1219,dessert
+18,South,48,3228,2013,0,0,0,"Gloster 69",,3596,PI,588836,,113,Kentville,1219,dessert
+16,North,40,3089,2013,0,0,0,"GMAL 1750",,15878,PI,589380,.13,NULL,USDA,200,dessert
+17,South,50,3090,2013,0,0,0,"GMAL 1750",,15878,PI,589380,.13,NULL,USDA,200,dessert
+18,North,56,3077,2013,0,0,0,"GMAL 2251",,519452,PI,594104,.a9,NULL,USDA,197,dessert
+13,South,21,3078,2013,0,0,0,"GMAL 2251",,519452,PI,594104,.a9,NULL,USDA,197,dessert
+4,North,9,2338,2013,0,0,0,"GMAL 3158",,23456,PI,590043,.13,NULL,USDA,175,dessert
+7,South,30,2339,2013,0,0,0,"GMAL 3158",,23456,PI,590043,.13,NULL,USDA,175,dessert
+4,North,35,3058,2013,0,0,0,"GMAL 3163",,483016,PI,323617,.14,NULL,USDA,193,dessert
+4,South,27,3059,2013,0,0,1,"GMAL 3163",,483016,PI,323617,.14,NULL,USDA,193,dessert
+12,North,18,3049,2013,0,0,0,"GMAL 3223",,519457,PI,594106,.95,NULL,USDA,190,dessert
+13,South,16,3051,2013,0,0,0,"GMAL 3223",,519457,PI,594106,.95,NULL,USDA,190,dessert
+13,South,6,3170,2013,0,0,0,"Golden Delicious",,24944,PI,590184,.19,NULL,USDA,222,dessert
+16,North,19,3171,2013,0,0,0,"Golden Delicious",,24944,PI,590184,.19,NULL,USDA,222,dessert
+16,North,17,2302,2013,0,0,0,"Granny Smith",,4248,PI,588880,.14,NULL,USDA,167,dessert
+10,South,54,2303,2013,0,0,0,"Granny Smith",,4248,PI,588880,.14,NULL,USDA,167,dessert
+2,North,26,3148,2013,0,0,0,"Gravenstein Washington Red",,3616,PI,588837,.14,NULL,USDA,216,dessert
+1,South,18,3149,2013,0,0,0,"Gravenstein Washington Red",,3616,PI,588837,.14,NULL,USDA,216,dessert
+19,North,49,6262,2013,0,0,0,Greensleeves,,18876,PI,589673,,103,Kentville,1221,dessert
+11,South,17,6263,2013,0,0,0,Greensleeves,,18876,PI,589673,,103,Kentville,1221,dessert
+8,North,41,3172,2013,0,0,0,Haralson,,17400,PI,589469,.13,NULL,USDA,223,dessert
+1,South,59,3173,2013,0,0,0,Haralson,,17400,PI,589469,.13,NULL,USDA,223,dessert
+8,North,34,1196,2013,0,0,0,Holly,,21854,PI,589893,,113,Kentville,65,cider
+11,South,25,1197,2013,0,0,0,Holly,,21854,PI,589893,,113,Kentville,65,cider
+8,North,2,1155,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+18,North,22,1156,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+11,North,51,3113,2013,0,0,0,Idagold,,11221,PI,589189,.08,NULL,USDA,206,dessert
+8,South,34,3114,2013,0,0,0,Idagold,,11221,PI,589189,.08,NULL,USDA,206,dessert
+11,North,47,3178,2013,0,0,0,Idared,,3682,PI,588841,.16,NULL,USDA,225,dessert
+11,South,9,3179,2013,0,0,0,Idared,,3682,PI,588841,.16,NULL,USDA,225,dessert
+4,North,29,3142,2013,0,0,1,Ingol,,17180,PI,589441,.19,NULL,USDA,214,dessert
+9,South,12,3144,2013,0,0,0,Ingol,,17180,PI,589441,.19,NULL,USDA,214,dessert
+3,North,19,2249,2013,0,0,0,"James Grieve (Red Rosamund strain)",,189767,PI,246464,.18,NULL,USDA,150,dessert
+16,South,21,2250,2013,0,0,0,"James Grieve (Red Rosamund strain)",,189767,PI,246464,.18,NULL,USDA,150,dessert
+8,North,39,3271,2013,0,0,0,Jerseyred,Jersyred,10635,PI,589159,,113,Kentville,254,dessert
+7,North,46,1001,2013,0,0,0,Jonafree,,22322,PI,589962,,113,Kentville,1,dessert
+5,South,54,1002,2013,0,0,0,Jonafree,,22322,PI,589962,,113,Kentville,1,dessert
+10,North,58,2341,2013,0,0,0,Jonagold,,5004,PI,588941,.21,NULL,USDA,176,dessert
+15,South,45,2343,2013,0,0,0,Jonagold,,5004,PI,588941,.21,NULL,USDA,176,dessert
+19,North,19,3044,2013,0,0,0,Jonamac,,3959,PI,588858,.05,NULL,USDA,188,dessert
+16,South,16,3045,2013,0,0,1,Jonamac,,3959,PI,588858,.05,NULL,USDA,188,dessert
+14,North,18,1115,2013,0,0,0,Keepsake,,21860,PI,589894,,113,Kentville,39,dessert
+12,North,1,1116,2013,1,0,0,Keepsake,,21860,PI,589894,,113,Kentville,39,dessert
+14,South,61,1117,2013,0,0,0,Keepsake,,21860,PI,589894,,113,Kentville,39,dessert
+11,North,59,2254,2013,0,0,0,"Kimball McIntosh 2-4-4-4",,9428,PI,589122,.17,NULL,USDA,152,dessert
+18,South,7,2255,2013,0,0,0,"Kimball McIntosh 2-4-4-4",,9428,PI,589122,.17,NULL,USDA,152,dessert
+15,North,37,3211,2013,0,0,0,Kogetsu,,24812,PI,590153,,113,Kentville,236,dessert
+11,South,58,3213,2013,0,0,1,Kogetsu,,24812,PI,590153,,113,Kentville,236,dessert
+2,North,24,2290,2013,0,0,1,Koningszuur,,483014,PI,188517,.15,NULL,USDA,163,dessert
+5,South,35,2291,2013,0,0,0,Koningszuur,,483014,PI,188517,.15,NULL,USDA,163,dessert
+9,North,27,2269,2013,0,0,0,"Korichnoe Polosatoje",,17566,PI,589491,.16,NULL,USDA,157,dessert
+2,South,10,2271,2013,0,0,1,"Korichnoe Polosatoje",,17566,PI,589491,.16,NULL,USDA,157,dessert
+4,North,28,2219,2013,0,0,1,Lady,,7901,PI,589053,.16,NULL,USDA,142,dessert
+5,South,7,2220,2013,0,0,0,Lady,,7901,PI,589053,.16,NULL,USDA,142,dessert
+12,North,41,1014,2013,0,0,0,Liberty,,5016,PI,588943,,113,Kentville,5,dessert
+3,South,39,1015,2013,0,0,0,Liberty,,5016,PI,588943,,113,Kentville,5,dessert
+5,North,20,4115,2013,0,0,1,Macoun,,21865,PI,589895,,140,Kentville,1228,dessert
+13,South,26,4116,2013,0,0,0,Macoun,,21865,PI,589895,,140,Kentville,1228,dessert
+13,North,62,4117,2013,1,0,0,Macoun,,21865,PI,589895,,140,Kentville,1228,dessert
+12,North,31,2242,2013,0,0,0,"Marshall McIntosh",,6796,PI,588998,.17,NULL,USDA,148,dessert
+8,South,58,2243,2013,0,0,0,"Marshall McIntosh",,6796,PI,588998,.17,NULL,USDA,148,dessert
+7,North,21,1172,2013,0,0,0,McIntosh,,NULL,,NULL,,113,Kentville,57,dessert
+9,South,35,1173,2013,0,0,1,McIntosh,,NULL,,NULL,,113,Kentville,57,dessert
+14,North,9,3115,2013,0,0,1,"Medaille d'Or",,18993,PI,594108,.18,NULL,USDA,207,dessert
+4,South,51,3116,2013,0,0,1,"Medaille d'Or",,18993,PI,594108,.18,NULL,USDA,207,dessert
+11,North,43,1133,2013,0,0,0,Melrose,,15693,PI,589362,,113,Kentville,45,dessert
+10,South,37,1134,2013,0,0,0,Melrose,,15693,PI,589362,,113,Kentville,45,dessert
+19,North,1,6281,2013,1,0,0,Milwaukee,,12138,PI,589216,,NULL,Kentville,1230,dessert
+8,South,57,6282,2013,0,0,0,Milwaukee,,12138,PI,589216,,NULL,Kentville,1230,dessert
+3,North,17,1035,2013,0,0,0,Moira,,24866,PI,590160,,113,Kentville,12,cider
+11,South,34,1036,2013,0,0,0,Moira,,24866,PI,590160,,113,Kentville,12,cider
+7,North,37,3001,2013,0,0,0,"Mollie's Delicious",,6585,PI,588981,.18,NULL,USDA,177,dessert
+2,South,28,3002,2013,0,0,0,"Mollie's Delicious",,6585,PI,588981,.18,NULL,USDA,177,dessert
+6,North,49,3025,2013,0,0,1,Monroe,,2152,PI,588772,.14,NULL,USDA,183,dessert
+12,South,20,3026,2013,0,0,1,Monroe,,2152,PI,588772,.14,NULL,USDA,183,dessert
+2,North,43,1256,2013,0,0,0,Murray,,17524,PI,589486,,113,Kentville,84,dessert
+12,South,35,1257,2013,0,0,0,Murray,,17524,PI,589486,,113,Kentville,84,dessert
+4,North,1,1258,2013,1,0,0,Murray,,17524,PI,589486,,113,Kentville,84,dessert
+17,North,45,2327,2013,0,0,0,Niedzwetzkyana,,112249,PI,589287,.05,NULL,USDA,1301,dessert
+19,South,61,2328,2013,0,0,0,Niedzwetzkyana,,112249,PI,589287,.05,NULL,USDA,1301,dessert
+18,North,1,2200,2013,1,0,0,"Northern Spy",,4166,PI,588872,.14,NULL,USDA,136,dessert
+2,North,47,2201,2013,0,0,0,"Northern Spy",,4166,PI,588872,.14,NULL,USDA,136,dessert
+7,South,20,2202,2013,0,0,0,"Northern Spy",,4166,PI,588872,.14,NULL,USDA,136,dessert
+4,North,20,2209,2013,0,0,0,"Nova Easygro",,3626,PI,588838,.14,NULL,USDA,139,dessert
+2,South,35,2210,2013,0,0,0,"Nova Easygro",,3626,PI,588838,.14,NULL,USDA,139,dessert
+13,North,36,1019,2013,0,0,0,Novaspy,,522646,PI,613939,,113,Kentville,7,dessert
+18,South,40,1020,2013,0,0,0,Novaspy,,522646,PI,613939,,113,Kentville,7,dessert
+16,North,41,3259,2013,0,0,0,Orin,,12468,PI,589232,,113,Kentville,250,dessert
+13,South,10,3261,2013,0,0,0,Orin,,12468,PI,589232,,113,Kentville,250,dessert
+9,North,30,3019,2013,0,0,0,"Ozark Gold",,6610,PI,588982,.11,NULL,USDA,182,dessert
+18,South,44,3021,2013,0,0,0,"Ozark Gold",,6610,PI,588982,.11,NULL,USDA,182,dessert
+6,North,53,3037,2013,0,0,0,"Pacific Gold",,22372,PI,589968,.05,NULL,USDA,186,cider
+18,South,35,3039,2013,0,0,0,"Pacific Gold",,22372,PI,589968,.05,NULL,USDA,186,cider
+10,North,46,2206,2013,0,0,0,Petrel,,22380,PI,589970,.09,NULL,USDA,138,dessert
+11,South,49,2207,2013,0,0,0,Petrel,,22380,PI,589970,.09,NULL,USDA,138,dessert
+5,North,2,3208,2013,0,0,1,"Pink Lady",,NULL,,NULL,,113,Kentville,235,dessert
+17,South,17,3210,2013,0,0,1,"Pink Lady",,NULL,,NULL,,113,Kentville,235,dessert
+1,North,15,3046,2013,0,0,0,"Pink Pearl",,6568,PI,588980,.10,NULL,USDA,189,cider
+1,South,44,3048,2013,0,0,0,"Pink Pearl",,6568,PI,588980,.10,NULL,USDA,189,cider
+7,North,18,1181,2013,0,0,0,Pinova,,NULL,,NULL,,113,Kentville,60,dessert
+11,South,11,1183,2013,0,0,0,Pinova,,NULL,,NULL,,113,Kentville,60,dessert
+15,North,12,3064,2013,0,0,0,"Poeltsamaa Winter Apple",,287728,PI,383515,.18,NULL,USDA,195,cider
+15,South,54,3065,2013,0,0,1,"Poeltsamaa Winter Apple",,287728,PI,383515,.18,NULL,USDA,195,cider
+19,North,12,1076,2013,0,0,0,Priam,,378191,PI,483255,,113,Kentville,26,dessert
+11,South,23,1078,2013,0,0,0,Priam,,378191,PI,483255,,113,Kentville,26,dessert
+12,North,48,1178,2013,0,0,0,Priscilla,,22356,PI,589965,,113,Kentville,59,dessert
+9,South,14,1179,2013,0,0,0,Priscilla,,22356,PI,589965,,113,Kentville,59,dessert
+14,North,34,1025,2013,0,0,0,Pristine,,25054,PI,590212,,113,Kentville,9,dessert
+19,South,32,1026,2013,0,0,0,Pristine,,25054,PI,590212,,113,Kentville,9,dessert
+9,North,16,2212,2013,0,0,0,"Rambo-Red Summer",,2738,PI,588798,.14,NULL,USDA,140,dessert
+12,South,21,2214,2013,0,0,1,"Rambo-Red Summer",,2738,PI,588798,.14,NULL,USDA,140,dessert
+9,North,17,1143,2013,0,0,0,"Red Delicious",,NULL,,NULL,,113,Kentville,48,dessert
+5,South,22,1144,2013,0,0,0,"Red Delicious",,NULL,,NULL,,113,Kentville,48,dessert
+5,North,5,1187,2013,0,0,1,Redfree,,22338,PI,594111,,113,Kentville,62,dessert
+1,South,28,1189,2013,0,0,0,Redfree,,22338,PI,594111,,113,Kentville,62,dessert
+14,North,10,2227,2013,0,0,0,"Redspur Delicious",,13069,PI,589255,.12,NULL,USDA,145,dessert
+4,South,48,2228,2013,0,0,0,"Redspur Delicious",,13069,PI,589255,.12,NULL,USDA,145,dessert
+11,North,9,6295,2013,0,0,0,"Reine des Reinettes",,NULL,,NULL,,103,Kentville,588,dessert
+14,South,51,6296,2013,0,0,1,"Reine des Reinettes",,NULL,,NULL,,103,Kentville,588,dessert
+13,North,51,2185,2013,0,0,0,"Rhode Island Greening",,17787,PI,589520,.13,NULL,USDA,131,cider
+16,South,18,2187,2013,0,0,0,"Rhode Island Greening",,17787,PI,589520,.13,NULL,USDA,131,cider
+7,North,28,3181,2013,0,0,1,"Rome Beauty Law",,3812,PI,588850,.13,NULL,USDA,226,dessert
+4,South,50,3182,2013,0,0,1,"Rome Beauty Law",,3812,PI,588850,.13,NULL,USDA,226,dessert
+6,North,11,3119,2013,0,0,1,"Rosemary Russet",,18708,PI,589648,.13,NULL,USDA,208,dessert
+4,South,59,3120,2013,0,0,0,"Rosemary Russet",,18708,PI,589648,.13,NULL,USDA,208,dessert
+3,North,10,1031,2013,0,0,0,Rouville,,24966,PI,590187,,113,Kentville,11,dessert
+13,South,30,1033,2013,0,0,0,Rouville,,24966,PI,590187,,113,Kentville,11,dessert
+11,North,62,1127,2013,1,0,0,Rubinette,,NULL,,NULL,,113,Kentville,43,dessert
+9,North,24,1128,2013,0,0,0,Rubinette,,NULL,,NULL,,113,Kentville,43,dessert
+17,South,31,1129,2013,0,0,0,Rubinette,,NULL,,NULL,,113,Kentville,43,dessert
+9,North,7,1223,2013,0,0,0,"Sir Prize",,22314,PI,589961,,113,Kentville,74,dessert
+8,South,45,1225,2013,0,0,1,"Sir Prize",,22314,PI,589961,,113,Kentville,74,dessert
+19,North,43,3121,2013,0,0,0,"Smith Jonathan",,21293,PI,589845,.10,NULL,USDA,209,dessert
+7,South,11,3122,2013,0,0,1,"Smith Jonathan",,21293,PI,589845,.10,NULL,USDA,209,dessert
+13,North,7,3175,2013,0,0,0,Spartan,,4155,PI,588871,.05,NULL,USDA,224,dessert
+14,South,52,3176,2013,0,0,1,Spartan,,4155,PI,588871,.05,NULL,USDA,224,dessert
+17,North,56,3061,2013,0,0,0,"Spokane Beauty",,6943,PI,589006,.17,NULL,USDA,194,cider
+9,South,33,3063,2013,0,0,1,"Spokane Beauty",,6943,PI,589006,.17,NULL,USDA,194,cider
+19,North,27,2198,2013,0,0,0,Stayman,,6526,PI,588975,.14,NULL,USDA,135,cider
+19,South,18,2199,2013,0,0,0,Stayman,,6526,PI,588975,.14,NULL,USDA,135,cider
+2,North,50,2309,2013,0,0,0,Summerred,,228654,PI,304637,.05,NULL,USDA,169,dessert
+6,South,59,2310,2013,0,0,0,Summerred,,228654,PI,304637,.05,NULL,USDA,169,dessert
+12,South,14,7082,2013,0,0,0,Sunrise,,24879,PI,590164,,141,Kentville,620,dessert
+3,North,44,3056,2013,0,0,0,Surprise,,134379,PI,134672,.05,NULL,USDA,192,dessert
+14,South,35,3057,2013,0,0,1,Surprise,,134379,PI,134672,.05,NULL,USDA,192,dessert
+14,North,24,3163,2013,0,0,1,"Sweet Delicious",,6139,PI,588955,.17,NULL,USDA,220,dessert
+4,South,9,3165,2013,0,0,0,"Sweet Delicious",,6139,PI,588955,.17,NULL,USDA,220,dessert
+17,North,27,1220,2013,0,0,0,Trent,,17553,PI,589490,,113,Kentville,73,dessert
+9,South,7,1221,2013,0,0,1,Trent,,17553,PI,589490,,113,Kentville,73,dessert
+6,North,29,3016,2013,0,0,0,Viking,,17133,PI,589434,.13,NULL,USDA,181,dessert
+10,South,58,3018,2013,0,0,0,Viking,,17133,PI,589434,.13,NULL,USDA,181,dessert
+13,North,40,3097,2013,0,0,0,Virginiagold,,2303,PI,588778,.17,NULL,USDA,203,dessert
+9,South,39,3099,2013,0,0,1,Virginiagold,,2303,PI,588778,.17,NULL,USDA,203,dessert
+6,North,48,3079,2013,0,0,0,"Winter Banana",,4000,PI,588861,.08,NULL,USDA,198,dessert
+19,South,30,3080,2013,0,0,0,"Winter Banana",,4000,PI,588861,.08,NULL,USDA,198,dessert
+12,North,54,3010,2013,0,0,0,"Yellow Transparent",,3968,PI,588859,.16,NULL,USDA,179,dessert
+3,South,33,3011,2013,0,0,0,"Yellow Transparent",,3968,PI,588859,.16,NULL,USDA,179,dessert
+17,North,36,1169,2013,0,0,0,Zestar,,NULL,,NULL,,113,Kentville,56,dessert
+5,South,38,1170,2013,0,0,0,Zestar,,NULL,,NULL,,113,Kentville,56,dessert
+3,North,62,1171,2013,1,0,1,Zestar,,NULL,,NULL,,113,Kentville,56,dessert
+7,North,56,1017,2013,0,0,1,Judaine,,NULL,,NULL,,113,Kentville,6,NULL
+6,South,3,1018,2013,0,0,0,Judaine,,NULL,,NULL,,113,Kentville,6,NULL
+9,North,62,1028,2013,1,0,1,Vanda,,NULL,,NULL,,113,Kentville,10,NULL
+13,North,28,1029,2013,0,0,1,Vanda,,NULL,,NULL,,113,Kentville,10,NULL
+12,South,26,1030,2013,0,0,1,Vanda,,NULL,,NULL,,113,Kentville,10,NULL
+11,North,24,1037,2013,0,0,0,"INR 6407",,NULL,,NULL,,113,Kentville,13,NULL
+9,South,32,1039,2013,0,0,1,"INR 6407",,NULL,,NULL,,113,Kentville,13,NULL
+18,North,53,1041,2013,0,0,0,"CBR 4T 29",,NULL,,NULL,,113,Kentville,14,NULL
+1,South,6,1042,2013,0,0,0,"CBR 4T 29",,NULL,,NULL,,113,Kentville,14,NULL
+12,North,28,1044,2013,0,0,0,"Co-op 29",,NULL,,NULL,,113,Kentville,15,NULL
+13,South,57,1045,2013,0,0,1,"Co-op 29",,NULL,,NULL,,113,Kentville,15,NULL
+1,North,3,1046,2013,0,0,0,Topaz,,NULL,,NULL,,113,Kentville,16,NULL
+17,South,29,1048,2013,0,0,1,Topaz,,NULL,,NULL,,113,Kentville,16,NULL
+9,North,25,1052,2013,0,0,1,Generos,,NULL,,NULL,,113,Kentville,18,NULL
+9,South,23,1054,2013,0,0,1,Generos,,NULL,,NULL,,113,Kentville,18,NULL
+15,North,38,1055,2013,0,0,0,"Crimson Crisp",,NULL,,NULL,,113,Kentville,19,NULL
+16,South,28,1057,2013,0,0,1,"Crimson Crisp",,NULL,,NULL,,113,Kentville,19,NULL
+13,North,3,1058,2013,0,0,0,"Romus 3",,NULL,,NULL,,113,Kentville,20,NULL
+6,South,11,1059,2013,0,0,0,"Romus 3",,NULL,,NULL,,113,Kentville,20,NULL
+16,North,59,1061,2013,0,0,0,Judeline,,NULL,,NULL,,113,Kentville,21,NULL
+6,South,36,1063,2013,0,0,1,Judeline,,NULL,,NULL,,113,Kentville,21,NULL
+2,North,40,1064,2013,0,0,0,Voinea,,NULL,,NULL,,113,Kentville,22,NULL
+16,South,12,1066,2013,0,0,0,Voinea,,NULL,,NULL,,113,Kentville,22,NULL
+19,North,52,1067,2013,0,0,0,Rebella,,NULL,,NULL,,113,Kentville,23,NULL
+1,South,46,1069,2013,0,0,0,Rebella,,NULL,,NULL,,113,Kentville,23,NULL
+12,North,25,1073,2013,0,0,0,"Co-op 28",,25043,PI,590208,,113,Kentville,25,NULL
+1,South,15,1074,2013,0,0,0,"Co-op 28",,25043,PI,590208,,113,Kentville,25,NULL
+13,North,19,1079,2013,0,0,1,,,NULL,,NULL,,113,Kentville,27,NULL
+14,South,28,1081,2013,0,0,0,,,NULL,,NULL,,113,Kentville,27,NULL
+2,North,25,1083,2013,0,0,0,Macfree,,552476,PI,613946,,113,Kentville,28,NULL
+12,South,12,1084,2013,0,0,0,Macfree,,552476,PI,613946,,113,Kentville,28,NULL
+9,North,37,1085,2013,0,0,0,"Ottawa 654",,NULL,,NULL,,113,Kentville,29,NULL
+11,South,30,1087,2013,0,0,0,"Ottawa 654",,NULL,,NULL,,113,Kentville,29,NULL
+5,North,11,1089,2013,0,0,0,Richelieu,,NULL,,NULL,,113,Kentville,30,NULL
+11,South,44,1090,2013,0,0,0,Richelieu,,NULL,,NULL,,113,Kentville,30,NULL
+17,North,52,1095,2013,0,0,0,Shizuka,,NULL,,NULL,,113,Kentville,32,NULL
+11,South,33,1096,2013,0,0,0,Shizuka,,NULL,,NULL,,113,Kentville,32,NULL
+6,North,27,1097,2013,0,0,0,Supermac,SJC7123-2,NULL,,NULL,,113,Kentville,33,NULL
+3,South,54,1099,2013,0,0,1,Supermac,SJC7123-2,NULL,,NULL,,113,Kentville,33,NULL
+7,North,9,1100,2013,0,0,0,SJCXN982,,NULL,,NULL,,113,Kentville,34,NULL
+13,South,32,1101,2013,0,0,0,SJCXN982,,NULL,,NULL,,113,Kentville,34,NULL
+8,North,35,1104,2013,0,0,0,"8B 14 56",,NULL,,NULL,,113,Kentville,35,NULL
+14,South,58,1105,2013,0,0,0,"8B 14 56",,NULL,,NULL,,113,Kentville,35,NULL
+14,North,12,1106,2013,0,0,0,MN1839,,NULL,,NULL,,113,Kentville,36,NULL
+7,South,3,1108,2013,0,0,0,MN1839,,NULL,,NULL,,113,Kentville,36,NULL
+18,North,17,1110,2014,0,0,0,"SJCA 14R3A108",,NULL,,NULL,,113,Kentville,37,NULL
+5,South,37,1111,2013,0,0,0,"SJCA 14R3A108",,NULL,,NULL,,113,Kentville,37,NULL
+7,North,15,1112,2013,0,0,0,NY65707-19,,NULL,,NULL,,113,Kentville,38,NULL
+15,South,13,1113,2013,0,0,0,NY65707-19,,NULL,,NULL,,113,Kentville,38,NULL
+5,North,22,1122,2013,0,0,0,"SJC 649",,NULL,,NULL,,113,Kentville,41,NULL
+3,South,59,1123,2013,0,0,1,"SJC 649",,NULL,,NULL,,113,Kentville,41,NULL
+17,North,19,1130,2013,0,0,0,"SJCA 16R5A15",,NULL,,NULL,,113,Kentville,44,NULL
+17,South,30,1131,2013,0,0,0,"SJCA 16R5A15",,NULL,,NULL,,113,Kentville,44,NULL
+15,North,35,1137,2013,0,0,0,"8C 18 30",,NULL,,NULL,,113,Kentville,46,NULL
+14,South,30,1138,2013,0,0,0,"8C 18 30",,NULL,,NULL,,113,Kentville,46,NULL
+12,North,21,1139,2013,0,0,0,11W-19-18,,NULL,,NULL,,113,Kentville,47,NULL
+17,South,9,1140,2013,0,0,0,11W-19-18,,NULL,,NULL,,113,Kentville,47,NULL
+1,North,28,1146,2013,0,0,0,"SPA 283",,NULL,,NULL,,113,Kentville,49,NULL
+19,South,21,1147,2013,0,0,0,"SPA 283",,NULL,,NULL,,113,Kentville,49,NULL
+1,North,22,1148,2013,0,0,0,8S-29-18,,NULL,,NULL,,113,Kentville,50,NULL
+10,South,60,1149,2013,0,0,0,8S-29-18,,NULL,,NULL,,113,Kentville,50,NULL
+4,North,44,1152,2013,0,0,1,Maigold,,NULL,,NULL,,113,Kentville,51,NULL
+8,South,31,1153,2013,0,0,0,Maigold,,NULL,,NULL,,113,Kentville,51,NULL
+18,North,12,1157,2013,0,0,0,Kensei,,NULL,,NULL,,113,Kentville,52,NULL
+18,South,58,1158,2013,0,0,0,Kensei,,NULL,,NULL,,113,Kentville,52,NULL
+7,North,19,1161,2013,0,0,0,"SPA 505",,NULL,,NULL,,113,Kentville,53,NULL
+8,South,26,1162,2013,0,0,0,"SPA 505",,NULL,,NULL,,113,Kentville,53,NULL
+3,North,29,1163,2013,0,0,0,8S-26-52,,NULL,,NULL,,113,Kentville,54,NULL
+18,South,20,1164,2013,0,0,0,8S-26-52,,NULL,,NULL,,113,Kentville,54,NULL
+12,North,8,1166,2013,0,0,0,McShay,,NULL,,NULL,,113,Kentville,55,NULL
+3,South,8,1168,2013,0,0,0,McShay,,NULL,,NULL,,113,Kentville,55,NULL
+5,North,62,1184,2013,1,0,0,Piflora,,NULL,,NULL,,113,Kentville,61,NULL
+10,North,31,1185,2013,0,0,0,Piflora,,NULL,,NULL,,113,Kentville,61,NULL
+2,South,23,1186,2013,0,0,0,Piflora,,NULL,,NULL,,113,Kentville,61,NULL
+7,North,8,1193,2013,0,0,1,Pia,,NULL,,NULL,,113,Kentville,64,NULL
+17,South,55,1194,2013,0,0,0,Pia,,NULL,,NULL,,113,Kentville,64,NULL
+1,North,55,1199,2013,0,0,1,Otava,,NULL,,NULL,,113,Kentville,66,NULL
+5,South,36,1201,2013,0,0,1,Otava,,NULL,,NULL,,113,Kentville,66,NULL
+9,North,33,1205,2013,0,0,0,Rewina,,NULL,,NULL,,113,Kentville,68,NULL
+11,South,7,1207,2013,0,0,0,Rewina,,NULL,,NULL,,113,Kentville,68,NULL
+15,North,30,1208,2013,0,0,0,Regine,,NULL,,NULL,,113,Kentville,69,NULL
+13,South,24,1209,2013,0,0,0,Regine,,NULL,,NULL,,113,Kentville,69,NULL
+3,North,25,1211,2013,0,0,0,Blackmac,,NULL,,NULL,,113,Kentville,70,NULL
+6,South,10,1212,2013,0,0,0,Blackmac,,NULL,,NULL,,113,Kentville,70,NULL
+10,North,57,1214,2013,0,0,0,MN1797,,NULL,,NULL,,113,Kentville,71,NULL
+14,North,62,1215,2013,1,0,0,MN1797,,NULL,,NULL,,113,Kentville,71,NULL
+10,South,26,1216,2013,0,0,0,MN1797,,NULL,,NULL,,113,Kentville,71,NULL
+10,South,51,1227,2013,0,0,0,Resi,,NULL,,NULL,,113,Kentville,75,NULL
+18,North,6,1229,2013,0,0,0,Redstarkingvale,Red-Del-Stark,NULL,,NULL,,113,Kentville,76,NULL
+15,South,41,1230,2013,0,0,0,Redstarkingvale,Red-Del-Stark,NULL,,NULL,,113,Kentville,76,NULL
+3,South,1,1231,2013,1,0,0,Redstarkingvale,Red-Del-Stark,NULL,,NULL,,113,Kentville,76,NULL
+1,North,49,1235,2013,0,0,0,NY74828,,NULL,,NULL,,113,Kentville,77,NULL
+6,South,53,1237,2013,0,0,0,NY74828,,NULL,,NULL,,113,Kentville,77,NULL
+10,North,54,1239,2013,0,0,0,NY75413,,NULL,,NULL,,113,Kentville,78,NULL
+9,South,29,1240,2013,0,0,0,NY75413,,NULL,,NULL,,113,Kentville,78,NULL
+4,North,16,1241,2013,0,0,0,Novamac,,NULL,,NULL,,113,Kentville,79,NULL
+16,South,26,1242,2013,0,0,0,Novamac,,NULL,,NULL,,113,Kentville,79,NULL
+17,North,47,1244,2013,0,0,0,"SJC 8428-2",,NULL,,NULL,,113,Kentville,80,NULL
+9,South,4,1245,2013,0,0,1,"SJC 8428-2",,NULL,,NULL,,113,Kentville,80,NULL
+15,North,5,1250,2013,0,0,0,Remura,,NULL,,NULL,,113,Kentville,82,NULL
+10,South,8,1252,2013,0,0,0,Remura,,NULL,,NULL,,113,Kentville,82,NULL
+16,North,51,1253,2013,0,0,0,Reglindis,,NULL,,NULL,,113,Kentville,83,NULL
+8,South,12,1254,2013,0,0,0,Reglindis,,NULL,,NULL,,113,Kentville,83,NULL
+14,North,6,1260,2013,0,0,0,"SJC 658",,NULL,,NULL,,113,Kentville,85,NULL
+3,South,55,1261,2013,0,0,0,"SJC 658",,NULL,,NULL,,113,Kentville,85,NULL
+15,North,61,1263,2013,0,0,0,"SJC 686-1",,NULL,,NULL,,113,Kentville,86,NULL
+12,South,10,1264,2013,0,0,0,"SJC 686-1",,NULL,,NULL,,113,Kentville,86,NULL
+7,North,43,1265,2013,0,0,0,S47-20-005,,NULL,,NULL,,113,Kentville,87,NULL
+19,South,10,1267,2013,0,0,0,S47-20-005,,NULL,,NULL,,113,Kentville,87,NULL
+11,North,20,1271,2013,0,0,0,Galarina,,NULL,,NULL,,113,Kentville,89,NULL
+18,South,28,1273,2013,0,0,0,Galarina,,NULL,,NULL,,113,Kentville,89,NULL
+16,North,24,1280,2013,0,0,0,"Cotton Candy","KAR 97",NULL,,NULL,,113,Kentville,92,NULL
+1,South,32,1281,2013,0,0,0,"Cotton Candy","KAR 97",NULL,,NULL,,113,Kentville,92,NULL
+18,North,19,1284,2013,0,0,0,"K: 1107",,NULL,,NULL,,113,Kentville,93,NULL
+6,South,51,1285,2013,0,0,0,"K: 1107",,NULL,,NULL,,113,Kentville,93,NULL
+3,North,20,1286,2013,0,0,1,S47-20-037,"KAR 4",NULL,,NULL,,113,Kentville,94,NULL
+8,South,33,1287,2013,0,0,0,S47-20-037,"KAR 4",NULL,,NULL,,113,Kentville,94,NULL
+8,North,37,1290,2013,0,0,0,"SJC 8444-2",,NULL,,NULL,,113,Kentville,95,NULL
+17,South,6,1291,2013,0,0,0,"SJC 8444-2",,NULL,,NULL,,113,Kentville,95,NULL
+5,North,37,1292,2013,0,0,1,"Reinet Russet",,NULL,,NULL,,113,Kentville,96,NULL
+7,South,5,1293,2013,0,0,0,"Reinet Russet",,NULL,,NULL,,113,Kentville,96,NULL
+6,North,36,1296,2013,0,0,0,"INR 6690",,NULL,,NULL,,113,Kentville,97,NULL
+17,South,19,1297,2013,0,0,0,"INR 6690",,NULL,,NULL,,113,Kentville,97,NULL
+9,North,11,1298,2013,0,0,0,"INR 3318",,NULL,,NULL,,113,Kentville,98,NULL
+18,South,59,1300,2013,0,0,0,"INR 3318",,NULL,,NULL,,113,Kentville,98,NULL
+4,North,31,1304,2013,0,0,1,"Bittenfelder S",,NULL,,NULL,,NULL,Kentville,100,NULL
+13,South,1,1305,2013,1,0,0,"Bittenfelder S",,NULL,,NULL,,NULL,Kentville,100,NULL
+3,South,48,1306,2013,0,0,0,"Bittenfelder S",,NULL,,NULL,,NULL,Kentville,100,NULL
+5,North,23,1307,2013,0,0,0,"Kaz 95 05-01P-5",,693149,PI,657060,.e,NULL,USDA,1246,NULL
+10,South,45,1309,2013,0,0,1,"Kaz 95 05-01P-5",,693149,PI,657060,.e,NULL,USDA,1246,NULL
+19,North,33,1310,2013,0,0,0,"Kaz 95 18-14",,692951,PI,657055,.j,NULL,USDA,1276,NULL
+3,South,3,1311,2013,0,0,0,"Kaz 95 18-14",,692951,PI,657055,.j,NULL,USDA,1276,NULL
+10,North,1,1312,2013,1,0,0,"Kaz 95 18-14",,692951,PI,657055,.j,NULL,USDA,1276,NULL
+7,North,61,1316,2013,0,0,0,"Kaz 95 18-02P-6",,693206,PI,657068,.g,NULL,USDA,1266,NULL
+7,South,2,1317,2013,0,0,0,"Kaz 95 18-02P-6",,693206,PI,657068,.g,NULL,USDA,1266,NULL
+17,North,50,1319,2013,0,0,0,"KAZ 96 09-01P-2",,694097,PI,657119,.d,NULL,USDA,1294,NULL
+6,South,39,1320,2013,0,0,0,"KAZ 96 09-01P-2",,694097,PI,657119,.d,NULL,USDA,1294,NULL
+16,North,14,1322,2013,0,0,0,"Kaz 95 18-10",,692922,PI,657048,.m,NULL,USDA,1274,NULL
+15,South,11,1324,2013,0,0,0,"Kaz 95 18-10",,692922,PI,657048,.m,NULL,USDA,1274,NULL
+5,North,45,1326,2013,0,0,0,"KAZ 96 03-11",,693310,PI,657086,.i,NULL,USDA,101,NULL
+2,South,52,1327,2013,0,0,0,"KAZ 96 03-11",,693310,PI,657086,.i,NULL,USDA,101,NULL
+3,North,47,1328,2013,0,0,0,"KAZ 96 01-01P-20",,693679,PI,657105,.d,NULL,USDA,1278,NULL
+1,South,8,1330,2013,0,0,0,"KAZ 96 01-01P-20",,693679,PI,657105,.d,NULL,USDA,1278,NULL
+5,North,39,1331,2013,0,0,0,"Kaz 95 05-01P-26",,693201,PI,657066,.b,NULL,USDA,102,NULL
+1,South,27,1333,2013,0,0,0,"Kaz 95 05-01P-26",,693201,PI,657066,.b,NULL,USDA,102,NULL
+13,North,60,1335,2013,0,0,0,"Kaz 95 05-01P-22",,693175,PI,657063,.b,NULL,USDA,1242,NULL
+16,South,19,2001,2013,0,0,0,"Kaz 95 05-01P-22",,693175,PI,657063,.b,NULL,USDA,1242,NULL
+7,North,10,2002,2013,0,0,0,"Kaz 95 18-02P-30",,693244,PI,657075,.b,NULL,USDA,103,NULL
+11,South,13,2004,2013,0,0,0,"Kaz 95 18-02P-30",,693244,PI,657075,.b,NULL,USDA,103,NULL
+14,North,43,2006,2013,0,0,0,"KAZ 96 08-01P-29",,694084,PI,657114,.d,NULL,USDA,104,NULL
+9,South,18,2007,2013,0,0,0,"KAZ 96 08-01P-29",,694084,PI,657114,.d,NULL,USDA,104,NULL
+4,North,15,2009,2013,0,0,0,"KAZ 96 06-01P-23",,694003,PI,657109,.f,NULL,USDA,105,NULL
+18,South,12,2010,2013,0,0,0,"KAZ 96 06-01P-23",,694003,PI,657109,.f,NULL,USDA,105,NULL
+11,North,18,2012,2013,0,0,0,"KAZ 96 07-01P-24",,694029,PI,657111,.a,NULL,USDA,106,NULL
+4,South,39,2013,2013,0,0,0,"KAZ 96 07-01P-24",,694029,PI,657111,.a,NULL,USDA,106,NULL
+17,North,57,2014,2013,0,0,0,"Kaz 95 09-05F",,692735,PI,657023,.d,NULL,USDA,1256,NULL
+1,South,9,2016,2013,0,0,0,"Kaz 95 09-05F",,692735,PI,657023,.d,NULL,USDA,1256,NULL
+11,North,44,2017,2013,0,0,0,"Kaz 95 18-08",,692886,GMAL,3687,.e,NULL,USDA,107,NULL
+2,South,5,2019,2013,0,0,0,"Kaz 95 18-08",,692886,GMAL,3687,.e,NULL,USDA,107,NULL
+12,North,56,2020,2013,0,0,0,"Kaz 95 18-05",,692853,PI,657036,.b,NULL,USDA,1272,NULL
+3,South,6,2022,2013,0,0,0,"Kaz 95 18-05",,692853,PI,657036,.b,NULL,USDA,1272,NULL
+7,North,39,2023,2013,0,0,0,"Kaz 95 18-02P-20",,693217,PI,657072,.a,NULL,USDA,108,NULL
+16,South,38,2024,2013,0,0,0,"Kaz 95 18-02P-20",,693217,PI,657072,.a,NULL,USDA,108,NULL
+6,North,31,2026,2013,0,0,0,"Kaz 95 06-01",,692593,GMAL,3608,.h,NULL,USDA,109,NULL
+3,South,5,2028,2013,0,0,0,"Kaz 95 06-01",,692593,GMAL,3608,.h,NULL,USDA,109,NULL
+9,North,32,2029,2013,0,0,0,"Kaz 95 10-01L",,692822,GMAL,3643,.j,NULL,USDA,110,NULL
+7,South,21,2031,2013,0,0,0,"Kaz 95 10-01L",,692822,GMAL,3643,.j,NULL,USDA,110,NULL
+6,North,15,2041,2013,0,0,0,"Kaz 95 18-03",,692836,PI,657030,.k,NULL,USDA,1268,NULL
+17,South,62,2042,2013,1,0,0,"Kaz 95 18-03",,692836,PI,657030,.k,NULL,USDA,1268,NULL
+13,South,59,2043,2013,0,0,0,"Kaz 95 18-03",,692836,PI,657030,.k,NULL,USDA,1268,NULL
+19,North,25,2045,2013,0,0,0,"Kaz 95 10-03F",,692771,PI,657025,.m,NULL,USDA,1259,NULL
+11,South,22,2046,2013,0,0,1,"Kaz 95 10-03F",,692771,PI,657025,.m,NULL,USDA,1259,NULL
+14,North,60,2048,2013,0,0,0,"Kaz 95 06-08",,692612,PI,657005,.a,NULL,USDA,1250,NULL
+10,South,30,2049,2013,0,0,0,"Kaz 95 06-08",,692612,PI,657005,.a,NULL,USDA,1250,NULL
+15,North,11,2051,2013,0,0,0,"Kaz 95 10-05F",,692791,GMAL,3637,.f,NULL,USDA,112,NULL
+17,South,23,2052,2013,0,0,0,"Kaz 95 10-05F",,692791,GMAL,3637,.f,NULL,USDA,112,NULL
+3,North,4,2053,2013,0,0,1,"Kaz 95 18-11",,692937,GMAL,3690,.k,NULL,USDA,113,NULL
+16,South,61,2054,2013,0,0,0,"Kaz 95 18-11",,692937,GMAL,3690,.k,NULL,USDA,113,NULL
+13,North,30,2056,2013,0,0,0,"Kaz 95 06-04",,692611,PI,657004,.l,NULL,USDA,1248,NULL
+1,South,43,2058,2013,0,0,0,"Kaz 95 06-04",,692611,PI,657004,.l,NULL,USDA,1248,NULL
+1,North,20,2059,2013,0,0,1,"Kaz 95 07-05",,692646,GMAL,3619,.h,NULL,USDA,114,NULL
+19,South,28,2061,2013,0,0,0,"Kaz 95 07-05",,692646,GMAL,3619,.h,NULL,USDA,114,NULL
+2,North,59,2062,2013,0,0,0,"Kaz 95 08-06",,692694,PI,657019,.c,NULL,USDA,1254,NULL
+14,South,17,2063,2013,0,0,0,"Kaz 95 08-06",,692694,PI,657019,.c,NULL,USDA,1254,NULL
+10,North,19,2074,2013,0,0,0,"KAZ 93-19-02",,692561,GMAL,3552,.c,NULL,USDA,116,NULL
+11,South,21,2075,2013,0,0,0,"KAZ 93-19-02",,692561,GMAL,3552,.c,NULL,USDA,116,NULL
+15,North,28,2077,2013,0,0,0,"Kaz 95 18-06",,692879,GMAL,3685,.m,NULL,USDA,117,NULL
+14,South,4,2078,2013,0,0,0,"Kaz 95 18-06",,692879,GMAL,3685,.m,NULL,USDA,117,NULL
+6,North,8,2080,2013,0,0,1,"Kaz 95 08-01",,692657,PI,657013,.e,NULL,USDA,1252,NULL
+14,South,38,2081,2013,0,0,0,"Kaz 95 08-01",,692657,PI,657013,.e,NULL,USDA,1252,NULL
+9,North,10,2083,2013,0,0,0,"Kaz 95 05-01P-25",,693185,GMAL,3784,.i,NULL,USDA,118,NULL
+6,South,24,2085,2013,0,0,1,"Kaz 95 05-01P-25",,693185,GMAL,3784,.i,NULL,USDA,118,NULL
+1,North,44,2086,2013,0,0,0,"KAZ 96 03-01P-7",,693945,PI,657108,.a,NULL,USDA,119,NULL
+13,South,29,2088,2013,0,0,1,"KAZ 96 03-01P-7",,693945,PI,657108,.a,NULL,USDA,119,NULL
+4,North,45,2089,2013,0,0,0,"Kaz 95 08-04",,692683,PI,657017,.f,NULL,USDA,120,NULL
+14,South,18,2091,2013,0,0,0,"Kaz 95 08-04",,692683,PI,657017,.f,NULL,USDA,120,NULL
+16,North,50,2101,2013,0,0,0,"Kaz 95 09-02F",,692716,GMAL,3626,.k,NULL,USDA,121,NULL
+2,South,12,2103,2013,0,0,0,"Kaz 95 09-02F",,692716,GMAL,3626,.k,NULL,USDA,121,NULL
+18,North,45,2104,2013,0,0,1,"Kaz 95 18-04",,692845,PI,657033,.i,NULL,USDA,1271,NULL
+19,South,56,2106,2013,0,0,0,"Kaz 95 18-04",,692845,PI,657033,.i,NULL,USDA,1271,NULL
+4,North,51,2110,2013,0,0,0,"KAZ 96 08-01P-11",,694054,PI,657113,.a,NULL,USDA,122,NULL
+5,South,30,2112,2013,0,0,0,"KAZ 96 08-01P-11",,694054,PI,657113,.a,NULL,USDA,122,NULL
+4,North,3,2119,2013,0,0,0,"KAZ 96 02-01P-11",,693695,PI,657107,.b,NULL,USDA,1280,NULL
+2,South,8,2120,2013,0,0,0,"KAZ 96 02-01P-11",,693695,PI,657107,.b,NULL,USDA,1280,NULL
+1,North,57,2122,2013,0,0,0,"Kaz 95 18-02P-31",,693258,PI,657077,.b,NULL,USDA,1261,NULL
+4,South,18,2124,2013,0,0,1,"Kaz 95 18-02P-31",,693258,PI,657077,.b,NULL,USDA,1261,NULL
+16,North,53,2125,2013,0,0,0,"KAZ 96 09-05",,693636,PI,657102,.d,NULL,USDA,1299,NULL
+13,South,7,2127,2013,0,0,0,"KAZ 96 09-05",,693636,PI,657102,.d,NULL,USDA,1299,NULL
+9,North,45,2129,2013,0,0,0,"KAZ 96 08-01P-37",,694089,PI,657115,.b,NULL,USDA,1291,NULL
+12,South,32,2130,2013,0,0,0,"KAZ 96 08-01P-37",,694089,PI,657115,.b,NULL,USDA,1291,NULL
+2,North,32,2131,2013,0,0,0,"KAZ 96 02-01P-6",,693683,PI,657106,.b,NULL,USDA,123,NULL
+18,South,6,2133,2013,0,0,0,"KAZ 96 02-01P-6",,693683,PI,657106,.b,NULL,USDA,123,NULL
+5,North,12,2135,2013,0,0,1,"KAZ 96 06-01P-26",,694013,PI,657110,.c,NULL,USDA,124,NULL
+5,South,20,2136,2013,0,0,1,"KAZ 96 06-01P-26",,694013,PI,657110,.c,NULL,USDA,124,NULL
+7,North,30,2137,2013,0,0,0,"Kaz 95 05-01P-3",,693135,PI,657058,.n,NULL,USDA,1244,NULL
+13,South,31,2139,2013,0,0,0,"Kaz 95 05-01P-3",,693135,PI,657058,.n,NULL,USDA,1244,NULL
+11,North,50,2140,2013,0,0,0,"KAZ 96 07-08",,693446,PI,657091,.e,NULL,USDA,125,NULL
+7,South,50,2142,2013,0,0,1,"KAZ 96 07-08",,693446,PI,657091,.e,NULL,USDA,125,NULL
+9,North,20,2143,2013,0,0,0,"Kaz 95 05-01P-16",,693159,PI,657062,.h,NULL,USDA,126,NULL
+1,South,16,2145,2013,0,0,0,"Kaz 95 05-01P-16",,693159,PI,657062,.h,NULL,USDA,126,NULL
+1,North,37,2146,2013,0,0,0,"KAZ 96 03-15",,693332,PI,657087,.i,NULL,USDA,127,NULL
+8,South,29,2147,2013,0,0,1,"KAZ 96 03-15",,693332,PI,657087,.i,NULL,USDA,127,NULL
+3,North,41,2149,2013,0,0,0,"Kaz 95 07-02",,692636,GMAL,3616,.m,NULL,USDA,128,NULL
+1,South,42,2151,2013,0,0,0,"Kaz 95 07-02",,692636,GMAL,3616,.m,NULL,USDA,128,NULL
+11,North,15,2152,2013,0,0,1,"Kaz 95 09-03F",,692724,GMAL,3627,.f,NULL,USDA,129,NULL
+13,South,49,2153,2013,0,0,0,"Kaz 95 09-03F",,692724,GMAL,3627,.f,NULL,USDA,129,NULL
+2,South,62,2154,2013,1,0,0,"Kaz 95 09-03F",,692724,GMAL,3627,.f,NULL,USDA,129,NULL
+9,North,43,2165,2013,0,0,1,"KAZ 96 09-01P-4",,694101,PI,657120,.a,NULL,USDA,130,NULL
+18,South,21,2166,2013,0,0,0,"KAZ 96 09-01P-4",,694101,PI,657120,.a,NULL,USDA,130,NULL
+1,North,43,2170,2013,0,0,0,"Kaz 95 18-02P-33",,693269,PI,657080,.e,NULL,USDA,1263,NULL
+9,South,62,2171,2013,1,0,0,"Kaz 95 18-02P-33",,693269,PI,657080,.e,NULL,USDA,1263,NULL
+17,South,57,2172,2013,0,0,0,"Kaz 95 18-02P-33",,693269,PI,657080,.e,NULL,USDA,1263,NULL
+1,North,61,2180,2013,0,0,0,"KAZ 96 09-02",,693584,PI,657100,.a,NULL,USDA,1296,NULL
+16,South,36,2181,2013,0,0,0,"KAZ 96 09-02",,693584,PI,657100,.a,NULL,USDA,1296,NULL
+3,North,3,2184,2013,0,0,0,"Kaz 95 18-02P-33",,693268,PI,657079,.d,NULL,USDA,1264,NULL
+6,North,56,2188,2013,0,0,0,"KAZ 96 01-03",,693279,PI,657085,.p1,NULL,USDA,132,NULL
+1,South,12,2189,2013,0,0,0,"KAZ 96 01-03",,693279,PI,657085,.p1,NULL,USDA,132,NULL
+17,North,4,2191,2013,0,0,1,"Banon's Seedling",,216255,PI,287160,.07,NULL,USDA,133,NULL
+14,South,23,2193,2013,0,0,1,"Banon's Seedling",,216255,PI,287160,.07,NULL,USDA,133,NULL
+10,North,53,2215,2013,0,0,0,"Red Apple",,135779,PI,143973,.08,NULL,USDA,141,NULL
+16,South,56,2216,2013,0,0,1,"Red Apple",,135779,PI,143973,.08,NULL,USDA,141,NULL
+9,North,58,2221,2013,0,0,1,"Ingrid Marie",,208313,PI,279447,.09,NULL,USDA,143,NULL
+15,South,5,2223,2013,0,0,0,"Ingrid Marie",,208313,PI,279447,.09,NULL,USDA,143,NULL
+5,North,9,2236,2013,0,0,1,"KAZ 96 06-03",,694618,GMAL,4030,.a,NULL,USDA,147,NULL
+17,South,16,2238,2013,0,0,0,"KAZ 96 06-03",,694618,GMAL,4030,.a,NULL,USDA,147,NULL
+6,North,26,2240,2014,0,0,1,"Kaz 95 05-01P-22",,653304,PI,633918,.i1,NULL,USDA,1243,NULL
+2,North,48,2246,2013,0,0,0,"KAZ 93-24-01",,648563,PI,633797,.d1,NULL,USDA,149,NULL
+4,South,7,2247,2013,0,0,0,"KAZ 93-24-01",,648563,PI,633797,.d1,NULL,USDA,149,NULL
+1,North,4,2251,2013,0,0,0,"KAZ 93-12-02",,692553,PI,656998,.l1,NULL,USDA,151,NULL
+4,South,58,2252,2013,0,0,1,"KAZ 93-12-02",,692553,PI,656998,.l1,NULL,USDA,151,NULL
+11,North,14,2266,2013,0,0,0,"Cherry Cox",,10209,PI,589142,.08,NULL,USDA,156,NULL
+6,South,8,2267,2013,0,0,0,"Cherry Cox",,10209,PI,589142,.08,NULL,USDA,156,NULL
+7,North,44,2284,2013,0,0,1,"FORM 181 (35-01)",,103445,PI,613969,.04,NULL,USDA,161,NULL
+15,South,49,2285,2013,0,0,0,"FORM 181 (35-01)",,103445,PI,613969,.04,NULL,USDA,161,NULL
+5,North,36,2296,2013,0,0,0,"Oelsen 2 x Hartmann-Muhle 1",,652477,PI,633826,.a1,NULL,USDA,165,NULL
+13,South,5,2297,2013,0,0,0,"Oelsen 2 x Hartmann-Muhle 1",,652477,PI,633826,.a1,NULL,USDA,165,NULL
+14,North,38,2305,2013,0,0,0,"Kaz 95 18-09",,692903,PI,657044,.h1,NULL,USDA,168,NULL
+5,South,15,2306,2013,0,0,0,"Kaz 95 18-09",,692903,PI,657044,.h1,NULL,USDA,168,NULL
+18,North,50,2311,2013,0,0,0,"KAZ 96 07-10",,693493,PI,657093,.x1,NULL,USDA,170,NULL
+7,South,26,2312,2013,0,0,1,"KAZ 96 07-10",,693493,PI,657093,.x1,NULL,USDA,170,NULL
+3,South,50,2321,2013,0,0,0,"Kaz 95 18-10",,652451,PI,633800,.f1,NULL,USDA,1275,NULL
+12,North,36,2322,2013,0,0,0,"Kaz 95 18-10",,652451,PI,633800,.f1,NULL,USDA,1275,NULL
+19,North,53,2323,2013,0,0,0,"GMAL 3265",,535823,PI,596280,.a4,NULL,USDA,172,NULL
+4,South,43,2324,2013,0,0,1,"GMAL 3265",,535823,PI,596280,.a4,NULL,USDA,172,NULL
+5,North,3,2332,2013,0,0,1,"KAZ 96 07-07",,693412,PI,657090,.o1,NULL,USDA,1288,NULL
+4,South,19,2334,2013,0,0,1,"KAZ 96 07-07",,693412,PI,657090,.o1,NULL,USDA,1288,NULL
+13,North,14,2344,2013,0,0,0,"KAZ 96 07-03",,693368,PI,657089,.s1,NULL,USDA,1284,NULL
+12,South,56,2346,2013,0,0,0,"KAZ 96 07-03",,693368,PI,657089,.s1,NULL,USDA,1284,NULL
+6,North,20,3009,2014,0,0,0,Niedzwetzkyana,,104744,PI,589857,.03,NULL,USDA,1302,NULL
+11,North,46,3013,2013,0,0,0,"GMAL 3310",,535826,PI,596283,.a4,NULL,USDA,180,NULL
+10,South,9,3014,2013,0,0,0,"GMAL 3310",,535826,PI,596283,.a4,NULL,USDA,180,NULL
+19,South,20,3022,2014,0,0,0,"Kaz 95 18-02P-33",,652452,PI,633801,.j1,NULL,USDA,1265,NULL
+8,North,46,3028,2013,0,0,0,Djulabia,,200180,PI,264689,.10,NULL,USDA,184,NULL
+13,South,51,3029,2013,0,0,0,Djulabia,,200180,PI,264689,.10,NULL,USDA,184,NULL
+19,North,14,3034,2013,0,0,0,"KAZ 96 08-15",,693563,PI,657096,.v1,NULL,USDA,185,NULL
+14,South,3,3035,2013,0,0,0,"KAZ 96 08-15",,693563,PI,657096,.v1,NULL,USDA,185,NULL
+14,South,1,3040,2013,1,0,1,"Finson's Orange",,294443,PI,392307,.06,NULL,USDA,187,NULL
+16,North,45,3041,2013,0,0,1,"Finson's Orange",,294443,PI,392307,.06,NULL,USDA,187,NULL
+1,South,10,3042,2013,0,0,0,"Finson's Orange",,294443,PI,392307,.06,NULL,USDA,187,NULL
+16,North,35,3074,2013,0,0,0,Domaine,,151024,PI,173979,.06,NULL,USDA,196,NULL
+8,South,21,3075,2013,0,0,0,Domaine,,151024,PI,173979,.06,NULL,USDA,196,NULL
+13,North,24,3082,2013,0,0,0,"KAZ 96 05-05",,653305,PI,633919,.d1,NULL,USDA,1282,NULL
+14,South,33,3083,2013,0,0,0,"KAZ 96 05-05",,653305,PI,633919,.d1,NULL,USDA,1282,NULL
+15,North,22,3085,2013,0,0,0,"Barenhecke 3 x Klipphausen",,652476,PI,633825,". e1",NULL,USDA,199,NULL
+16,South,11,3086,2013,0,0,0,"Barenhecke 3 x Klipphausen",,652476,PI,633825,". e1",NULL,USDA,199,NULL
+17,North,35,3091,2013,0,0,0,"KAZ 96 07-04",,531535,PI,613992,.03,NULL,USDA,201,NULL
+11,South,61,3092,2013,0,0,0,"KAZ 96 07-04",,531535,PI,613992,.03,NULL,USDA,201,NULL
+9,North,34,3094,2013,0,0,0,"Hartmann-Muhle 1 x Oberwartha 2",,652478,PI,633827,.f1,NULL,USDA,202,NULL
+3,South,7,3096,2013,0,0,1,"Hartmann-Muhle 1 x Oberwartha 2",,652478,PI,633827,.f1,NULL,USDA,202,NULL
+12,North,47,3100,2013,0,0,0,"KAZ 96 08-17",,652453,PI,633802,". e1",NULL,USDA,1292,NULL
+16,South,37,3102,2013,0,0,0,"KAZ 96 08-17",,652453,PI,633802,". e1",NULL,USDA,1292,NULL
+18,North,4,3124,2013,0,0,0,"KAZ 93-42-01",,652444,PI,633798,.o1,NULL,USDA,210,NULL
+3,South,46,3125,2013,0,0,0,"KAZ 93-42-01",,652444,PI,633798,.o1,NULL,USDA,210,NULL
+7,North,41,3128,2013,0,0,0,"KAZ 96 07-06",,531537,PI,613994,.03,NULL,USDA,1286,NULL
+15,South,9,3129,2013,0,0,1,"KAZ 96 07-06",,531537,PI,613994,.03,NULL,USDA,1286,NULL
+18,North,36,3130,2013,0,0,0,"GMAL 3244",,535825,PI,596282,.a4,NULL,USDA,211,NULL
+12,South,24,3131,2013,0,0,0,"GMAL 3244",,535825,PI,596282,.a4,NULL,USDA,211,NULL
+10,North,15,3139,2013,0,0,1,"Reinette Simirenko",,378193,PI,483257,.14,NULL,USDA,213,NULL
+13,South,37,3140,2013,0,0,1,"Reinette Simirenko",,378193,PI,483257,.14,NULL,USDA,213,NULL
+12,North,57,3146,2013,0,0,0,"KAZ 95 08-06",,498672,PI,613976,.05,NULL,USDA,215,NULL
+12,South,15,3147,2013,0,0,0,"KAZ 95 08-06",,498672,PI,613976,.05,NULL,USDA,215,NULL
+1,North,51,3152,2013,0,0,0,"KAZ 96 08-16",,531544,PI,613998,.03,NULL,USDA,217,NULL
+8,South,5,3153,2013,0,0,0,"KAZ 96 08-16",,531544,PI,613998,.03,NULL,USDA,217,NULL
+16,North,13,3160,2013,0,0,0,"KAZ 96 06-01P-28",,653309,PI,633923,.11,NULL,USDA,219,NULL
+17,South,43,3161,2013,0,0,1,"KAZ 96 06-01P-28",,653309,PI,633923,.11,NULL,USDA,219,NULL
+14,North,14,3166,2013,0,0,0,Megumi,,11012,PI,589177,.08,NULL,USDA,221,NULL
+11,South,45,3168,2013,0,0,1,Megumi,,11012,PI,589177,.08,NULL,USDA,221,NULL
+17,North,25,3187,2013,0,0,0,"Reinette Russet","SJC XN 362",NULL,,NULL,,113,Kentville,228,NULL
+12,South,13,3189,2013,0,0,0,"Reinette Russet","SJC XN 362",NULL,,NULL,,113,Kentville,228,NULL
+6,North,44,3190,2013,0,0,0,"Prime Red",Akane,NULL,,NULL,,113,Kentville,229,NULL
+3,South,13,3191,2013,0,0,0,"Prime Red",Akane,NULL,,NULL,,113,Kentville,229,NULL
+8,North,14,3193,2013,0,0,0,Eden,"SJCA 38R6A74",NULL,,NULL,,113,Kentville,230,NULL
+7,South,52,3195,2013,0,0,0,Eden,"SJCA 38R6A74",NULL,,NULL,,113,Kentville,230,NULL
+8,North,26,3196,2013,0,0,0,"Coxs Orange","Cox's Orange Pippin",189941,PI,247021,,113,Kentville,231,NULL
+10,South,43,3198,2013,0,0,1,"Coxs Orange","Cox's Orange Pippin",189941,PI,247021,,113,Kentville,231,NULL
+19,North,3,3199,2013,0,0,0,Senshu,,NULL,,NULL,,113,Kentville,232,NULL
+2,South,20,3201,2013,0,0,0,Senshu,,NULL,,NULL,,113,Kentville,232,NULL
+13,North,10,3202,2013,0,0,0,MN1802,,NULL,,NULL,,113,Kentville,233,NULL
+10,South,39,3203,2013,0,0,1,MN1802,,NULL,,NULL,,113,Kentville,233,NULL
+11,North,31,3205,2013,0,0,0,Iwakami,,NULL,,NULL,,113,Kentville,234,NULL
+9,South,16,3207,2013,0,0,0,Iwakami,,NULL,,NULL,,113,Kentville,234,NULL
+12,North,2,3214,2013,0,1,0,SweeTango,MN1914,NULL,,NULL,,113,Kentville,1232,NULL
+6,North,2,3216,2013,0,1,0,SweeTango,MN1914,NULL,,NULL,,113,Kentville,1232,NULL
+11,North,38,3217,2013,0,0,0,"SJC A 37+",,NULL,,NULL,,113,Kentville,237,NULL
+8,South,35,3219,2013,0,0,0,"SJC A 37+",,NULL,,NULL,,113,Kentville,237,NULL
+6,North,25,3221,2013,0,0,0,Chinook,,NULL,,NULL,,113,Kentville,238,NULL
+12,South,8,3222,2013,0,0,0,Chinook,,NULL,,NULL,,113,Kentville,238,NULL
+14,North,4,3232,2013,0,0,0,MN1849,,NULL,,NULL,,113,Kentville,241,NULL
+11,North,1,3233,2013,1,0,0,MN1849,,NULL,,NULL,,113,Kentville,241,NULL
+8,South,8,3234,2013,0,0,0,MN1849,,NULL,,NULL,,113,Kentville,241,NULL
+2,North,45,3235,2013,0,0,0,Tsugaru,,NULL,,NULL,,113,Kentville,242,NULL
+13,South,41,3237,2013,0,0,0,Tsugaru,,NULL,,NULL,,113,Kentville,242,NULL
+16,North,55,3238,2013,0,0,0,Hokuto,,NULL,,NULL,,113,Kentville,243,NULL
+5,South,40,3240,2013,0,0,0,Hokuto,,NULL,,NULL,,113,Kentville,243,NULL
+10,North,25,3242,2013,0,0,0,"KAS 21",,NULL,,NULL,,118,Kentville,244,NULL
+3,South,18,3243,2013,0,0,0,"KAS 21",,NULL,,NULL,,118,Kentville,244,NULL
+2,North,14,3248,2013,0,0,0,"Buckeye Gala",,NULL,,NULL,,113,Kentville,246,NULL
+4,South,52,3249,2013,0,0,1,"Buckeye Gala",,NULL,,NULL,,113,Kentville,246,NULL
+8,North,11,3251,2013,0,0,0,"Geneva early",,NULL,,NULL,,113,Kentville,247,NULL
+14,South,20,3252,2013,0,0,0,"Geneva early",,NULL,,NULL,,113,Kentville,247,NULL
+16,North,28,3257,2013,0,0,0,"KAS 11",,NULL,,NULL,,118,Kentville,249,NULL
+6,South,40,3258,2013,0,0,1,"KAS 11",,NULL,,NULL,,118,Kentville,249,NULL
+9,North,26,3263,2013,0,0,0,Red-Del-Stark,Redstarkingvale,NULL,,NULL,,113,Kentville,251,NULL
+2,South,33,3264,2013,0,0,0,Red-Del-Stark,Redstarkingvale,NULL,,NULL,,113,Kentville,251,NULL
+1,North,39,3265,2013,0,0,0,Pionier,Pioneer,NULL,,NULL,,113,Kentville,252,NULL
+9,South,37,3267,2013,0,0,0,Pionier,Pioneer,NULL,,NULL,,113,Kentville,252,NULL
+18,North,10,3268,2013,0,0,1,Sayaka,,NULL,,NULL,,113,Kentville,253,NULL
+6,South,12,3269,2013,0,0,0,Sayaka,,NULL,,NULL,,113,Kentville,253,NULL
+12,South,1,3270,2013,1,0,0,Sayaka,,NULL,,NULL,,113,Kentville,253,NULL
+5,South,34,3287,2013,0,0,0,"KAS 53",,NULL,,NULL,,145,Kentville,259,NULL
+7,North,31,3288,2013,0,0,0,"KAS 53",,NULL,,NULL,,145,Kentville,259,NULL
+3,North,45,3289,2013,0,0,1,"KAS 60",,NULL,,NULL,,145,Kentville,260,NULL
+10,South,38,3290,2013,0,0,0,"KAS 60",,NULL,,NULL,,145,Kentville,260,NULL
+14,North,41,3293,2013,0,0,0,"KAS 73",,NULL,,NULL,,145,Kentville,261,NULL
+6,South,26,3294,2013,0,0,0,"KAS 73",,NULL,,NULL,,145,Kentville,261,NULL
+19,North,32,3301,2013,0,0,0,"KAS 62",,NULL,,NULL,,145,Kentville,264,NULL
+19,South,14,3302,2013,0,0,0,"KAS 62",,NULL,,NULL,,145,Kentville,264,NULL
+15,North,15,3304,2013,0,0,0,"KAS 58",,NULL,,NULL,,145,Kentville,265,NULL
+17,South,15,3305,2013,0,0,1,"KAS 58",,NULL,,NULL,,145,Kentville,265,NULL
+11,North,58,3307,2013,0,0,0,"KAR 103",,NULL,,NULL,,146,Kentville,266,NULL
+17,South,46,3309,2013,0,0,0,"KAR 103",,NULL,,NULL,,146,Kentville,266,NULL
+11,North,56,3310,2013,0,0,0,"KAS 72",,NULL,,NULL,,145,Kentville,267,NULL
+19,South,46,3312,2013,0,0,0,"KAS 72",,NULL,,NULL,,145,Kentville,267,NULL
+10,North,30,3313,2013,0,0,0,"KAR 80",,NULL,,NULL,,146,Kentville,268,NULL
+6,South,19,3314,2013,0,0,0,"KAR 80",,NULL,,NULL,,146,Kentville,268,NULL
+1,North,25,3317,2013,0,0,1,"KAR 93",,NULL,,NULL,,146,Kentville,269,NULL
+19,South,39,3318,2013,0,0,0,"KAR 93",,NULL,,NULL,,146,Kentville,269,NULL
+18,North,11,3323,2013,0,0,0,"Rogers Mac",,NULL,,NULL,,113,Kentville,271,NULL
+3,South,49,3324,2013,0,0,1,"Rogers Mac",,NULL,,NULL,,113,Kentville,271,NULL
+11,North,60,3329,2013,0,0,0,"KAR 90",,NULL,,NULL,,146,Kentville,273,NULL
+6,South,46,3330,2013,0,0,1,"KAR 90",,NULL,,NULL,,146,Kentville,273,NULL
+10,North,4,3331,2013,0,0,0,"KAR 86",,NULL,,NULL,,146,Kentville,274,NULL
+15,South,40,3333,2013,0,0,0,"KAR 86",,NULL,,NULL,,146,Kentville,274,NULL
+6,North,58,3335,2013,0,0,0,"KAS 57",,NULL,,NULL,,145,Kentville,275,NULL
+2,South,60,3336,2013,0,0,0,"KAS 57",,NULL,,NULL,,145,Kentville,275,NULL
+13,North,56,3337,2013,0,0,0,"KAS 59",,NULL,,NULL,,145,Kentville,276,NULL
+13,South,58,3338,2013,0,0,0,"KAS 59",,NULL,,NULL,,145,Kentville,276,NULL
+12,North,34,3340,2013,0,0,0,Masonova,"KAR 87",NULL,,NULL,,146,Kentville,277,NULL
+11,South,8,3341,2013,0,0,0,Masonova,"KAR 87",NULL,,NULL,,146,Kentville,277,NULL
+19,North,50,3343,2013,0,0,0,"KAR 91",,NULL,,NULL,,146,Kentville,278,NULL
+10,South,16,3345,2013,0,0,0,"KAR 91",,NULL,,NULL,,146,Kentville,278,NULL
+2,North,38,3346,2013,0,0,0,"KAS 65",,NULL,,NULL,,145,Kentville,279,NULL
+6,South,9,3347,2013,0,0,0,"KAS 65",,NULL,,NULL,,145,Kentville,279,NULL
+13,North,59,3349,2013,0,0,0,"KAR 94",,NULL,,NULL,,146,Kentville,280,NULL
+11,South,57,3351,2013,0,0,0,"KAR 94",,NULL,,NULL,,146,Kentville,280,NULL
+5,North,8,4002,2013,0,0,1,"KAS 63",,NULL,,NULL,,145,Kentville,283,NULL
+2,South,61,4003,2013,0,0,0,"KAS 63",,NULL,,NULL,,145,Kentville,283,NULL
+4,North,55,4005,2013,0,0,0,"KAR 96",,NULL,,NULL,,146,Kentville,284,NULL
+7,South,60,4006,2013,0,0,0,"KAR 96",,NULL,,NULL,,146,Kentville,284,NULL
+16,North,1,4008,2013,1,0,0,"KAS 76",,NULL,,NULL,,145,Kentville,285,NULL
+17,South,13,4009,2013,0,0,0,"KAS 76",,NULL,,NULL,,145,Kentville,285,NULL
+9,North,3,4010,2013,0,0,1,"KAS 77",,NULL,,NULL,,145,Kentville,286,NULL
+11,South,60,4011,2013,0,0,0,"KAS 77",,NULL,,NULL,,145,Kentville,286,NULL
+13,North,58,4013,2013,0,0,0,"KAS 61",,NULL,,NULL,,145,Kentville,287,NULL
+16,South,20,4015,2013,0,0,0,"KAS 61",,NULL,,NULL,,145,Kentville,287,NULL
+19,North,31,4016,2013,0,0,0,"KAS 50",,NULL,,NULL,,140,Kentville,288,NULL
+8,South,44,4017,2013,0,0,0,"KAS 50",,NULL,,NULL,,140,Kentville,288,NULL
+6,North,41,4019,2013,0,0,0,"KAR 112",,NULL,,NULL,,146,Kentville,289,NULL
+16,South,33,4021,2013,0,0,0,"KAR 112",,NULL,,NULL,,146,Kentville,289,NULL
+7,North,48,4022,2013,0,0,0,"KAS 69",,NULL,,NULL,,145,Kentville,290,NULL
+9,South,48,4023,2013,0,0,0,"KAS 69",,NULL,,NULL,,145,Kentville,290,NULL
+19,South,1,4024,2013,1,0,0,"KAS 69",,NULL,,NULL,,145,Kentville,290,NULL
+4,North,17,4025,2013,0,0,0,"KAS 68",,NULL,,NULL,,145,Kentville,291,NULL
+17,South,45,4027,2013,0,0,0,"KAS 68",,NULL,,NULL,,145,Kentville,291,NULL
+8,North,40,4028,2013,0,0,0,"KAR 88",,NULL,,NULL,,146,Kentville,292,NULL
+14,South,41,4030,2013,0,0,0,"KAR 88",,NULL,,NULL,,146,Kentville,292,NULL
+1,North,33,4031,2013,0,0,0,"KAS 66",,NULL,,NULL,,145,Kentville,293,NULL
+8,South,37,4033,2013,0,0,0,"KAS 66",,NULL,,NULL,,145,Kentville,293,NULL
+3,North,56,4037,2013,0,0,0,"KAS 47",,NULL,,NULL,,140,Kentville,1226,NULL
+10,South,47,4039,2013,0,0,0,"KAS 47",,NULL,,NULL,,140,Kentville,1226,NULL
+13,North,43,4040,2013,0,0,0,"KAR 102",,NULL,,NULL,,146,Kentville,295,NULL
+9,South,17,4042,2013,0,0,0,"KAR 102",,NULL,,NULL,,146,Kentville,295,NULL
+15,North,55,4044,2013,0,0,0,"KAR 101",,NULL,,NULL,,146,Kentville,296,NULL
+16,South,6,4045,2013,0,0,0,"KAR 101",,NULL,,NULL,,146,Kentville,296,NULL
+5,North,58,4049,2013,0,0,0,"KAS 79",,NULL,,NULL,,145,Kentville,297,NULL
+13,South,27,4051,2013,0,0,0,"KAS 79",,NULL,,NULL,,145,Kentville,297,NULL
+12,North,24,4053,2013,0,0,0,"KAR 110",,NULL,,NULL,,146,Kentville,298,NULL
+13,South,46,4054,2013,0,0,0,"KAR 110",,NULL,,NULL,,146,Kentville,298,NULL
+10,North,50,4055,2013,0,0,0,"KAR 104",,NULL,,NULL,,146,Kentville,299,NULL
+5,South,1,4056,2013,1,0,0,"KAR 104",,NULL,,NULL,,146,Kentville,299,NULL
+15,South,60,4057,2013,0,0,0,"KAR 104",,NULL,,NULL,,146,Kentville,299,NULL
+18,North,61,4059,2013,0,0,0,"KAR 105",,NULL,,NULL,,146,Kentville,300,NULL
+10,South,40,4060,2013,0,0,1,"KAR 105",,NULL,,NULL,,146,Kentville,300,NULL
+4,North,10,4062,2013,0,0,1,"KAR 107",,NULL,,NULL,,146,Kentville,301,NULL
+3,South,2,4063,2013,0,0,1,"KAR 107",,NULL,,NULL,,146,Kentville,301,NULL
+6,North,4,4064,2013,0,0,0,"KAR 85",,NULL,,NULL,,146,Kentville,302,NULL
+9,South,59,4065,2013,0,0,0,"KAR 85",,NULL,,NULL,,146,Kentville,302,NULL
+7,North,3,4067,2013,0,0,1,Orangutang,"KAS 46",NULL,,NULL,,140,Kentville,303,NULL
+15,North,62,4068,2013,1,0,1,Orangutang,"KAS 46",NULL,,NULL,,140,Kentville,303,NULL
+3,South,35,4069,2013,0,0,1,Orangutang,"KAS 46",NULL,,NULL,,140,Kentville,303,NULL
+6,North,57,4071,2013,0,0,0,"KAS 67",,NULL,,NULL,,145,Kentville,1227,NULL
+2,South,25,4072,2013,0,0,0,"KAS 67",,NULL,,NULL,,145,Kentville,1227,NULL
+7,North,2,4073,2013,0,0,0,"KAR 83",,NULL,,NULL,,146,Kentville,304,NULL
+3,South,19,4075,2013,0,0,0,"KAR 83",,NULL,,NULL,,146,Kentville,304,NULL
+6,North,9,4076,2013,0,0,1,"KAR 95",,NULL,,NULL,,146,Kentville,305,NULL
+11,South,41,4078,2013,0,0,1,"KAR 95",,NULL,,NULL,,146,Kentville,305,NULL
+19,North,4,4080,2013,0,0,0,"KAR 89",,NULL,,NULL,,146,Kentville,306,NULL
+11,South,32,4081,2013,0,0,1,"KAR 89",,NULL,,NULL,,146,Kentville,306,NULL
+16,North,57,4082,2013,0,0,0,"KAR 84",,NULL,,NULL,,146,Kentville,307,NULL
+15,South,36,4084,2013,0,0,1,"KAR 84",,NULL,,NULL,,146,Kentville,307,NULL
+13,North,6,4085,2013,0,0,0,"KAS 40",,NULL,,NULL,,140,Kentville,308,NULL
+2,South,55,4087,2013,0,0,0,"KAS 40",,NULL,,NULL,,140,Kentville,308,NULL
+1,North,47,4088,2013,0,0,0,"KAS 54",,NULL,,NULL,,145,Kentville,309,NULL
+3,South,20,4090,2013,0,0,1,"KAS 54",,NULL,,NULL,,145,Kentville,309,NULL
+8,North,13,4092,2013,0,0,0,"KAS 70",,NULL,,NULL,,145,Kentville,310,NULL
+12,South,38,4093,2013,0,0,0,"KAS 70",,NULL,,NULL,,145,Kentville,310,NULL
+8,North,15,4094,2013,0,0,1,"KAR 81",,NULL,,NULL,,146,Kentville,311,NULL
+4,South,32,4095,2013,0,0,0,"KAR 81",,NULL,,NULL,,146,Kentville,311,NULL
+13,North,45,4097,2013,0,0,0,"Crimson Gold","Svatava B.9",NULL,,NULL,,146,Kentville,312,NULL
+17,South,8,4098,2013,0,0,0,"Crimson Gold","Svatava B.9",NULL,,NULL,,146,Kentville,312,NULL
+9,North,38,4100,2013,0,0,0,"KAS 64",,NULL,,NULL,,145,Kentville,313,NULL
+7,South,12,4101,2013,0,0,0,"KAS 64",,NULL,,NULL,,145,Kentville,313,NULL
+15,North,59,4103,2013,0,0,1,"KAS 56",,NULL,,NULL,,145,Kentville,314,NULL
+13,South,61,4104,2013,0,0,0,"KAS 56",,NULL,,NULL,,145,Kentville,314,NULL
+19,North,47,4107,2013,0,0,0,"KAR 51",,NULL,,NULL,,146,Kentville,315,NULL
+4,South,17,4108,2013,0,0,0,"KAR 51",,NULL,,NULL,,146,Kentville,315,NULL
+3,North,36,4109,2013,0,0,0,"KAR 82",,NULL,,NULL,,146,Kentville,316,NULL
+12,South,52,4111,2013,0,0,0,"KAR 82",,NULL,,NULL,,146,Kentville,316,NULL
+5,North,25,4113,2013,0,0,0,"KAR 98",,NULL,,NULL,,146,Kentville,317,NULL
+9,South,9,4114,2013,0,0,0,"KAR 98",,NULL,,NULL,,146,Kentville,317,NULL
+6,North,59,4121,2013,0,0,0,"KAR 108",,NULL,,NULL,,146,Kentville,318,NULL
+2,South,13,4123,2013,0,0,0,"KAR 108",,NULL,,NULL,,146,Kentville,318,NULL
+7,North,36,4124,2013,0,0,0,"KAR 99",,NULL,,NULL,,146,Kentville,319,NULL
+10,South,36,4125,2013,0,0,1,"KAR 99",,NULL,,NULL,,146,Kentville,319,NULL
+2,North,52,4134,2013,0,0,1,"KAR 113",,NULL,,NULL,,146,Kentville,322,NULL
+6,South,20,4135,2013,0,0,1,"KAR 113",,NULL,,NULL,,146,Kentville,322,NULL
+7,North,4,4136,2013,0,0,1,"KAR 114",,NULL,,NULL,,146,Kentville,323,NULL
+14,South,5,4137,2013,0,0,0,"KAR 114",,NULL,,NULL,,146,Kentville,323,NULL
+6,North,46,4139,2013,0,0,0,"KAR 111",,NULL,,NULL,,146,Kentville,324,NULL
+14,South,8,4140,2013,0,0,0,"KAR 111",,NULL,,NULL,,146,Kentville,324,NULL
+16,North,30,4142,2013,0,0,0,"KAS 42",,NULL,,NULL,,145,Kentville,325,NULL
+19,South,19,4143,2013,0,0,0,"KAS 42",,NULL,,NULL,,145,Kentville,325,NULL
+19,North,57,4146,2013,0,0,0,Evangeline,"KAS 10",NULL,,NULL,,118,Kentville,326,NULL
+12,South,9,4147,2013,0,0,0,Evangeline,"KAS 10",NULL,,NULL,,118,Kentville,326,NULL
+18,North,62,4148,2013,1,0,0,"KAR 35",,NULL,,NULL,,118,Kentville,327,NULL
+4,North,8,4149,2013,0,0,1,"KAR 35",,NULL,,NULL,,118,Kentville,327,NULL
+15,South,56,4150,2013,0,0,0,"KAR 35",,NULL,,NULL,,118,Kentville,327,NULL
+9,North,12,4151,2013,0,0,0,"KAS 39",,NULL,,NULL,,140,Kentville,328,NULL
+9,South,28,4153,2013,0,0,0,"KAS 39",,NULL,,NULL,,140,Kentville,328,NULL
+5,North,24,4154,2013,0,0,0,"KAR 52",,NULL,,NULL,,146,Kentville,329,NULL
+19,South,26,4156,2013,0,0,0,"KAR 52",,NULL,,NULL,,146,Kentville,329,NULL
+17,North,41,4157,2013,0,0,0,"KAR 92",,NULL,,NULL,,146,Kentville,330,NULL
+1,South,36,4158,2013,0,0,0,"KAR 92",,NULL,,NULL,,146,Kentville,330,NULL
+15,North,25,4161,2013,0,0,0,"KAS 48",,NULL,,NULL,,140,Kentville,331,NULL
+2,South,36,4162,2013,0,0,0,"KAS 48",,NULL,,NULL,,140,Kentville,331,NULL
+11,North,33,4163,2013,0,0,0,"KAS 44",,NULL,,NULL,,140,Kentville,332,NULL
+10,South,1,4164,2013,1,0,0,"KAS 44",,NULL,,NULL,,140,Kentville,332,NULL
+15,South,15,4165,2013,0,0,0,"KAS 44",,NULL,,NULL,,140,Kentville,332,NULL
+12,North,29,4169,2013,0,0,0,"KAS 41",,NULL,,NULL,,140,Kentville,334,NULL
+3,South,15,4170,2013,0,0,0,"KAS 41",,NULL,,NULL,,140,Kentville,334,NULL
+10,North,39,4172,2013,0,0,1,"Sid the Kid","KAR 27",NULL,,NULL,,118,Kentville,335,NULL
+8,South,3,4173,2013,0,0,0,"Sid the Kid","KAR 27",NULL,,NULL,,118,Kentville,335,NULL
+4,South,62,4174,2013,1,0,0,"Sid the Kid","KAR 27",NULL,,NULL,,118,Kentville,335,NULL
+17,North,30,4175,2013,0,0,0,"KAR 2",,NULL,,NULL,,118,Kentville,336,NULL
+10,South,33,4177,2013,0,0,0,"KAR 2",,NULL,,NULL,,118,Kentville,336,NULL
+19,North,40,4178,2013,0,0,0,"KAR 34",,NULL,,NULL,,118,Kentville,337,NULL
+18,South,53,4179,2013,0,0,0,"KAR 34",,NULL,,NULL,,118,Kentville,337,NULL
+10,North,52,4185,2013,0,0,0,"KAR 16",,NULL,,NULL,,118,Kentville,339,NULL
+11,South,10,4186,2013,0,0,0,"KAR 16",,NULL,,NULL,,118,Kentville,339,NULL
+9,North,8,4187,2013,0,0,0,"KAR 1",,NULL,,NULL,,118,Kentville,340,NULL
+3,South,37,4188,2013,0,0,0,"KAR 1",,NULL,,NULL,,118,Kentville,340,NULL
+2,North,23,4190,2013,0,0,0,"KAS 8",,NULL,,NULL,,118,Kentville,341,NULL
+10,South,46,4191,2013,0,0,1,"KAS 8",,NULL,,NULL,,118,Kentville,341,NULL
+8,North,17,4193,2013,0,0,0,"KAS 20",,NULL,,NULL,,118,Kentville,342,NULL
+8,South,53,4194,2013,0,0,1,"KAS 20",,NULL,,NULL,,118,Kentville,342,NULL
+8,North,59,4200,2013,0,0,0,"KAS 6",,NULL,,NULL,,118,Kentville,343,NULL
+3,South,47,4201,2013,0,0,0,"KAS 6",,NULL,,NULL,,118,Kentville,343,NULL
+17,North,32,4202,2013,0,0,0,"KAR 36",,NULL,,NULL,,118,Kentville,344,NULL
+17,South,35,4203,2013,0,0,1,"KAR 36",,NULL,,NULL,,118,Kentville,344,NULL
+1,North,30,4206,2013,0,0,0,"KAR 33",,NULL,,NULL,,118,Kentville,345,NULL
+19,South,12,4207,2013,0,0,0,"KAR 33",,NULL,,NULL,,118,Kentville,345,NULL
+11,North,27,4209,2013,0,0,0,"KAR 28",,NULL,,NULL,,118,Kentville,1224,NULL
+5,South,51,4210,2013,0,0,0,"KAR 28",,NULL,,NULL,,118,Kentville,1224,NULL
+3,North,5,4211,2013,0,0,0,"KAR 29",,NULL,,NULL,,118,Kentville,1225,NULL
+18,South,39,4212,2013,0,0,0,"KAR 29",,NULL,,NULL,,118,Kentville,1225,NULL
+5,North,55,4214,2013,0,0,0,"KAR 38",,NULL,,NULL,,118,Kentville,346,NULL
+7,South,32,4216,2013,0,0,0,"KAR 38",,NULL,,NULL,,118,Kentville,346,NULL
+7,North,40,4217,2013,0,0,0,"KAR 32",,NULL,,NULL,,118,Kentville,347,NULL
+10,South,53,4219,2013,0,0,0,"KAR 32",,NULL,,NULL,,118,Kentville,347,NULL
+8,North,58,4220,2013,0,0,0,"KAR 37",,NULL,,NULL,,118,Kentville,348,NULL
+2,South,39,4222,2013,0,0,1,"KAR 37",,NULL,,NULL,,118,Kentville,348,NULL
+1,North,54,4223,2013,0,0,0,"KAR 15",,NULL,,NULL,,118,Kentville,349,NULL
+7,South,23,4225,2013,0,0,0,"KAR 15",,NULL,,NULL,,118,Kentville,349,NULL
+14,North,31,4226,2013,0,0,0,"KAR 24",,NULL,,NULL,,118,Kentville,350,NULL
+11,South,37,4227,2013,0,0,1,"KAR 24",,NULL,,NULL,,118,Kentville,350,NULL
+19,South,62,4228,2013,1,0,1,"KAR 24",,NULL,,NULL,,118,Kentville,350,NULL
+11,North,3,4229,2013,0,0,0,"KAR 5",,NULL,,NULL,,118,Kentville,351,NULL
+2,South,19,4231,2013,0,0,0,"KAR 5",,NULL,,NULL,,118,Kentville,351,NULL
+16,North,4,4232,2013,0,0,0,"KAR 30",,NULL,,NULL,,118,Kentville,352,NULL
+2,South,24,4234,2013,0,0,0,"KAR 30",,NULL,,NULL,,118,Kentville,352,NULL
+15,North,56,4235,2013,0,0,0,"KAS 45",,NULL,,NULL,,140,Kentville,353,NULL
+15,South,44,4237,2013,0,0,0,"KAS 45",,NULL,,NULL,,140,Kentville,353,NULL
+19,North,24,4239,2013,0,0,0,"KAR 17",,NULL,,NULL,,118,Kentville,354,NULL
+1,South,7,4240,2013,0,0,1,"KAR 17",,NULL,,NULL,,118,Kentville,354,NULL
+9,North,40,4242,2013,0,0,0,"KAS 19",,NULL,,NULL,,118,Kentville,355,NULL
+12,South,31,4243,2013,0,0,1,"KAS 19",,NULL,,NULL,,118,Kentville,355,NULL
+10,North,9,4244,2013,0,0,1,"KAR 25",,NULL,,NULL,,118,Kentville,356,NULL
+14,South,12,4245,2013,0,0,0,"KAR 25",,NULL,,NULL,,118,Kentville,356,NULL
+14,North,27,4250,2013,0,0,0,"Heart of Gold","KAR 22",NULL,,NULL,,118,Kentville,357,NULL
+18,South,26,4252,2013,0,0,0,"Heart of Gold","KAR 22",NULL,,NULL,,118,Kentville,357,NULL
+10,North,41,4253,2013,0,0,0,"Black Pearl","KAS 9",NULL,,NULL,,118,Kentville,358,NULL
+15,South,51,4255,2013,0,0,0,"Black Pearl","KAS 9",NULL,,NULL,,118,Kentville,358,NULL
+13,North,9,4256,2013,0,0,0,"KAR 26",,NULL,,NULL,,118,Kentville,359,NULL
+2,South,58,4258,2013,0,0,0,"KAR 26",,NULL,,NULL,,118,Kentville,359,NULL
+1,North,6,4259,2013,0,0,0,"KAS 7",,NULL,,NULL,,118,Kentville,360,NULL
+1,South,37,4260,2013,0,0,1,"KAS 7",,NULL,,NULL,,118,Kentville,360,NULL
+3,North,38,4262,2013,0,0,0,"KAR 31",,NULL,,NULL,,118,Kentville,361,NULL
+10,South,6,4263,2013,0,0,0,"KAR 31",,NULL,,NULL,,118,Kentville,361,NULL
+4,North,62,4264,2013,1,0,0,"KAR 31",,NULL,,NULL,,118,Kentville,361,NULL
+10,North,34,4268,2013,0,0,0,"KAR 14",,NULL,,NULL,,118,Kentville,363,NULL
+2,South,54,4269,2013,0,0,0,"KAR 14",,NULL,,NULL,,118,Kentville,363,NULL
+9,North,46,4271,2013,0,0,0,"KAR 23",,NULL,,NULL,,118,Kentville,364,NULL
+1,North,62,4272,2013,1,0,0,"KAR 23",,NULL,,NULL,,118,Kentville,364,NULL
+3,South,45,4273,2013,0,0,1,"KAR 23",,NULL,,NULL,,118,Kentville,364,NULL
+6,North,12,4275,2013,0,0,0,"Circassian Apple",,127890,PI,102639,.06,NULL,USDA,365,NULL
+16,South,23,4276,2013,0,0,0,"Circassian Apple",,127890,PI,102639,.06,NULL,USDA,365,NULL
+13,North,22,4283,2013,0,0,1,Amri,,85941,PI,613827,.02,NULL,USDA,368,NULL
+11,South,28,4285,2013,0,0,0,Amri,,85941,PI,613827,.02,NULL,USDA,368,NULL
+4,North,47,4286,2013,0,0,0,Dudley,,21961,PI,589910,.06,NULL,USDA,369,NULL
+16,South,41,4287,2013,0,0,1,Dudley,,21961,PI,589910,.06,NULL,USDA,369,NULL
+17,North,42,4304,2013,0,0,0,"Dekkers Glorie",,161402,PI,188515,.06,NULL,USDA,375,NULL
+16,South,35,4306,2013,0,0,0,"Dekkers Glorie",,161402,PI,188515,.06,NULL,USDA,375,NULL
+16,North,27,4319,2013,0,0,0,"Colby Baldwin",,9071,PI,589103,.09,NULL,USDA,380,NULL
+7,South,28,4320,2013,0,0,0,"Colby Baldwin",,9071,PI,589103,.09,NULL,USDA,380,NULL
+17,North,20,4334,2013,0,0,0,Bonum,,5648,PI,588946,.07,NULL,USDA,385,NULL
+13,South,45,4335,2013,0,0,1,Bonum,,5648,PI,588946,.07,NULL,USDA,385,NULL
+3,North,8,5012,2013,0,0,1,Blauacher,,401294,PI,506358,.08,NULL,USDA,391,NULL
+19,South,9,5014,2013,0,0,0,Blauacher,,401294,PI,506358,.08,NULL,USDA,391,NULL
+11,North,2,5024,2013,0,0,0,Alton,,9978,PI,589138,.09,NULL,USDA,395,NULL
+18,South,43,5025,2013,0,0,1,Alton,,9978,PI,589138,.09,NULL,USDA,395,NULL
+11,North,37,5031,2013,0,0,0,"Bushy Grove",,134666,PI,135999,.10,NULL,USDA,397,NULL
+11,South,36,5032,2013,0,0,1,"Bushy Grove",,134666,PI,135999,.10,NULL,USDA,397,NULL
+18,North,25,5051,2013,0,0,0,Alpinist,,17935,PI,589540,.06,NULL,USDA,404,NULL
+12,South,18,5053,2013,0,0,0,Alpinist,,17935,PI,589540,.06,NULL,USDA,404,NULL
+2,North,58,5055,2013,0,0,1,"Belle de Nordhaussen",,18270,PI,589584,.08,NULL,USDA,405,NULL
+18,South,36,5056,2013,0,0,1,"Belle de Nordhaussen",,18270,PI,589584,.08,NULL,USDA,405,NULL
+2,North,12,5063,2013,0,0,0,"Clear Heart",,172765,PI,206022,.05,NULL,USDA,408,NULL
+10,South,13,5064,2013,0,0,0,"Clear Heart",,172765,PI,206022,.05,NULL,USDA,408,NULL
+12,North,37,5066,2013,0,0,0,"Bodil Neergaard",,128322,PI,104781,.08,NULL,USDA,409,NULL
+5,South,32,5068,2013,0,0,1,"Bodil Neergaard",,128322,PI,104781,.08,NULL,USDA,409,NULL
+19,North,7,5070,2013,0,0,0,Dufflin,,152070,PI,175542,.07,NULL,USDA,410,NULL
+2,South,17,5071,2013,0,0,0,Dufflin,,152070,PI,175542,.07,NULL,USDA,410,NULL
+9,North,52,5075,2013,0,0,0,Edelborsdorfer,,24660,PI,590124,.04,NULL,USDA,412,NULL
+2,South,14,5076,2013,0,0,0,Edelborsdorfer,,24660,PI,590124,.04,NULL,USDA,412,NULL
+17,North,16,5082,2013,0,0,0,"Alnarp 2",,4078,PI,588865,.03,NULL,USDA,414,NULL
+3,South,10,5083,2013,0,0,1,"Alnarp 2",,4078,PI,588865,.03,NULL,USDA,414,NULL
+11,North,52,5093,2013,0,0,0,Anisim,,23374,PI,590025,.05,NULL,USDA,418,NULL
+14,South,10,5095,2013,0,0,0,Anisim,,23374,PI,590025,.05,NULL,USDA,418,NULL
+14,North,7,5096,2013,0,0,0,"Early Banta",,13765,PI,589293,.06,NULL,USDA,419,NULL
+4,South,57,5097,2013,0,0,0,"Early Banta",,13765,PI,589293,.06,NULL,USDA,419,NULL
+10,North,6,5109,2013,0,0,0,Chautauqua,,8318,PI,589071,.08,NULL,USDA,423,NULL
+15,South,32,5110,2013,0,0,0,Chautauqua,,8318,PI,589071,.08,NULL,USDA,423,NULL
+4,North,59,5114,2013,0,0,0,Berglander,,134033,PI,131964,.07,NULL,USDA,425,NULL
+7,South,31,5116,2013,0,0,0,Berglander,,134033,PI,131964,.07,NULL,USDA,425,NULL
+18,North,43,5120,2013,0,0,1,Blair,,8871,PI,589098,.09,NULL,USDA,427,NULL
+17,South,40,5122,2013,0,0,0,Blair,,8871,PI,589098,.09,NULL,USDA,427,NULL
+12,North,13,5123,2013,0,0,0,Brazil,,610641,PI,632623,.01,NULL,USDA,428,NULL
+12,South,30,5124,2013,0,0,0,Brazil,,610641,PI,632623,.01,NULL,USDA,428,NULL
+17,North,7,5133,2013,0,0,0,Arkansas,,6090,PI,588952,.11,NULL,USDA,431,NULL
+16,South,51,5134,2013,0,0,1,Arkansas,,6090,PI,588952,.11,NULL,USDA,431,NULL
+5,North,13,5147,2013,0,0,1,"American Forestier",,151023,PI,173978,.09,NULL,USDA,436,NULL
+2,South,15,5148,2013,0,0,0,"American Forestier",,151023,PI,173978,.09,NULL,USDA,436,NULL
+17,North,31,5180,2013,0,0,0,"Creamy Kitaika",,287718,PI,383504,.06,NULL,USDA,447,NULL
+11,South,31,5181,2013,0,0,1,"Creamy Kitaika",,287718,PI,383504,.06,NULL,USDA,447,NULL
+19,North,9,5192,2013,0,0,0,Damelot,,140209,PI,162722,.07,NULL,USDA,451,NULL
+4,South,45,5193,2013,0,0,1,Damelot,,140209,PI,162722,.07,NULL,USDA,451,NULL
+17,North,22,5198,2013,0,0,0,Canavial-14,,159258,PI,183961,.06,NULL,USDA,453,NULL
+5,South,4,5199,2013,0,0,0,Canavial-14,,159258,PI,183961,.06,NULL,USDA,453,NULL
+6,South,62,5200,2013,1,0,0,Canavial-14,,159258,PI,183961,.06,NULL,USDA,453,NULL
+12,North,44,5201,2013,0,0,0,Cranzhevoje,,17549,PI,589489,.08,NULL,USDA,454,NULL
+3,South,51,5203,2013,0,0,1,Cranzhevoje,,17549,PI,589489,.08,NULL,USDA,454,NULL
+3,North,23,5204,2013,0,0,0,Caillouett,,139522,PI,161759,.06,NULL,USDA,455,NULL
+19,South,43,5205,2013,0,0,0,Caillouett,,139522,PI,161759,.06,NULL,USDA,455,NULL
+2,North,8,5210,2013,0,0,1,"Early Crimson",,19100,PI,589702,.09,NULL,USDA,457,NULL
+4,South,34,5212,2013,0,0,0,"Early Crimson",,19100,PI,589702,.09,NULL,USDA,457,NULL
+1,North,42,5214,2013,0,0,0,"Antonovka Ottawa",,24787,PI,590149,.04,NULL,USDA,458,NULL
+19,South,55,5215,2013,0,0,0,"Antonovka Ottawa",,24787,PI,590149,.04,NULL,USDA,458,NULL
+19,North,34,5216,2013,0,0,0,Drakenstein,,431936,PI,537000,.05,NULL,USDA,459,NULL
+10,South,7,5217,2013,0,0,0,Drakenstein,,431936,PI,537000,.05,NULL,USDA,459,NULL
+4,North,4,5219,2013,0,0,0,Akero,,543278,PI,104776,.08,NULL,USDA,460,NULL
+10,South,21,5220,2013,0,0,0,Akero,,543278,PI,104776,.08,NULL,USDA,460,NULL
+10,North,23,5225,2013,0,0,0,"Crawley Reinette",,138055,PI,157728,.06,NULL,USDA,462,NULL
+2,South,6,5227,2013,0,0,0,"Crawley Reinette",,138055,PI,157728,.06,NULL,USDA,462,NULL
+7,North,52,5232,2013,0,0,0,Brunnerling,,134398,PI,134820,.07,NULL,USDA,464,NULL
+16,South,17,5233,2013,0,0,1,Brunnerling,,134398,PI,134820,.07,NULL,USDA,464,NULL
+3,North,12,5234,2013,0,0,0,"Coat Jersey",,10958,PI,589175,.07,NULL,USDA,465,NULL
+16,South,24,5235,2013,0,0,0,"Coat Jersey",,10958,PI,589175,.07,NULL,USDA,465,NULL
+3,North,33,5240,2013,0,0,0,"Doux Tardif",,140132,PI,162547,.05,NULL,USDA,467,NULL
+5,South,56,5242,2013,0,0,1,"Doux Tardif",,140132,PI,162547,.05,NULL,USDA,467,NULL
+10,North,28,5250,2013,0,0,0,"Barkley Rome",,11758,PI,589201,.05,NULL,USDA,470,NULL
+2,South,3,5251,2013,0,0,1,"Barkley Rome",,11758,PI,589201,.05,NULL,USDA,470,NULL
+8,North,20,5256,2013,0,0,1,"Crimson Bramley",,130004,PI,113703,.08,NULL,USDA,472,NULL
+4,South,16,5257,2013,0,0,0,"Crimson Bramley",,130004,PI,113703,.08,NULL,USDA,472,NULL
+3,North,28,5259,2013,0,0,0,"Crimson King",,138363,PI,158618,.05,NULL,USDA,473,NULL
+2,South,7,5260,2013,0,0,0,"Crimson King",,138363,PI,158618,.05,NULL,USDA,473,NULL
+7,North,45,5270,2013,0,0,0,"Daux Belan",,139795,PI,162062,.07,NULL,USDA,477,NULL
+3,South,58,5271,2013,0,0,0,"Daux Belan",,139795,PI,162062,.07,NULL,USDA,477,NULL
+15,North,39,5273,2013,0,0,0,"Bob White",,24897,PI,590172,.06,NULL,USDA,478,NULL
+12,South,36,5275,2013,0,0,0,"Bob White",,24897,PI,590172,.06,NULL,USDA,478,NULL
+1,North,38,5288,2013,0,0,1,"Baumann's Reinette",,18103,PI,589566,.07,NULL,USDA,483,NULL
+17,South,44,5290,2013,0,0,0,"Baumann's Reinette",,18103,PI,589566,.07,NULL,USDA,483,NULL
+3,North,30,5291,2013,0,0,0,Camuzat,,184097,PI,231939,.03,NULL,USDA,484,NULL
+17,South,2,5292,2013,0,0,0,Camuzat,,184097,PI,231939,.03,NULL,USDA,484,NULL
+18,North,44,5301,2013,0,0,0,"Belle Norman",,139555,PI,161829,.09,NULL,USDA,487,NULL
+18,South,57,5302,2013,0,0,1,"Belle Norman",,139555,PI,161829,.09,NULL,USDA,487,NULL
+8,North,51,5306,2013,0,0,0,"Champagne Reinette",,200179,PI,264688,.09,NULL,USDA,489,NULL
+5,South,28,5307,2013,0,0,1,"Champagne Reinette",,200179,PI,264688,.09,NULL,USDA,489,NULL
+17,North,8,5310,2013,0,0,0,"Benitts Roter Finkenwerde",,165073,PI,194096,.09,NULL,USDA,490,NULL
+17,South,48,5311,2013,0,0,0,"Benitts Roter Finkenwerde",,165073,PI,194096,.09,NULL,USDA,490,NULL
+18,North,3,5324,2013,0,0,0,"Early Joe",,8407,PI,613816,.05,NULL,USDA,495,NULL
+12,South,17,5326,2013,0,0,0,"Early Joe",,8407,PI,613816,.05,NULL,USDA,495,NULL
+15,North,46,6002,2013,0,0,0,Bemali,,91465,PI,589863,.04,NULL,USDA,496,NULL
+19,South,49,6003,2013,0,0,0,Bemali,,91465,PI,589863,.04,NULL,USDA,496,NULL
+7,North,24,6011,2013,0,0,1,"Belle Fleur de France",,18183,PI,589573,.09,NULL,USDA,499,NULL
+1,South,55,6012,2013,0,0,0,"Belle Fleur de France",,18183,PI,589573,.09,NULL,USDA,499,NULL
+12,North,38,6013,2013,0,0,0,Charlotte,,14933,PI,589348,.04,NULL,USDA,1218,NULL
+19,South,53,6015,2013,0,0,0,Charlotte,,14933,PI,589348,.04,NULL,USDA,1218,NULL
+11,North,16,6022,2013,0,0,0,Cartigny,,140200,PI,162710,.07,NULL,USDA,502,NULL
+19,North,62,6023,2013,1,0,1,Cartigny,,140200,PI,162710,.07,NULL,USDA,502,NULL
+12,South,61,6024,2013,0,0,0,Cartigny,,140200,PI,162710,.07,NULL,USDA,502,NULL
+18,North,16,6028,2013,0,0,1,"Doux Normandie",,18829,PI,589667,.06,NULL,USDA,504,NULL
+6,South,54,6030,2013,0,0,1,"Doux Normandie",,18829,PI,589667,.06,NULL,USDA,504,NULL
+7,North,58,6031,2013,0,0,0,Alkmene,,257101,PI,344547,.09,NULL,USDA,505,NULL
+8,South,27,6033,2013,0,0,0,Alkmene,,257101,PI,344547,.09,NULL,USDA,505,NULL
+1,North,2,6035,2013,0,0,0,Boutteville,,140210,PI,162723,.04,NULL,USDA,506,NULL
+13,South,47,6036,2013,0,0,0,Boutteville,,140210,PI,162723,.04,NULL,USDA,506,NULL
+3,North,6,6037,2013,0,0,0,"Bella de Jardins",,128375,PI,105498,.10,NULL,USDA,507,NULL
+15,South,4,6038,2013,0,0,0,"Bella de Jardins",,128375,PI,105498,.10,NULL,USDA,507,NULL
+14,North,28,6049,2013,0,0,1,"Cestra Belferkitaika",,651,PI,588744,.08,NULL,USDA,511,NULL
+4,South,10,6050,2013,0,0,0,"Cestra Belferkitaika",,651,PI,588744,.08,NULL,USDA,511,NULL
+15,North,20,6058,2013,0,0,0,Dakota,,12257,PI,589223,.09,NULL,USDA,514,NULL
+2,South,47,6059,2013,0,0,0,Dakota,,12257,PI,589223,.09,NULL,USDA,514,NULL
+2,North,46,6079,2013,0,0,0,"Doucet Rouge",,139523,PI,161760,.07,NULL,USDA,521,NULL
+6,South,4,6080,2013,0,0,0,"Doucet Rouge",,139523,PI,161760,.07,NULL,USDA,521,NULL
+11,North,5,6085,2013,0,0,0,"Crown Prince Rudolf",,22335,PI,589963,.04,NULL,USDA,523,NULL
+13,South,34,6087,2013,0,0,0,"Crown Prince Rudolf",,22335,PI,589963,.04,NULL,USDA,523,NULL
+2,North,4,6088,2013,0,0,0,Dulcina,,96059,PI,613963,.01,NULL,USDA,524,NULL
+4,South,38,6090,2013,0,0,1,Dulcina,,96059,PI,613963,.01,NULL,USDA,524,NULL
+6,North,51,6112,2013,0,0,0,"C'Huero Biz Bras",,161197,PI,187297,.06,NULL,USDA,531,NULL
+16,South,54,6114,2013,0,0,1,"C'Huero Biz Bras",,161197,PI,187297,.06,NULL,USDA,531,NULL
+1,North,50,6131,2013,0,0,0,"Drap d'Or Guemene",,134022,PI,131823,.09,NULL,USDA,536,NULL
+11,South,2,6132,2013,0,0,0,"Drap d'Or Guemene",,134022,PI,131823,.09,NULL,USDA,536,NULL
+15,North,33,6143,2013,0,0,0,Dukat,,254290,PI,341069,.11,NULL,USDA,540,NULL
+10,South,19,6144,2013,0,0,1,Dukat,,254290,PI,341069,.11,NULL,USDA,540,NULL
+8,North,5,6151,2013,0,0,0,Boche,,140134,PI,162549,.05,NULL,USDA,543,NULL
+6,South,50,6152,2013,0,0,1,Boche,,140134,PI,162549,.05,NULL,USDA,543,NULL
+15,North,23,6157,2013,0,0,0,"Bongkushu (880626)",,94797,PI,613962,.01,NULL,USDA,545,NULL
+3,South,23,6158,2013,0,0,0,"Bongkushu (880626)",,94797,PI,613962,.01,NULL,USDA,545,NULL
+7,North,62,6159,2013,1,0,0,"Bongkushu (880626)",,94797,PI,613962,.01,NULL,USDA,545,NULL
+1,North,56,6172,2013,0,0,0,"Binet Blanc",,132248,PI,122598,.03,NULL,USDA,550,NULL
+14,South,21,6173,2013,0,0,0,"Binet Blanc",,132248,PI,122598,.03,NULL,USDA,550,NULL
+4,North,7,6175,2013,0,0,0,Cimitiere,,7081,PI,589018,.07,NULL,USDA,551,NULL
+11,South,46,6177,2013,0,0,0,Cimitiere,,7081,PI,589018,.07,NULL,USDA,551,NULL
+14,North,59,6181,2013,0,0,0,"Belle Fille",,140199,PI,162709,.07,NULL,USDA,553,NULL
+11,South,29,6182,2013,0,0,0,"Belle Fille",,140199,PI,162709,.07,NULL,USDA,553,NULL
+14,North,21,6193,2013,0,0,1,"Amere de Bellevue",,139792,PI,162060,.10,NULL,USDA,557,NULL
+14,South,62,6194,2013,1,0,0,"Amere de Bellevue",,139792,PI,162060,.10,NULL,USDA,557,NULL
+14,South,29,6195,2013,0,0,0,"Amere de Bellevue",,139792,PI,162060,.10,NULL,USDA,557,NULL
+1,North,46,6199,2013,0,0,1,"Adersleber Kalvill",,134083,PI,132758,.07,NULL,USDA,559,NULL
+14,South,16,6200,2013,0,0,0,"Adersleber Kalvill",,134083,PI,132758,.07,NULL,USDA,559,NULL
+1,North,34,6202,2013,0,0,0,Champlain,,6009,PI,588949,.10,NULL,USDA,560,NULL
+12,South,41,6204,2013,0,0,0,Champlain,,6009,PI,588949,.10,NULL,USDA,560,NULL
+2,North,37,6205,2013,0,0,0,Bonne-Hotture,,24636,PI,590120,.04,NULL,USDA,561,NULL
+9,South,43,6206,2013,0,0,1,Bonne-Hotture,,24636,PI,590120,.04,NULL,USDA,561,NULL
+3,North,61,6209,2013,0,0,0,Bramley,,186774,PI,238786,.05,NULL,USDA,562,NULL
+6,South,23,6210,2013,0,0,1,Bramley,,186774,PI,238786,.05,NULL,USDA,562,NULL
+18,North,49,6211,2013,0,0,0,Dunning,,7794,PI,589050,.08,NULL,USDA,563,NULL
+8,South,6,6213,2013,0,0,0,Dunning,,7794,PI,589050,.08,NULL,USDA,563,NULL
+5,North,43,6217,2013,0,0,1,Brunnsapple,,127812,PI,102135,.08,NULL,USDA,565,NULL
+19,South,31,6219,2013,0,0,0,Brunnsapple,,127812,PI,102135,.08,NULL,USDA,565,NULL
+7,North,5,6220,2013,0,0,1,Benham,,23380,PI,590027,.05,NULL,USDA,566,NULL
+10,South,49,6221,2013,0,0,1,Benham,,23380,PI,590027,.05,NULL,USDA,566,NULL
+18,North,40,6223,2013,0,0,0,Bietigheimer,,7658,PI,589043,.08,NULL,USDA,567,NULL
+2,South,40,6225,2013,0,0,0,Bietigheimer,,7658,PI,589043,.08,NULL,USDA,567,NULL
+4,North,33,6229,2013,0,0,1,"Bella di Pontoise",,127885,PI,102537,.07,NULL,USDA,569,NULL
+18,South,32,6231,2013,0,0,0,"Bella di Pontoise",,127885,PI,102537,.07,NULL,USDA,569,NULL
+15,North,57,6238,2013,0,0,0,Baxter,,21301,PI,589848,.07,NULL,USDA,572,NULL
+3,South,44,6240,2013,0,0,0,Baxter,,21301,PI,589848,.07,NULL,USDA,572,NULL
+12,North,5,6241,2013,0,0,0,"Bashkirian Beauty",,287716,PI,383502,.08,NULL,USDA,573,NULL
+10,South,12,6242,2013,0,0,0,"Bashkirian Beauty",,287716,PI,383502,.08,NULL,USDA,573,NULL
+2,North,44,6245,2013,0,0,0,"Blue Pearmain",,24920,PI,590180,.04,NULL,USDA,574,NULL
+19,South,27,6246,2013,0,0,0,"Blue Pearmain",,24920,PI,590180,.04,NULL,USDA,574,NULL
+18,North,8,6247,2013,0,0,0,"Ottawa 665",,NULL,,NULL,,103,Kentville,575,NULL
+5,South,46,6248,2013,0,0,0,"Ottawa 665",,NULL,,NULL,,103,Kentville,575,NULL
+18,South,62,6249,2013,1,0,0,"Ottawa 665",,NULL,,NULL,,103,Kentville,575,NULL
+12,North,45,6250,2013,0,0,0,"Tom McLean",,NULL,,NULL,,NULL,Kentville,576,NULL
+14,South,27,6252,2013,0,0,0,"Tom McLean",,NULL,,NULL,,NULL,Kentville,576,NULL
+16,North,58,6253,2013,0,0,0,Cannonball,,NULL,,NULL,,103,Kentville,577,NULL
+6,South,48,6255,2013,0,0,0,Cannonball,,NULL,,NULL,,103,Kentville,577,NULL
+18,North,30,6256,2013,0,0,0,Ribston,,3662,PI,588840,,59,Kentville,1233,NULL
+16,South,47,6258,2013,0,0,0,Ribston,,3662,PI,588840,,59,Kentville,1233,NULL
+17,North,12,6260,2013,0,0,0,Astrachan,,NULL,,NULL,,NULL,Kentville,578,NULL
+18,South,18,6261,2013,0,0,1,Astrachan,,NULL,,NULL,,NULL,Kentville,578,NULL
+19,North,26,6265,2013,0,0,0,S29-13-72,,NULL,,NULL,,103,Kentville,579,NULL
+1,South,33,6266,2013,0,0,0,S29-13-72,,NULL,,NULL,,103,Kentville,579,NULL
+15,North,9,6269,2013,0,0,0,GA6132,,NULL,,NULL,,103,Kentville,580,NULL
+17,South,7,6270,2013,0,0,0,GA6132,,NULL,,NULL,,103,Kentville,580,NULL
+4,North,19,6271,2013,0,0,0,"Kent VI",,NULL,,NULL,,103,Kentville,581,NULL
+7,South,37,6273,2013,0,0,0,"Kent VI",,NULL,,NULL,,103,Kentville,581,NULL
+2,North,54,6275,2013,0,0,0,S28-18-36,,NULL,,NULL,,103,Kentville,582,NULL
+7,South,61,6276,2013,0,0,0,S28-18-36,,NULL,,NULL,,103,Kentville,582,NULL
+9,North,15,6278,2013,0,0,0,"Canada Grise",,NULL,,NULL,,103,Kentville,583,NULL
+19,South,25,6279,2013,0,0,0,"Canada Grise",,NULL,,NULL,,103,Kentville,583,NULL
+16,North,7,6284,2013,0,0,0,"Gala Must Regal Prince",,NULL,,NULL,,103,Kentville,584,NULL
+7,South,4,6285,2013,0,0,0,"Gala Must Regal Prince",,NULL,,NULL,,103,Kentville,584,NULL
+12,North,7,6290,2013,0,0,1,"Ottawa 381",,NULL,,NULL,,103,Kentville,586,NULL
+3,South,21,6291,2013,0,0,0,"Ottawa 381",,NULL,,NULL,,103,Kentville,586,NULL
+10,North,29,6292,2013,0,0,0,Jonasty,,NULL,,NULL,,103,Kentville,587,NULL
+8,South,43,6294,2013,0,0,1,Jonasty,,NULL,,NULL,,103,Kentville,587,NULL
+15,North,45,6298,2013,0,0,1,Princesse,,NULL,,NULL,,103,Kentville,589,NULL
+3,South,16,6300,2013,0,0,0,Princesse,,NULL,,NULL,,103,Kentville,589,NULL
+4,North,25,6301,2013,0,0,0,Suntan,,18927,PI,589680,,103,Kentville,590,NULL
+5,South,59,6303,2013,0,0,0,Suntan,,18927,PI,589680,,103,Kentville,590,NULL
+16,North,43,6310,2013,0,0,0,Korona,,NULL,,NULL,,103,Kentville,592,NULL
+2,South,16,6311,2013,0,0,0,Korona,,NULL,,NULL,,103,Kentville,592,NULL
+14,North,13,6313,2013,0,0,0,Sinta,,22350,PI,589964,,103,Kentville,1238,NULL
+9,South,22,6314,2013,0,0,0,Sinta,,22350,PI,589964,,103,Kentville,1238,NULL
+16,North,6,6320,2013,0,0,0,S47-21-33,,NULL,,NULL,,84,Kentville,594,NULL
+1,South,20,6321,2013,0,0,0,S47-21-33,,NULL,,NULL,,84,Kentville,594,NULL
+14,North,46,6322,2013,0,0,0,S47-24-04,,NULL,,NULL,,84,Kentville,595,NULL
+7,South,29,6324,2013,0,0,0,S47-24-04,,NULL,,NULL,,84,Kentville,595,NULL
+19,North,11,6326,2013,0,0,1,S42-38-04,,NULL,,NULL,,84,Kentville,596,NULL
+15,South,42,7001,2013,0,0,0,S42-38-04,,NULL,,NULL,,84,Kentville,596,NULL
+17,North,5,7008,2013,0,0,0,S47-25-41,,NULL,,NULL,,84,Kentville,599,NULL
+1,South,58,7010,2013,0,0,0,S47-25-41,,NULL,,NULL,,84,Kentville,599,NULL
+1,North,12,7011,2013,0,0,1,S23-06-133,,NULL,,NULL,,103,Kentville,600,NULL
+2,South,38,7012,2013,0,0,0,S23-06-133,,NULL,,NULL,,103,Kentville,600,NULL
+2,North,55,7014,2013,0,0,0,S23-05-01,,NULL,,NULL,,103,Kentville,601,NULL
+9,South,11,7016,2013,0,0,1,S23-05-01,,NULL,,NULL,,103,Kentville,601,NULL
+15,North,31,7017,2013,0,0,0,S47-23-22,,NULL,,NULL,,84,Kentville,602,NULL
+6,South,41,7019,2013,0,0,0,S47-23-22,,NULL,,NULL,,84,Kentville,602,NULL
+18,North,27,7029,2013,0,0,0,S14-15-72,,NULL,,NULL,,103,Kentville,1235,NULL
+17,South,11,7030,2013,0,0,0,S14-15-72,,NULL,,NULL,,103,Kentville,1235,NULL
+8,North,8,7038,2013,0,0,0,S23-04-462,,NULL,,NULL,,103,Kentville,1236,NULL
+19,South,6,7040,2013,0,0,0,S23-04-462,,NULL,,NULL,,103,Kentville,1236,NULL
+10,North,18,7041,2013,0,0,0,S23-06-129,,NULL,,NULL,,103,Kentville,1237,NULL
+8,North,31,7048,2013,0,0,0,S47-24-47,,NULL,,NULL,,84,Kentville,609,NULL
+2,South,56,7049,2013,0,0,0,S47-24-47,,NULL,,NULL,,84,Kentville,609,NULL
+16,North,12,7050,2013,0,0,1,S47-25-72,,NULL,,NULL,,84,Kentville,610,NULL
+15,South,12,7052,2013,0,0,0,S47-25-72,,NULL,,NULL,,84,Kentville,610,NULL
+16,North,56,7054,2013,0,0,0,S47-21-25,,NULL,,NULL,,84,Kentville,611,NULL
+8,South,52,7055,2013,0,0,0,S47-21-25,,NULL,,NULL,,84,Kentville,611,NULL
+9,South,1,7056,2013,1,0,0,S47-21-32,,NULL,,NULL,,84,Kentville,612,NULL
+11,North,57,7057,2013,0,0,0,S47-21-32,,NULL,,NULL,,84,Kentville,612,NULL
+10,South,48,7058,2013,0,0,1,S47-21-32,,NULL,,NULL,,84,Kentville,612,NULL
+14,North,44,7063,2013,0,0,0,S47-20-38,,NULL,,NULL,,84,Kentville,614,NULL
+15,South,30,7064,2013,0,0,0,S47-20-38,,NULL,,NULL,,84,Kentville,614,NULL
+19,North,37,7065,2013,0,0,1,S42-61-05,,NULL,,NULL,,84,Kentville,615,NULL
+2,South,9,7067,2013,0,0,0,S42-61-05,,NULL,,NULL,,84,Kentville,615,NULL
+13,North,49,7068,2013,0,0,0,S41-11-03,,NULL,,NULL,,84,Kentville,616,NULL
+18,South,10,7070,2013,0,0,0,S41-11-03,,NULL,,NULL,,84,Kentville,616,NULL
+12,North,55,7072,2013,0,0,0,S42-28-05,,NULL,,NULL,,84,Kentville,617,NULL
+7,South,7,7073,2013,0,0,1,S42-28-05,,NULL,,NULL,,84,Kentville,617,NULL
+2,North,20,7083,2013,0,0,0,S42-39-10,,NULL,,NULL,,84,Kentville,621,NULL
+12,South,49,7085,2013,0,0,1,S42-39-10,,NULL,,NULL,,84,Kentville,621,NULL
+4,North,40,7086,2013,0,0,1,S47-12-44,,NULL,,NULL,,84,Kentville,622,NULL
+11,South,55,7087,2013,0,0,1,S47-12-44,,NULL,,NULL,,84,Kentville,622,NULL
+10,North,33,7092,2013,0,0,1,S42-08-08,,NULL,,NULL,,84,Kentville,624,NULL
+10,South,29,7094,2013,0,0,0,S42-08-08,,NULL,,NULL,,84,Kentville,624,NULL
+8,North,25,7101,2013,0,0,1,S42-48-06,,NULL,,NULL,,84,Kentville,627,NULL
+3,South,43,7103,2013,0,0,1,S42-48-06,,NULL,,NULL,,84,Kentville,627,NULL
+16,North,8,7105,2013,0,0,0,S47-21-84,,NULL,,NULL,,84,Kentville,628,NULL
+5,South,5,7106,2013,0,0,0,S47-21-84,,NULL,,NULL,,84,Kentville,628,NULL
+13,North,12,7108,2013,0,0,0,S47-25-51,,NULL,,NULL,,84,Kentville,629,NULL
+5,South,49,7109,2013,0,0,1,S47-25-51,,NULL,,NULL,,84,Kentville,629,NULL
+5,North,21,7110,2013,0,0,0,S47-25-05,,NULL,,NULL,,84,Kentville,630,NULL
+9,South,54,7112,2013,0,0,0,S47-25-05,,NULL,,NULL,,84,Kentville,630,NULL
+12,North,46,7113,2013,0,0,0,S47-21-29,,NULL,,NULL,,84,Kentville,631,NULL
+10,South,10,7114,2013,0,0,0,S47-21-29,,NULL,,NULL,,84,Kentville,631,NULL
+19,North,8,7116,2013,0,0,1,S47-25-48,,NULL,,NULL,,84,Kentville,632,NULL
+14,South,50,7117,2013,0,0,1,S47-25-48,,NULL,,NULL,,84,Kentville,632,NULL
+13,South,62,7118,2013,1,0,0,S47-25-48,,NULL,,NULL,,84,Kentville,632,NULL
+13,North,37,7122,2013,0,0,0,S47-12-67,,NULL,,NULL,,84,Kentville,634,NULL
+9,South,38,7124,2013,0,0,0,S47-12-67,,NULL,,NULL,,84,Kentville,634,NULL
+18,North,28,7131,2013,0,0,0,S20-07-41,,NULL,,NULL,,103,Kentville,637,NULL
+1,South,38,7133,2013,0,0,1,S20-07-41,,NULL,,NULL,,103,Kentville,637,NULL
+11,North,34,7135,2013,0,0,0,S23-04-570,,NULL,,NULL,,103,Kentville,638,NULL
+16,South,13,7136,2013,0,0,1,S23-04-570,,NULL,,NULL,,103,Kentville,638,NULL
+18,North,41,7143,2013,0,0,0,S23-03-20,,NULL,,NULL,,103,Kentville,641,NULL
+1,South,49,7144,2013,0,0,0,S23-03-20,,NULL,,NULL,,103,Kentville,641,NULL
+12,North,53,7147,2013,0,0,0,S23-02-626,,NULL,,NULL,,103,Kentville,642,NULL
+19,South,4,7148,2013,0,0,0,S23-02-626,,NULL,,NULL,,103,Kentville,642,NULL
+17,North,2,7152,2013,0,0,0,S29-13-73,,NULL,,NULL,,103,Kentville,643,NULL
+13,South,25,7154,2013,0,0,0,S29-13-73,,NULL,,NULL,,103,Kentville,643,NULL
+1,South,54,7164,2013,0,0,0,S23-06-129,,NULL,,NULL,,103,Kentville,1237,NULL
+9,North,50,7168,2013,0,0,0,S47-23-82,,NULL,,NULL,,103,Kentville,647,NULL
+3,South,41,7169,2013,0,0,0,S47-23-82,,NULL,,NULL,,103,Kentville,647,NULL
+18,North,9,7170,2013,0,0,0,S29-05-38,,NULL,,NULL,,103,Kentville,648,NULL
+11,South,51,7171,2013,0,0,1,S29-05-38,,NULL,,NULL,,103,Kentville,648,NULL
+10,North,35,7173,2013,0,0,0,S23-14-46,,NULL,,NULL,,103,Kentville,649,NULL
+11,South,26,7174,2013,0,0,0,S23-14-46,,NULL,,NULL,,103,Kentville,649,NULL
+7,North,29,7177,2013,0,0,1,S23-02-350,,NULL,,NULL,,103,Kentville,650,NULL
+15,South,27,7178,2013,0,0,1,S23-02-350,,NULL,,NULL,,103,Kentville,650,NULL
+12,North,52,7180,2013,0,0,0,S23-03-749,,NULL,,NULL,,103,Kentville,651,NULL
+1,South,22,7181,2013,0,0,0,S23-03-749,,NULL,,NULL,,103,Kentville,651,NULL
+10,North,45,7182,2013,0,0,0,S47-23-49,,NULL,,NULL,,103,Kentville,652,NULL
+6,North,1,7183,2013,1,0,0,S47-23-49,,NULL,,NULL,,103,Kentville,652,NULL
+18,South,55,7184,2013,0,0,1,S47-23-49,,NULL,,NULL,,103,Kentville,652,NULL
+9,North,18,7185,2013,0,0,0,S47-25-82,,NULL,,NULL,,84,Kentville,653,NULL
+8,South,51,7186,2013,0,0,1,S47-25-82,,NULL,,NULL,,84,Kentville,653,NULL
+18,North,46,7188,2013,0,0,0,S12-31-18,,NULL,,NULL,,103,Kentville,654,NULL
+5,South,29,7189,2013,0,0,0,S12-31-18,,NULL,,NULL,,103,Kentville,654,NULL
+17,North,17,7200,2013,0,0,0,S47-23-52,,NULL,,NULL,,103,Kentville,657,NULL
+8,South,16,7202,2013,0,0,0,S47-23-52,,NULL,,NULL,,103,Kentville,657,NULL
+15,North,4,7204,2013,0,0,0,S29-08-17,,NULL,,NULL,,103,Kentville,658,NULL
+16,South,39,7205,2013,0,0,0,S29-08-17,,NULL,,NULL,,103,Kentville,658,NULL
+15,North,58,7206,2013,0,0,0,S23-04-05,,NULL,,NULL,,103,Kentville,659,NULL
+11,South,53,7208,2013,0,0,0,S23-04-05,,NULL,,NULL,,103,Kentville,659,NULL
+11,North,19,7209,2013,0,0,0,S29-13-105,,NULL,,NULL,,103,Kentville,660,NULL
+9,South,10,7210,2013,0,0,0,S29-13-105,,NULL,,NULL,,103,Kentville,660,NULL
+18,North,23,7213,2013,0,0,0,S47-21-24,,NULL,,NULL,,84,Kentville,661,NULL
+2,South,26,7214,2013,0,0,0,S47-21-24,,NULL,,NULL,,84,Kentville,661,NULL
+5,North,14,7215,2013,0,0,0,S16-06-72,,NULL,,NULL,,84,Kentville,662,NULL
+17,South,20,7216,2013,0,0,0,S16-06-72,,NULL,,NULL,,84,Kentville,662,NULL
+9,North,60,7221,2013,0,0,0,S19-25-36,,NULL,,NULL,,84,Kentville,664,NULL
+9,South,15,7223,2013,0,0,0,S19-25-36,,NULL,,NULL,,84,Kentville,664,NULL
+2,North,3,7234,2013,0,0,0,S31-04-41,,NULL,,NULL,,84,Kentville,668,NULL
+18,South,16,7235,2013,0,0,0,S31-04-41,,NULL,,NULL,,84,Kentville,668,NULL
+4,North,30,7237,2013,0,0,0,"Ottawa 637",,NULL,,NULL,,84,Kentville,669,NULL
+3,South,40,7238,2013,0,0,1,"Ottawa 637",,NULL,,NULL,,84,Kentville,669,NULL
+5,North,32,7246,2013,0,0,1,S38-03-25,,NULL,,NULL,,84,Kentville,672,NULL
+16,South,55,7247,2013,0,0,0,S38-03-25,,NULL,,NULL,,84,Kentville,672,NULL
+6,North,47,7248,2013,0,0,0,S38-04-01,,NULL,,NULL,,84,Kentville,673,NULL
+6,South,15,7250,2013,0,0,0,S38-04-01,,NULL,,NULL,,84,Kentville,673,NULL
+6,North,43,7251,2013,0,0,0,S42-40-09,,NULL,,NULL,,84,Kentville,674,NULL
+6,South,38,7253,2013,0,0,1,S42-40-09,,NULL,,NULL,,84,Kentville,674,NULL
+7,North,20,7254,2013,0,0,0,S19-23-52,,NULL,,NULL,,84,Kentville,675,NULL
+18,South,33,7255,2013,0,0,0,S19-23-52,,NULL,,NULL,,84,Kentville,675,NULL
+9,North,13,7260,2013,0,0,0,S38-03-28,,NULL,,NULL,,84,Kentville,677,NULL
+15,South,24,7262,2013,0,0,0,S38-03-28,,NULL,,NULL,,84,Kentville,677,NULL
+5,North,49,7263,2013,0,0,0,S38-04-11,,NULL,,NULL,,84,Kentville,678,NULL
+13,South,19,7264,2013,0,0,0,S38-04-11,,NULL,,NULL,,84,Kentville,678,NULL
+4,North,32,7267,2013,0,0,0,S38-03-89,,NULL,,NULL,,84,Kentville,679,NULL
+13,South,50,7268,2013,0,0,0,S38-03-89,,NULL,,NULL,,84,Kentville,679,NULL
+10,North,49,7269,2013,0,0,1,S38-03-15,,NULL,,NULL,,84,Kentville,680,NULL
+15,South,58,7271,2013,0,0,1,S38-03-15,,NULL,,NULL,,84,Kentville,680,NULL
+15,North,17,7272,2013,0,0,0,S38-06-140,,NULL,,NULL,,84,Kentville,681,NULL
+13,South,35,7273,2013,0,0,0,S38-06-140,,NULL,,NULL,,84,Kentville,681,NULL
+5,North,53,7275,2013,0,0,0,S19-33-04,,NULL,,NULL,,84,Kentville,682,NULL
+18,South,19,7277,2013,0,0,0,S19-33-04,,NULL,,NULL,,84,Kentville,682,NULL
+16,North,34,7284,2013,0,0,0,S19-15-03,,NULL,,NULL,,84,Kentville,685,NULL
+8,South,10,7285,2013,0,0,0,S19-15-03,,NULL,,NULL,,84,Kentville,685,NULL
+5,North,52,7287,2013,0,0,0,S10-13-28,,NULL,,NULL,,84,Kentville,686,NULL
+10,South,56,7289,2013,0,0,1,S10-13-28,,NULL,,NULL,,84,Kentville,686,NULL
+16,North,3,7290,2013,0,0,0,S10-17-58,,NULL,,NULL,,84,Kentville,687,NULL
+18,South,60,7291,2013,0,0,0,S10-17-58,,NULL,,NULL,,84,Kentville,687,NULL
+12,North,10,7293,2013,0,0,0,S16-06-84,,NULL,,NULL,,84,Kentville,688,NULL
+3,South,60,7295,2013,0,0,0,S16-06-84,,NULL,,NULL,,84,Kentville,688,NULL
+18,North,7,7297,2013,0,0,0,S19-10-04,,NULL,,NULL,,84,Kentville,689,NULL
+5,South,27,7298,2013,0,0,0,S19-10-04,,NULL,,NULL,,84,Kentville,689,NULL
+10,North,40,7299,2013,0,0,0,S10-16-14,,NULL,,NULL,,84,Kentville,690,NULL
+10,South,24,7300,2013,0,0,0,S10-16-14,,NULL,,NULL,,84,Kentville,690,NULL
+14,North,40,7303,2013,0,0,0,S10-16-48,,NULL,,NULL,,84,Kentville,691,NULL
+7,South,8,7304,2013,0,0,0,S10-16-48,,NULL,,NULL,,84,Kentville,691,NULL
+19,North,36,7308,2013,0,0,0,S19-12-42,,NULL,,NULL,,84,Kentville,693,NULL
+7,South,49,7310,2013,0,0,0,S19-12-42,,NULL,,NULL,,84,Kentville,693,NULL
+13,North,55,7314,2013,0,0,0,"Ottawa 533",,NULL,,NULL,,84,Kentville,695,NULL
+4,North,2,13086,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+16,North,2,13087,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+12,North,42,13088,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+14,North,22,13089,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+8,North,22,13090,2013,0,1,1,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+18,North,42,13091,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+6,North,42,13092,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+2,South,22,13093,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+10,South,2,13094,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+4,South,2,13095,2013,0,1,1,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+16,South,2,13096,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+12,South,42,13097,2013,0,1,1,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+14,South,22,13098,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+8,South,22,13099,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+18,South,42,13100,2013,0,1,0,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+6,South,42,13101,2013,0,1,1,Ambrosia,,NULL,,NULL,,113,Kentville,1216,dessert
+9,North,47,9112,2013,0,0,0,Eickhoff,,227548,PI,302301,.06,NULL,USDA,844,dessert
+7,South,38,9113,2013,0,0,0,Eickhoff,,227548,PI,302301,.06,NULL,USDA,844,dessert
+8,North,9,9153,2013,0,0,1,Elektra,,257105,PI,344551,.08,NULL,USDA,858,dessert
+9,South,21,9155,2013,0,0,0,Elektra,,257105,PI,344551,.08,NULL,USDA,858,dessert
+14,North,35,8136,2013,0,0,0,"Ellis Bitter",,18721,PI,589650,.04,NULL,USDA,741,cider
+13,South,40,8137,2013,0,0,1,"Ellis Bitter",,18721,PI,589650,.04,NULL,USDA,741,cider
+9,North,1,8180,2013,1,0,0,Erickson,,24786,PI,590148,.06,NULL,USDA,756,cider
+6,North,16,8181,2013,0,0,0,Erickson,,24786,PI,590148,.06,NULL,USDA,756,cider
+13,South,60,8182,2013,0,0,0,Erickson,,24786,PI,590148,.06,NULL,USDA,756,cider
+5,North,50,9108,2013,0,0,0,"Erwin Bauer",,7315,PI,589029,.05,NULL,USDA,843,dessert
+16,South,31,9110,2013,0,0,0,"Erwin Bauer",,7315,PI,589029,.05,NULL,USDA,843,dessert
+4,North,5,8276,2013,0,0,0,Fallawater,,13771,PI,589294,.05,NULL,USDA,788,cider
+4,South,60,8278,2013,0,0,1,Fallawater,,13771,PI,589294,.05,NULL,USDA,788,cider
+3,North,57,9318,2013,0,0,0,"Fenouillet Gris",,134743,PI,136591,.06,NULL,USDA,912,dessert
+1,South,34,9319,2013,0,0,1,"Fenouillet Gris",,134743,PI,136591,.06,NULL,USDA,912,dessert
+15,North,8,8243,2013,0,0,0,"Field Spy",,7977,PI,589055,.09,NULL,USDA,777,cider
+13,South,43,8244,2013,0,0,0,"Field Spy",,7977,PI,589055,.09,NULL,USDA,777,cider
+9,North,2,8240,2013,0,0,1,Fillbarrel,,18919,PI,589679,.04,NULL,USDA,776,cider
+8,North,1,8241,2013,1,0,0,Fillbarrel,,18919,PI,589679,.04,NULL,USDA,776,cider
+4,South,44,8242,2013,0,0,0,Fillbarrel,,18919,PI,589679,.04,NULL,USDA,776,cider
+1,North,32,8297,2013,0,0,0,Fireside,,681509,PI,644191,.01,NULL,USDA,795,dessert
+18,South,51,8299,2013,0,0,1,Fireside,,681509,PI,644191,.01,NULL,USDA,795,dessert
+17,North,58,9186,2013,0,0,0,Foxwhelp,,14598,PI,589318,.09,NULL,USDA,869,cider
+12,South,43,9188,2013,0,0,1,Foxwhelp,,14598,PI,589318,.09,NULL,USDA,869,cider
+2,North,17,8216,2013,0,0,0,Frequin,,140094,PI,162503,.06,NULL,USDA,768,cider
+16,South,7,8218,2013,0,0,0,Frequin,,140094,PI,162503,.06,NULL,USDA,768,cider
+2,North,7,8225,2013,0,0,1,"Frumos de Voinesta",,2697,PI,588796,.05,NULL,USDA,771,dessert
+11,South,18,8227,2013,0,0,0,"Frumos de Voinesta",,2697,PI,588796,.05,NULL,USDA,771,dessert
+14,North,33,8303,2013,0,0,0,Gales,,21307,PI,589850,.09,NULL,USDA,797,cider
+9,South,30,8305,2013,0,0,0,Gales,,21307,PI,589850,.09,NULL,USDA,797,cider
+13,North,44,8261,2013,0,0,0,"Gallia Beauty",,7451,PI,589034,.05,NULL,USDA,783,dessert
+17,South,38,8263,2013,0,0,0,"Gallia Beauty",,7451,PI,589034,.05,NULL,USDA,783,dessert
+13,North,57,9054,2013,0,0,0,Garland,,10764,PI,589168,.08,NULL,USDA,825,dessert
+4,South,36,9055,2013,0,0,0,Garland,,10764,PI,589168,.08,NULL,USDA,825,dessert
+3,North,35,8064,2013,0,0,0,Garrison,,10968,PI,589176,.09,NULL,USDA,717,cider
+1,South,47,8065,2013,0,0,0,Garrison,,10968,PI,589176,.09,NULL,USDA,717,cider
+1,North,35,9286,2013,0,0,0,"Geeveston Fanny",,9483,PI,589123,.06,NULL,USDA,901,cider
+7,South,14,9287,2013,0,0,0,"Geeveston Fanny",,9483,PI,589123,.06,NULL,USDA,901,cider
+4,North,50,9282,2013,0,0,0,"George Cave",,18941,PI,589683,.08,NULL,USDA,900,cider
+15,South,39,9283,2013,0,0,0,"George Cave",,18941,PI,589683,.08,NULL,USDA,900,cider
+11,North,36,9267,2013,0,0,0,Gilliflower,,23368,PI,590023,.06,NULL,USDA,896,cider
+10,South,18,9269,2013,0,0,0,Gilliflower,,23368,PI,590023,.06,NULL,USDA,896,cider
+17,North,44,8150,2013,0,0,0,Gladstone,,127813,PI,102140,.09,NULL,USDA,746,dessert
+17,South,47,8151,2013,0,0,1,Gladstone,,127813,PI,102140,.09,NULL,USDA,746,dessert
+9,North,14,9009,2013,0,0,0,Glenorchie,,17813,PI,589524,.05,NULL,USDA,810,cider
+7,South,45,9011,2013,0,0,0,Glenorchie,,17813,PI,589524,.05,NULL,USDA,810,cider
+13,North,48,8111,2013,0,0,0,"Golden Harvey",,24678,PI,590128,.05,NULL,USDA,733,dessert
+4,South,41,8112,2013,0,0,0,"Golden Harvey",,24678,PI,590128,.05,NULL,USDA,733,dessert
+13,North,33,9069,2013,0,0,0,"Golden Noble",,9878,PI,589135,.07,NULL,USDA,830,cider
+4,South,46,9071,2013,0,0,1,"Golden Noble",,9878,PI,589135,.07,NULL,USDA,830,cider
+18,North,18,9169,2013,0,0,0,"Golden Nugget",,9538,PI,589126,.07,NULL,USDA,863,cider
+15,South,23,9170,2013,0,0,0,"Golden Nugget",,9538,PI,589126,.07,NULL,USDA,863,cider
+6,North,38,9141,2013,0,0,0,"Golden Precoce",,17221,PI,589448,.05,NULL,USDA,854,dessert
+16,South,46,9142,2013,0,0,0,"Golden Precoce",,17221,PI,589448,.05,NULL,USDA,854,dessert
+12,North,35,8223,2013,0,0,1,"Golden Russet",,21846,PI,589892,.06,NULL,USDA,770,cider
+8,South,24,8224,2013,0,0,0,"Golden Russet",,21846,PI,589892,.06,NULL,USDA,770,cider
+8,North,27,8079,2013,0,0,0,"Golden Winesap",,21285,PI,589844,.04,NULL,USDA,722,cider
+1,South,5,8080,2013,0,0,1,"Golden Winesap",,21285,PI,589844,.04,NULL,USDA,722,cider
+13,North,5,8300,2013,0,0,0,Goldjon,,237072,PI,318409,.05,NULL,USDA,796,dessert
+2,South,21,8302,2014,0,0,0,Goldjon,,237072,PI,318409,.05,NULL,USDA,796,dessert
+6,North,19,8252,2013,0,0,0,Goodland,,24860,PI,590158,.03,NULL,USDA,780,dessert
+12,South,44,8253,2013,0,0,1,Goodland,,24860,PI,590158,.03,NULL,USDA,780,dessert
+12,North,30,9204,2013,0,0,0,Greenchisel,,171047,PI,203813,.09,NULL,USDA,875,dessert
+19,South,24,9206,2013,0,0,0,Greenchisel,,171047,PI,203813,.09,NULL,USDA,875,dessert
+5,North,35,8123,2013,0,0,0,Greendale,,11033,PI,589179,.06,NULL,USDA,737,dessert
+14,South,36,8125,2013,0,0,0,Greendale,,11033,PI,589179,.06,NULL,USDA,737,dessert
+2,North,11,8133,2013,0,0,1,Grenadier,,18954,PI,589684,.07,NULL,USDA,740,dessert
+13,South,55,8134,2013,0,0,0,Grenadier,,18954,PI,589684,.07,NULL,USDA,740,dessert
+10,North,11,8321,2013,0,0,1,Griffith,,8314,PI,589070,.06,NULL,USDA,803,dessert
+5,South,2,8322,2013,0,0,0,Griffith,,8314,PI,589070,.06,NULL,USDA,803,dessert
+10,North,12,9250,2013,0,0,1,"Grise Dieppoise",,132785,PI,125746,.06,NULL,USDA,890,dessert
+6,South,61,9251,2013,0,0,0,"Grise Dieppoise",,132785,PI,125746,.06,NULL,USDA,890,dessert
+1,North,41,8195,2013,0,0,0,"Gros Frequin",,133885,PI,131105,.08,NULL,USDA,761,dessert
+8,South,13,8197,2013,0,0,0,"Gros Frequin",,133885,PI,131105,.08,NULL,USDA,761,dessert
+9,North,61,8202,2013,0,0,0,"Grosse Mouche",,140131,PI,162545,.04,NULL,USDA,763,cider
+2,South,29,8203,2013,0,0,0,"Grosse Mouche",,140131,PI,162545,.04,NULL,USDA,763,cider
+11,North,61,8210,2013,0,0,1,Guldborg,,200485,PI,265301,.06,NULL,USDA,766,cider
+9,South,45,8212,2013,0,0,1,Guldborg,,200485,PI,265301,.06,NULL,USDA,766,cider
+8,North,19,8189,2013,0,0,1,"Halberstadter Jungfernapfel",,134084,PI,132759,.06,NULL,USDA,759,cider
+19,South,58,8191,2013,0,0,0,"Halberstadter Jungfernapfel",,134084,PI,132759,.06,NULL,USDA,759,cider
+16,North,60,8307,2013,0,0,0,"Hall Keeper",,11165,PI,589187,.11,NULL,USDA,798,cider
+8,South,48,8308,2013,0,0,0,"Hall Keeper",,11165,PI,589187,.11,NULL,USDA,798,cider
+5,North,17,8259,2013,0,0,1,Harcourt,,17803,PI,589523,.05,NULL,USDA,782,dessert
+18,South,5,8260,2013,0,0,0,Harcourt,,17803,PI,589523,.05,NULL,USDA,782,dessert
+8,North,10,9315,2013,0,0,0,"Harry Masters Jersey",,18742,PI,589653,.07,NULL,USDA,911,cider
+6,South,27,9316,2013,0,0,0,"Harry Masters Jersey",,18742,PI,589653,.07,NULL,USDA,911,cider
+2,North,39,8048,2013,0,0,0,Hawkeye,,23379,PI,590026,.04,NULL,USDA,712,dessert
+11,South,4,8050,2013,0,0,0,Hawkeye,,23379,PI,590026,.04,NULL,USDA,712,dessert
+10,North,43,8042,2013,0,0,0,Heimenhofer,,401295,PI,506359,.05,NULL,USDA,710,dessert
+19,South,7,8043,2013,0,0,0,Heimenhofer,,401295,PI,506359,.05,NULL,USDA,710,dessert
+5,North,30,8318,2013,0,0,0,"Hendrick Sweet",,13780,PI,589295,.07,NULL,USDA,802,dessert
+17,South,56,8319,2013,0,0,0,"Hendrick Sweet",,13780,PI,589295,.07,NULL,USDA,802,dessert
+12,North,50,9093,2013,0,0,0,Herma,,257106,PI,344552,.07,NULL,USDA,838,dessert
+16,South,25,9094,2013,0,0,1,Herma,,257106,PI,344552,.07,NULL,USDA,838,dessert
+13,North,47,9045,2013,0,0,0,Hermann,,205814,PI,274066,.06,NULL,USDA,822,cider
+5,South,17,9046,2013,0,0,0,Hermann,,205814,PI,274066,.06,NULL,USDA,822,cider
+5,North,10,8018,2013,0,0,1,Holland,,21300,PI,589847,.04,NULL,USDA,702,dessert
+19,South,40,8020,2013,0,0,0,Holland,,21300,PI,589847,.04,NULL,USDA,702,dessert
+14,North,45,9088,2013,0,0,1,Holstein,,18781,PI,589660,.06,NULL,USDA,836,dessert
+13,South,42,9089,2013,0,0,1,Holstein,,18781,PI,589660,.06,NULL,USDA,836,dessert
+2,North,2,13126,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+12,North,22,13127,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+14,North,2,13128,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+10,North,42,13130,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+4,North,42,13132,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+16,North,42,13135,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+6,North,22,13136,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+8,South,2,13137,2013,0,1,1,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+18,South,22,13138,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+2,South,2,13139,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+12,South,22,13140,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+14,South,2,13141,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+10,South,42,13142,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+4,South,42,13143,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+16,South,42,13144,2013,0,1,0,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+6,South,22,13145,2013,0,1,1,Honeycrisp,,649420,PI,644174,,113,Kentville,1223,dessert
+3,North,15,8129,2013,0,0,0,Honeygold,,4989,PI,588939,.05,NULL,USDA,739,dessert
+13,South,54,8131,2013,0,0,0,Honeygold,,4989,PI,588939,.05,NULL,USDA,739,dessert
+17,North,15,9192,2013,0,0,0,Honora,,257107,PI,344553,.08,NULL,USDA,871,dessert
+10,South,4,9193,2013,0,0,0,Honora,,257107,PI,344553,.08,NULL,USDA,871,dessert
+15,North,32,9079,2013,0,0,0,Hoover,,200486,PI,265302,.10,NULL,USDA,833,cider
+14,South,53,9080,2013,0,0,0,Hoover,,200486,PI,265302,.10,NULL,USDA,833,cider
+15,North,27,8286,2013,0,0,0,"Hotle Rome",,6666,PI,588986,.13,NULL,USDA,791,dessert
+13,South,36,8287,2013,0,0,0,"Hotle Rome",,6666,PI,588986,.13,NULL,USDA,791,dessert
+7,North,35,9115,2013,0,0,1,"Howgate Wonder",,18832,PI,589668,.06,NULL,USDA,845,cider
+7,South,51,9116,2013,0,0,0,"Howgate Wonder",,18832,PI,589668,.06,NULL,USDA,845,cider
+5,South,24,8127,2013,0,0,1,"Hubbards Pearmain",,24688,PI,590130,.04,NULL,USDA,738,cider
+6,North,13,8208,2013,0,0,1,"Hudson's Golden Gem",,24859,PI,590157,.03,NULL,USDA,765,dessert
+12,South,4,8209,2013,0,0,0,"Hudson's Golden Gem",,24859,PI,590157,.03,NULL,USDA,765,dessert
+14,North,37,9033,2013,0,0,0,Huidobro,,189945,PI,247025,.08,NULL,USDA,818,dessert
+16,South,34,9034,2013,0,0,0,Huidobro,,189945,PI,247025,.08,NULL,USDA,818,dessert
+10,North,3,9130,2013,0,0,1,Huvitus,,180727,PI,224610,.10,NULL,USDA,850,dessert
+19,South,36,9131,2013,0,0,0,Huvitus,,180727,PI,224610,.10,NULL,USDA,850,dessert
+10,North,14,8246,2013,0,0,1,Idajon,,17208,PI,589446,.05,NULL,USDA,778,dessert
+8,South,55,8247,2013,0,0,1,Idajon,,17208,PI,589446,.05,NULL,USDA,778,dessert
+13,North,18,9304,2013,0,0,0,"Imperial Stayman",,211022,PI,283698,.04,NULL,USDA,907,cider
+9,South,58,9305,2013,0,0,0,"Imperial Stayman",,211022,PI,283698,.04,NULL,USDA,907,cider
+6,North,21,9042,2013,0,0,0,Ingram,,8331,PI,589072,.06,NULL,USDA,821,dessert
+18,South,4,9043,2013,0,0,0,Ingram,,8331,PI,589072,.06,NULL,USDA,821,dessert
+12,North,27,8144,2013,0,0,0,Jamba,,22009,PI,589917,.06,NULL,USDA,744,dessert
+9,South,52,8146,2013,0,0,1,Jamba,,22009,PI,589917,.06,NULL,USDA,744,dessert
+11,North,55,8067,2013,0,0,0,"Jan Steen",,22010,PI,589918,.07,NULL,USDA,718,dessert
+11,South,24,8068,2013,0,0,0,"Jan Steen",,22010,PI,589918,.07,NULL,USDA,718,dessert
+18,North,21,8024,2013,0,0,0,Joan,,6445,PI,588972,.11,NULL,USDA,704,dessert
+7,South,22,8025,2013,0,0,0,Joan,,6445,PI,588972,.11,NULL,USDA,704,dessert
+7,North,32,9132,2013,0,0,0,"Johannes Bottner",,165076,PI,194106,.04,NULL,USDA,851,cider
+18,South,25,9134,2013,0,0,0,"Johannes Bottner",,165076,PI,194106,.04,NULL,USDA,851,cider
+14,North,19,8087,2013,0,0,0,Jonagram,,6842,PI,589002,.09,NULL,USDA,725,dessert
+8,South,40,8089,2013,0,0,0,Jonagram,,6842,PI,589002,.09,NULL,USDA,725,dessert
+15,North,52,9027,2013,0,0,0,Jonared,,4990,PI,588940,.03,NULL,USDA,816,dessert
+5,South,12,9029,2013,0,0,1,Jonared,,4990,PI,588940,.03,NULL,USDA,816,dessert
+8,North,4,8036,2013,0,0,0,Jonathan,,24950,PI,590185,.08,NULL,USDA,708,dessert
+12,South,16,8037,2013,0,0,0,Jonathan,,24950,PI,590185,.08,NULL,USDA,708,dessert
+14,North,23,9294,2013,0,0,0,Jouveaux,,140214,PI,162731,.04,NULL,USDA,904,cider
+1,South,29,9296,2013,0,0,0,Jouveaux,,140214,PI,162731,.04,NULL,USDA,904,cider
+19,North,45,8108,2013,0,0,0,Jubillee,,19534,PI,589725,.04,NULL,USDA,732,dessert
+2,South,45,8110,2013,0,0,0,Jubillee,,19534,PI,589725,.04,NULL,USDA,732,dessert
+19,North,16,9222,2013,0,0,0,Julyred,,5005,PI,588942,.05,NULL,USDA,881,dessert
+7,South,48,9223,2013,0,0,1,Julyred,,5005,PI,588942,.05,NULL,USDA,881,dessert
+19,North,17,9300,2013,0,0,0,"Kaiser Wilhelm",,18088,PI,589564,.07,NULL,USDA,906,dessert
+19,South,42,9301,2013,0,0,0,"Kaiser Wilhelm",,18088,PI,589564,.07,NULL,USDA,906,dessert
+4,North,24,8273,2013,0,0,0,Kanorkowa,,197620,PI,259449,.06,NULL,USDA,787,cider
+18,South,11,8274,2013,0,0,0,Kanorkowa,,197620,PI,259449,.06,NULL,USDA,787,cider
+13,North,23,8237,2013,0,0,0,Karastojanka,,331998,PI,437062,.06,NULL,USDA,775,dessert
+14,South,39,8239,2013,0,0,0,Karastojanka,,331998,PI,437062,.06,NULL,USDA,775,dessert
+9,North,42,9258,2013,0,0,0,"Kardinal Bea",,18117,PI,589568,.09,NULL,USDA,893,dessert
+7,South,53,9259,2013,0,0,0,"Kardinal Bea",,18117,PI,589568,.09,NULL,USDA,893,dessert
+5,North,48,8177,2013,0,0,0,Karmijn,,17148,PI,589436,.05,NULL,USDA,755,cider
+5,South,55,8178,2013,0,0,0,Karmijn,,17148,PI,589436,.05,NULL,USDA,755,cider
+3,North,2,9225,2013,0,0,0,Katja,,17567,PI,589492,.08,NULL,USDA,882,dessert
+18,South,54,9226,2013,0,0,0,Katja,,17567,PI,589492,.08,NULL,USDA,882,dessert
+7,North,25,8100,2013,0,0,0,Kendall,,6806,PI,589000,.09,NULL,USDA,729,dessert
+19,South,11,8101,2013,0,0,0,Kendall,,6806,PI,589000,.09,NULL,USDA,729,dessert
+16,North,44,9255,2013,0,0,0,"Kerry Pippin",,200104,PI,264557,.05,NULL,USDA,892,dessert
+7,South,44,9256,2013,0,0,1,"Kerry Pippin",,200104,PI,264557,.05,NULL,USDA,892,dessert
+10,North,38,8171,2013,0,0,0,Kestrel,,17652,PI,589504,.05,NULL,USDA,753,dessert
+15,South,37,8173,2013,0,0,0,Kestrel,,17652,PI,589504,.05,NULL,USDA,753,dessert
+9,North,22,9039,2013,0,0,1,Keuleman,,18316,PI,589590,.07,NULL,USDA,820,cider
+13,South,12,9041,2013,0,0,0,Keuleman,,18316,PI,589590,.07,NULL,USDA,820,cider
+8,North,57,9264,2013,0,0,0,"Kidd's Orange Red",,189946,PI,247026,.09,NULL,USDA,895,dessert
+11,South,15,9265,2013,0,0,0,"Kidd's Orange Red",,189946,PI,247026,.09,NULL,USDA,895,dessert
+2,North,62,9266,2013,1,0,0,"Kidd's Orange Red",,189946,PI,247026,.09,NULL,USDA,895,dessert
+15,North,47,9030,2013,0,0,0,Kile,,294444,PI,392308,.08,NULL,USDA,817,dessert
+6,South,43,9032,2013,0,0,0,Kile,,294444,PI,392308,.08,NULL,USDA,817,dessert
+7,North,57,8193,2013,0,0,1,King,,3555,PI,588833,.05,NULL,USDA,760,dessert
+8,South,61,8194,2013,0,0,0,King,,3555,PI,588833,.05,NULL,USDA,760,dessert
+15,North,54,8030,2013,0,0,0,"King Cole",,192889,PI,249925,.10,NULL,USDA,706,dessert
+17,South,59,8031,2013,0,0,0,"King Cole",,192889,PI,249925,.10,NULL,USDA,706,dessert
+6,South,1,9018,2013,1,0,0,"King David",,10527,PI,589156,.07,NULL,USDA,813,cider
+14,North,47,9019,2013,0,0,0,"King David",,10527,PI,589156,.07,NULL,USDA,813,cider
+13,South,33,9020,2013,0,0,0,"King David",,10527,PI,589156,.07,NULL,USDA,813,cider
+6,North,30,9310,2013,0,0,0,"King Edward VII",,18915,PI,589678,.06,NULL,USDA,909,cider
+12,South,23,9311,2013,0,0,0,"King Edward VII",,18915,PI,589678,.06,NULL,USDA,909,cider
+1,North,10,9198,2013,0,0,1,"King of the Pippins",,18901,PI,589676,.08,NULL,USDA,873,dessert
+2,South,51,9199,2013,0,0,1,"King of the Pippins",,18901,PI,589676,.08,NULL,USDA,873,dessert
+10,North,10,8333,2013,0,0,0,Kingjon,,24793,PI,590150,.03,NULL,USDA,807,dessert
+9,South,3,9002,2013,0,0,0,Kingjon,,24793,PI,590150,.03,NULL,USDA,807,dessert
+3,North,49,9102,2013,0,0,0,Kinsei,,22227,PI,589944,.04,NULL,USDA,841,dessert
+6,South,55,9103,2013,0,0,0,Kinsei,,22227,PI,589944,.04,NULL,USDA,841,dessert
+18,North,37,8073,2013,0,0,0,Korallo,,22019,PI,589919,.06,NULL,USDA,720,cider
+15,South,10,8074,2013,0,0,0,Korallo,,22019,PI,589919,.06,NULL,USDA,720,cider
+6,North,39,8174,2013,0,0,0,Korei,,168806,PI,199527,.05,NULL,USDA,754,cider
+9,South,42,8175,2013,0,0,0,Korei,,168806,PI,199527,.05,NULL,USDA,754,cider
+5,North,61,9279,2013,0,0,0,Kosmonaut,,277040,PI,369714,.10,NULL,USDA,899,dessert
+8,South,11,9281,2013,0,0,0,Kosmonaut,,277040,PI,369714,.10,NULL,USDA,899,dessert
+8,North,18,8033,2013,0,0,0,Krapchatoe,,222599,PI,293889,.08,NULL,USDA,707,dessert
+4,South,54,8034,2013,0,0,0,Krapchatoe,,222599,PI,293889,.08,NULL,USDA,707,dessert
+14,North,57,9022,2013,0,0,0,"La Paix",,18362,PI,589598,.07,NULL,USDA,814,dessert
+17,South,28,9023,2013,0,0,0,"La Paix",,18362,PI,589598,.07,NULL,USDA,814,dessert
+18,North,32,8234,2013,0,0,0,Lakeland,,11159,PI,589186,.07,NULL,USDA,774,cider
+2,South,4,8235,2013,0,0,1,Lakeland,,11159,PI,589186,.07,NULL,USDA,774,cider
+13,North,1,8236,2013,1,0,0,Lakeland,,11159,PI,589186,.07,NULL,USDA,774,cider
+2,North,34,9207,2013,0,0,0,"Lane's Prince Albert",,19090,PI,589701,.10,NULL,USDA,876,cider
+1,South,45,9209,2013,0,0,1,"Lane's Prince Albert",,19090,PI,589701,.10,NULL,USDA,876,cider
+16,North,18,8051,2013,0,0,1,"Laxton's Fortune",,133186,PI,127009,.06,NULL,USDA,713,dessert
+19,South,17,8053,2013,0,0,0,"Laxton's Fortune",,133186,PI,127009,.06,NULL,USDA,713,dessert
+19,North,21,8198,2013,0,0,1,"Le Bret",,19008,PI,589690,.08,NULL,USDA,762,dessert
+5,South,26,8199,2013,0,0,1,"Le Bret",,19008,PI,589690,.08,NULL,USDA,762,dessert
+7,North,55,8045,2013,0,0,1,Leyda,,260648,PI,349325,.07,NULL,USDA,711,cider
+17,South,52,8046,2013,0,0,1,Leyda,,260648,PI,349325,.07,NULL,USDA,711,cider
+13,North,25,8315,2013,0,0,0,"Liestnaya Antonoffku",,104525,PI,35636,.07,NULL,USDA,801,dessert
+5,South,52,8316,2013,0,0,1,"Liestnaya Antonoffku",,104525,PI,35636,.07,NULL,USDA,801,dessert
+12,North,33,9183,2013,0,0,0,Linda,,7355,PI,589032,.09,NULL,USDA,868,dessert
+2,South,37,9185,2013,0,0,0,Linda,,7355,PI,589032,.09,NULL,USDA,868,dessert
+19,North,38,8070,2013,0,0,0,Lindel,,17455,PI,589475,.05,NULL,USDA,719,dessert
+19,South,3,8071,2013,0,0,0,Lindel,,17455,PI,589475,.05,NULL,USDA,719,dessert
+11,North,25,9012,2013,0,0,0,"Litevsky Jadernac",,17905,PI,589536,.09,NULL,USDA,811,dessert
+17,South,22,9014,2013,0,0,0,"Litevsky Jadernac",,17905,PI,589536,.09,NULL,USDA,811,dessert
+5,North,15,8213,2013,0,0,0,Livadiyskoye,,18063,PI,589560,.05,NULL,USDA,767,dessert
+8,South,20,8214,2013,0,0,0,Livadiyskoye,,18063,PI,589560,.05,NULL,USDA,767,dessert
+8,North,30,9243,2013,0,0,0,Lobo,,135663,PI,143180,.05,NULL,USDA,888,dessert
+3,South,52,9245,2013,0,0,1,Lobo,,135663,PI,143180,.05,NULL,USDA,888,dessert
+12,North,17,8093,2013,0,0,0,"Lord Lambourne",,4286,PI,588884,.07,NULL,USDA,727,dessert
+7,South,1,8094,2013,1,0,1,"Lord Lambourne",,4286,PI,588884,.07,NULL,USDA,727,dessert
+1,South,61,8095,2013,0,0,0,"Lord Lambourne",,4286,PI,588884,.07,NULL,USDA,727,dessert
+6,North,54,9064,2013,0,0,0,"Lord Seedling",,8119,PI,589063,.08,NULL,USDA,828,cider
+4,South,26,9065,2013,0,0,0,"Lord Seedling",,8119,PI,589063,.08,NULL,USDA,828,cider
+16,North,23,11200,2013,0,0,0,Lovell,,13799,PI,589298,.05,NULL,USDA,1094,dessert
+11,South,52,11202,2013,0,0,1,Lovell,,13799,PI,589298,.05,NULL,USDA,1094,dessert
+14,North,39,11266,2013,0,0,0,Lowry,,10412,PI,589150,.05,NULL,USDA,1116,cider
+5,South,16,11267,2013,0,0,0,Lowry,,10412,PI,589150,.05,NULL,USDA,1116,cider
+18,North,48,11044,2013,0,0,1,"Lubec #1",,17845,PI,589529,.08,NULL,USDA,1043,dessert
+7,South,9,11046,2013,0,0,1,"Lubec #1",,17845,PI,589529,.08,NULL,USDA,1043,dessert
+8,North,32,10013,2013,0,0,0,Luke,,15717,PI,589365,.05,NULL,USDA,918,dessert
+6,South,32,10015,2013,0,0,0,Luke,,15717,PI,589365,.05,NULL,USDA,918,dessert
+10,North,17,10274,2013,0,0,0,Lurared,,22368,PI,589967,.05,NULL,USDA,1004,dessert
+16,South,4,10276,2013,0,0,0,Lurared,,22368,PI,589967,.05,NULL,USDA,1004,dessert
+15,North,49,10004,2013,0,0,0,Lyons,,10827,PI,619161,.07,NULL,USDA,915,dessert
+1,South,24,10006,2013,0,0,0,Lyons,,10827,PI,619161,.07,NULL,USDA,915,dessert
+3,North,22,11062,2013,0,0,1,"Magnolia Gold",,10471,PI,589153,.06,NULL,USDA,1049,cider
+19,South,54,11064,2013,0,0,0,"Magnolia Gold",,10471,PI,589153,.06,NULL,USDA,1049,cider
+1,North,9,10313,2013,0,0,0,"Maiden Blush",,9113,PI,589105,.10,NULL,USDA,1017,dessert
+8,South,18,10315,2013,0,0,1,"Maiden Blush",,9113,PI,589105,.10,NULL,USDA,1017,dessert
+5,North,27,10106,2013,0,0,0,Malinda,,12498,PI,613817,.07,NULL,USDA,949,dessert
+12,South,45,10108,2013,0,0,1,Malinda,,12498,PI,613817,.07,NULL,USDA,949,dessert
+5,North,6,11224,2013,0,0,0,"Malling Kent",,17595,PI,589495,.04,NULL,USDA,1102,cider
+5,South,61,11225,2013,0,0,1,"Malling Kent",,17595,PI,589495,.04,NULL,USDA,1102,cider
+15,North,60,11281,2013,0,0,0,"Manche Rouge",,140204,PI,162716,.07,NULL,USDA,1121,cider
+15,South,57,11283,2013,0,0,0,"Manche Rouge",,140204,PI,162716,.07,NULL,USDA,1121,cider
+2,North,56,10190,2013,0,0,1,"Manitoba Spy",,14902,PI,589345,.04,NULL,USDA,977,cider
+11,South,12,10191,2013,0,0,0,"Manitoba Spy",,14902,PI,589345,.04,NULL,USDA,977,cider
+8,North,53,11077,2013,0,0,0,"Mannington Pearmain",,135321,PI,141240,.05,NULL,USDA,1054,cider
+17,South,27,11078,2013,0,0,0,"Mannington Pearmain",,135321,PI,141240,.05,NULL,USDA,1054,cider
+2,North,13,10247,2013,0,0,0,Mantet,,15738,PI,589367,.07,NULL,USDA,995,dessert
+1,South,4,10248,2013,0,0,0,Mantet,,15738,PI,589367,.07,NULL,USDA,995,dessert
+10,North,48,10103,2013,0,0,0,Mantuanskoye,,18021,PI,589553,.07,NULL,USDA,948,dessert
+4,South,37,10104,2013,0,0,1,Mantuanskoye,,18021,PI,589553,.07,NULL,USDA,948,dessert
+8,North,52,11213,2013,0,0,0,Mariborka,,208605,PI,280015,.05,NULL,USDA,1098,cider
+15,South,33,11214,2013,0,0,0,Mariborka,,208605,PI,280015,.05,NULL,USDA,1098,cider
+10,North,55,11095,2013,0,0,0,Martha,,8076,PI,589061,.08,NULL,USDA,1060,dessert
+8,South,15,11096,2013,0,0,0,Martha,,8076,PI,589061,.08,NULL,USDA,1060,dessert
+4,North,13,11032,2013,0,0,1,Maunerbe,,140202,PI,162713,.04,NULL,USDA,1039,cider
+9,South,25,11033,2013,0,0,1,Maunerbe,,140202,PI,162713,.04,NULL,USDA,1039,cider
+16,North,52,10284,2013,0,0,0,Maunzenapfel,,254932,PI,341745,.04,NULL,USDA,1007,dessert
+18,South,8,10285,2013,0,0,0,Maunzenapfel,,254932,PI,341745,.04,NULL,USDA,1007,dessert
+17,North,46,11125,2013,0,0,0,"McClintock Grimes",,9504,PI,589124,.06,NULL,USDA,1069,dessert
+5,South,50,11127,2013,0,0,0,"McClintock Grimes",,9504,PI,589124,.06,NULL,USDA,1069,dessert
+2,North,41,11174,2013,0,0,0,Medina,,17878,PI,589531,.05,NULL,USDA,1085,cider
+16,South,50,11175,2013,0,0,1,Medina,,17878,PI,589531,.05,NULL,USDA,1085,cider
+14,North,17,11227,2013,0,0,0,Melba,,9226,PI,589112,.08,NULL,USDA,1103,dessert
+7,South,39,11228,2013,0,0,1,Melba,,9226,PI,589112,.08,NULL,USDA,1103,dessert
+5,North,26,11284,2013,0,0,0,Melon,,255474,PI,342430,.04,NULL,USDA,1122,cider
+12,South,59,11286,2013,0,0,0,Melon,,255474,PI,342430,.04,NULL,USDA,1122,cider
+15,North,18,10331,2013,0,0,0,"Merton Beauty",,172618,PI,205460,.07,NULL,USDA,1023,dessert
+5,South,25,10332,2013,0,0,0,"Merton Beauty",,172618,PI,205460,.07,NULL,USDA,1023,dessert
+18,North,15,10325,2013,0,0,0,"Messire Jacques",,140095,PI,162505,.07,NULL,USDA,1021,cider
+15,South,22,10326,2013,0,0,0,"Messire Jacques",,140095,PI,162505,.07,NULL,USDA,1021,cider
+1,North,23,10292,2013,0,0,1,Metais,,151029,PI,173983,.04,NULL,USDA,1010,cider
+13,South,39,10293,2013,0,0,1,Metais,,151029,PI,173983,.04,NULL,USDA,1010,cider
+10,South,62,10294,2013,1,0,0,Metais,,151029,PI,173983,.04,NULL,USDA,1010,cider
+13,North,8,11278,2013,0,0,0,"Michaelmas Red",,22228,PI,589945,.05,NULL,USDA,1120,cider
+9,South,19,11280,2013,0,0,0,"Michaelmas Red",,22228,PI,589945,.05,NULL,USDA,1120,cider
+7,North,34,10098,2013,0,0,0,"Middleton Fameuse",,7634,PI,589042,.08,NULL,USDA,946,cider
+16,South,15,10099,2013,0,0,0,"Middleton Fameuse",,7634,PI,589042,.08,NULL,USDA,946,cider
+10,North,59,11047,2013,0,0,0,Milton,,6156,PI,588956,.12,NULL,USDA,1044,cider
+18,South,23,11048,2013,0,0,1,Milton,,6156,PI,588956,.12,NULL,USDA,1044,cider
+9,North,53,10003,2013,0,0,0,Milwaukee,,12138,PI,589216,.09,NULL,USDA,1230,dessert
+12,North,14,10133,2013,0,0,0,"Minister von Hammerstein",,133876,PI,131007,.09,NULL,USDA,958,dessert
+5,South,39,10134,2013,0,0,1,"Minister von Hammerstein",,133876,PI,131007,.09,NULL,USDA,958,dessert
+3,North,53,10220,2013,0,0,0,Minnehaha,,7339,PI,589030,.NA,NULL,USDA,986,dessert
+7,South,55,10222,2013,0,0,0,Minnehaha,,7339,PI,589030,.NA,NULL,USDA,986,dessert
+6,North,33,10157,2013,0,0,0,Mislimka,,851,PI,588746,.10,NULL,USDA,966,dessert
+19,South,51,10158,2013,0,0,0,Mislimka,,851,PI,588746,.10,NULL,USDA,966,dessert
+17,North,14,10146,2013,0,0,0,"Mleevskaya Crasavitsa",,17985,PI,589548,.05,NULL,USDA,962,cider
+16,South,44,10147,2013,0,0,1,"Mleevskaya Crasavitsa",,17985,PI,589548,.05,NULL,USDA,962,cider
+5,North,29,10310,2013,0,0,0,"Monmouth Beauty",,7679,PI,589045,.08,NULL,USDA,1016,dessert
+16,South,60,10311,2013,0,0,0,"Monmouth Beauty",,7679,PI,589045,.08,NULL,USDA,1016,dessert
+17,North,51,10046,2013,0,0,1,Montgomery,,13118,PI,589256,.09,NULL,USDA,929,dessert
+13,South,3,10047,2013,0,0,0,Montgomery,,13118,PI,589256,.09,NULL,USDA,929,dessert
+17,North,62,10048,2013,1,0,0,Montgomery,,13118,PI,589256,.09,NULL,USDA,929,dessert
+17,North,1,10007,2013,1,0,1,"Morden 363",,12518,PI,589234,.07,NULL,USDA,916,cider
+6,North,34,10008,2013,0,0,0,"Morden 363",,12518,PI,589234,.07,NULL,USDA,916,cider
+4,South,24,10009,2013,0,0,0,"Morden 363",,12518,PI,589234,.07,NULL,USDA,916,cider
+13,North,17,11245,2013,0,0,0,Mother,,8437,PI,589077,.05,NULL,USDA,1109,cider
+7,South,10,11247,2013,0,0,1,Mother,,8437,PI,589077,.05,NULL,USDA,1109,cider
+2,North,30,11152,2013,0,0,0,Mottais,,140216,PI,162735,.06,NULL,USDA,1078,dessert
+17,South,12,11153,2013,0,0,0,Mottais,,140216,PI,162735,.06,NULL,USDA,1078,dessert
+5,North,18,10298,2013,0,0,1,Murasaki,,21341,PI,589855,.06,NULL,USDA,1012,dessert
+12,South,58,10300,2013,0,0,1,Murasaki,,21341,PI,589855,.06,NULL,USDA,1012,dessert
+13,North,31,10232,2013,0,0,0,"Muscadet de Dieppe",,17580,PI,589493,.05,NULL,USDA,990,cider
+6,South,56,10233,2013,0,0,0,"Muscadet de Dieppe",,17580,PI,589493,.05,NULL,USDA,990,cider
+17,North,3,10259,2013,0,0,0,Muz-alma,,99624,PI,30326,.04,NULL,USDA,999,cider
+2,South,46,10261,2013,0,0,1,Muz-alma,,99624,PI,30326,.04,NULL,USDA,999,cider
+15,North,36,11129,2013,0,0,0,Nanot,,139527,PI,161763,.05,NULL,USDA,1070,cider
+7,South,13,11130,2013,0,0,0,Nanot,,139527,PI,161763,.05,NULL,USDA,1070,cider
+5,North,47,11263,2013,0,0,0,"Narjadnoye Crysmskoye",,17948,PI,589542,.04,NULL,USDA,1115,cider
+5,South,10,11264,2013,0,0,1,"Narjadnoye Crysmskoye",,17948,PI,589542,.04,NULL,USDA,1115,cider
+8,North,16,10035,2013,0,0,1,Nehou,,152072,PI,175544,.08,NULL,USDA,925,cider
+5,South,44,10036,2013,0,0,1,Nehou,,152072,PI,175544,.08,NULL,USDA,925,cider
+18,North,47,10172,2013,0,0,1,Niagara,,10247,PI,589145,.08,NULL,USDA,971,dessert
+15,South,17,10173,2013,0,0,0,Niagara,,10247,PI,589145,.08,NULL,USDA,971,dessert
+6,North,35,11272,2013,0,0,0,Norda,,17637,PI,589501,.05,NULL,USDA,1118,dessert
+13,South,9,11274,2013,0,0,0,Norda,,17637,PI,589501,.05,NULL,USDA,1118,dessert
+12,North,51,11002,2013,0,0,0,"Norfolk Royal",,132330,PI,123729,.05,NULL,USDA,1029,dessert
+18,South,34,11003,2013,0,0,1,"Norfolk Royal",,132330,PI,123729,.05,NULL,USDA,1029,dessert
+16,North,61,11066,2013,0,0,0,Notaire,,134828,PI,137094,.04,NULL,USDA,1050,cider
+3,South,4,11067,2013,0,0,0,Notaire,,134828,PI,137094,.04,NULL,USDA,1050,cider
+4,North,48,10116,2013,0,0,0,Novinka,,17984,PI,589547,.06,NULL,USDA,952,dessert
+16,South,48,10117,2013,0,0,0,Novinka,,17984,PI,589547,.06,NULL,USDA,952,dessert
+15,North,50,11020,2013,0,0,0,Nubeena,,229849,PI,307380,.07,NULL,USDA,1035,cider
+6,South,13,11022,2013,0,0,0,Nubeena,,229849,PI,307380,.07,NULL,USDA,1035,cider
+10,North,20,11137,2013,0,0,0,Nugget,,17000,PI,589430,.06,NULL,USDA,1073,cider
+1,South,40,11139,2013,0,0,1,Nugget,,17000,PI,589430,.06,NULL,USDA,1073,cider
+8,North,49,11254,2013,0,0,0,Obilnoye,,18022,PI,589554,.06,NULL,USDA,1112,dessert
+15,South,28,11255,2013,0,0,0,Obilnoye,,18022,PI,589554,.06,NULL,USDA,1112,dessert
+17,North,28,11185,2013,0,0,1,Ogden,,17005,PI,589431,.10,NULL,USDA,1089,dessert
+14,South,9,11186,2013,0,0,1,Ogden,,17005,PI,589431,.10,NULL,USDA,1089,dessert
+4,South,1,11187,2013,1,0,1,Ogden,,17005,PI,589431,.10,NULL,USDA,1089,dessert
+17,North,48,10070,2013,0,0,0,"Ohio Nonpareil",,21314,PI,589852,.06,NULL,USDA,937,dessert
+18,South,29,10071,2013,0,0,0,"Ohio Nonpareil",,21314,PI,589852,.06,NULL,USDA,937,dessert
+19,North,29,11260,2013,0,0,0,Oldenburg,,18075,PI,589562,.07,NULL,USDA,1114,dessert
+14,South,47,11261,2013,0,0,1,Oldenburg,,18075,PI,589562,.07,NULL,USDA,1114,dessert
+1,South,1,11262,2013,1,0,1,Oldenburg,,18075,PI,589562,.07,NULL,USDA,1114,dessert
+13,North,34,10052,2013,0,0,0,Orei,,168807,PI,199531,.08,NULL,USDA,931,dessert
+8,South,32,10054,2013,0,0,0,Orei,,168807,PI,199531,.08,NULL,USDA,931,dessert
+18,North,20,10079,2013,0,0,1,Oriole,,21877,PI,589897,.08,NULL,USDA,940,dessert
+15,South,62,10080,2013,1,0,0,Oriole,,21877,PI,589897,.08,NULL,USDA,940,dessert
+8,South,60,10081,2013,0,0,1,Oriole,,21877,PI,589897,.08,NULL,USDA,940,dessert
+1,North,5,10307,2013,0,0,0,Orleans,,206778,PI,276567,.07,NULL,USDA,1015,dessert
+7,South,35,10308,2013,0,0,1,Orleans,,206778,PI,276567,.07,NULL,USDA,1015,dessert
+8,North,33,10215,2013,0,0,0,"Ottawa 271",,17483,PI,589479,.05,NULL,USDA,984,cider
+4,South,61,10216,2013,0,0,0,"Ottawa 271",,17483,PI,589479,.05,NULL,USDA,984,cider
+17,North,53,10019,2013,0,0,1,"Ottawa 274",,19492,PI,589719,.05,NULL,USDA,920,cider
+3,South,29,10021,2013,0,0,0,"Ottawa 274",,19492,PI,589719,.05,NULL,USDA,920,cider
+8,North,36,10061,2013,0,0,0,"Ottawa 292",,14853,PI,589340,.05,NULL,USDA,934,dessert
+16,South,49,10063,2013,0,0,0,"Ottawa 292",,14853,PI,589340,.05,NULL,USDA,934,dessert
+8,North,12,11257,2013,0,0,0,"Ottawa 4",,17413,PI,589471,.06,NULL,USDA,1113,dessert
+7,South,54,11258,2013,0,0,0,"Ottawa 4",,17413,PI,589471,.06,NULL,USDA,1113,dessert
+7,South,62,11259,2013,1,0,0,"Ottawa 4",,17413,PI,589471,.06,NULL,USDA,1113,dessert
+17,North,21,10170,2013,0,0,0,"Ottawa 546",,17271,PI,589453,.05,NULL,USDA,970,dessert
+19,South,52,10171,2013,0,0,0,"Ottawa 546",,17271,PI,589453,.05,NULL,USDA,970,dessert
+12,North,11,10286,2013,0,0,0,Oxbo,,133290,PI,127703,.08,NULL,USDA,1008,dessert
+9,South,60,10287,2013,0,0,1,Oxbo,,133290,PI,127703,.08,NULL,USDA,1008,dessert
+3,North,55,10304,2013,0,0,0,"Paide's Winter Apple",,287727,PI,383514,.08,NULL,USDA,1014,cider
+17,South,4,10305,2013,0,0,0,"Paide's Winter Apple",,287727,PI,383514,.08,NULL,USDA,1014,cider
+9,North,55,11170,2013,0,0,0,"Paides Ziemas Abols",,199438,PI,262969,.06,NULL,USDA,1084,cider
+18,South,41,11172,2013,0,0,0,"Paides Ziemas Abols",,199438,PI,262969,.06,NULL,USDA,1084,cider
+17,North,34,10262,2013,0,0,0,"Paradis do Vayre",,140096,PI,162507,.05,NULL,USDA,1000,cider
+17,South,3,10263,2013,0,0,0,"Paradis do Vayre",,140096,PI,162507,.05,NULL,USDA,1000,cider
+9,North,23,10154,2013,0,0,0,Paradiso,,128364,PI,105388,.04,NULL,USDA,965,cider
+3,South,56,10155,2013,0,0,0,Paradiso,,128364,PI,105388,.04,NULL,USDA,965,cider
+3,North,1,11068,2013,1,0,0,Paragon,,7553,PI,589039,.09,NULL,USDA,1051,dessert
+8,North,47,11069,2013,0,0,0,Paragon,,7553,PI,589039,.09,NULL,USDA,1051,dessert
+12,South,55,11070,2013,0,0,0,Paragon,,7553,PI,589039,.09,NULL,USDA,1051,dessert
+15,North,16,10100,2013,0,0,0,Paraquet,,132350,PI,123964,.03,NULL,USDA,947,cider
+9,South,51,10102,2013,0,0,1,Paraquet,,132350,PI,123964,.03,NULL,USDA,947,cider
+4,North,23,11165,2013,0,0,0,Paulared,,22378,PI,589969,.05,NULL,USDA,1082,dessert
+14,South,15,11166,2013,0,0,0,Paulared,,22378,PI,589969,.05,NULL,USDA,1082,dessert
+18,North,58,10334,2013,0,0,0,Pederstrup,,128325,PI,104807,.05,NULL,USDA,1024,cider
+2,South,50,10335,2013,0,0,0,Pederstrup,,128325,PI,104807,.05,NULL,USDA,1024,cider
+11,North,4,11113,2013,0,0,0,Pewaukee,,24912,PI,590177,.03,NULL,USDA,1065,dessert
+11,South,47,11114,2013,0,0,1,Pewaukee,,24912,PI,590177,.03,NULL,USDA,1065,dessert
+18,North,38,11179,2013,0,0,1,"Peypring Cerueuko",,17442,PI,589474,.06,NULL,USDA,1087,dessert
+17,South,5,11181,2013,0,0,1,"Peypring Cerueuko",,17442,PI,589474,.06,NULL,USDA,1087,dessert
+1,North,21,10166,2013,0,0,0,"Pfirsichroter Sommerapfel",,18340,PI,589595,.08,NULL,USDA,969,cider
+4,South,4,10167,2013,0,0,1,"Pfirsichroter Sommerapfel",,18340,PI,589595,.08,NULL,USDA,969,cider
+19,North,18,10212,2013,0,0,0,Pigeonnet,,18352,PI,589597,.05,NULL,USDA,983,cider
+10,South,31,10213,2013,0,0,0,Pigeonnet,,18352,PI,589597,.05,NULL,USDA,983,cider
+19,North,6,10289,2013,0,0,1,Pixie,,18979,PI,589687,.06,NULL,USDA,1009,dessert
+2,North,1,10290,2013,1,0,0,Pixie,,18979,PI,589687,.06,NULL,USDA,1009,dessert
+1,South,23,10291,2013,0,0,0,Pixie,,18979,PI,589687,.06,NULL,USDA,1009,dessert
+10,North,13,10337,2013,0,0,1,"Pomme Cloche",,134377,PI,134668,.08,NULL,USDA,1025,dessert
+14,South,19,10339,2013,0,0,0,"Pomme Cloche",,134377,PI,134668,.08,NULL,USDA,1025,dessert
+10,North,26,10175,2013,0,0,0,"Pomme Raisin",,134378,PI,134669,.09,NULL,USDA,972,cider
+9,South,47,10176,2013,0,0,0,"Pomme Raisin",,134378,PI,134669,.09,NULL,USDA,972,cider
+14,North,20,10235,2013,0,0,1,Porter,,12028,PI,589212,.08,NULL,USDA,991,dessert
+19,South,50,10236,2013,0,0,0,Porter,,12028,PI,589212,.08,NULL,USDA,991,dessert
+11,North,35,10271,2013,0,0,0,Potomac,,21313,PI,589851,.05,NULL,USDA,1003,dessert
+11,South,14,10273,2013,0,0,0,Potomac,,21313,PI,589851,.05,NULL,USDA,1003,dessert
+6,North,55,11071,2013,0,0,0,"Pott's Seedling",,133112,PI,126586,.06,NULL,USDA,1052,cider
+16,South,5,11073,2013,0,0,0,"Pott's Seedling",,133112,PI,126586,.06,NULL,USDA,1052,cider
+7,North,7,10217,2013,0,0,0,Potter,,294445,PI,392309,.05,NULL,USDA,985,dessert
+3,South,53,10219,2013,0,0,0,Potter,,294445,PI,392309,.05,NULL,USDA,985,dessert
+9,North,5,11239,2013,0,0,0,"Potter Cox",,9577,PI,589127,.08,NULL,USDA,1107,cider
+2,South,44,11240,2013,0,0,0,"Potter Cox",,9577,PI,589127,.08,NULL,USDA,1107,cider
+1,North,58,10205,2013,0,0,0,"Prairie Spy",,21882,PI,589898,.06,NULL,USDA,981,dessert
+10,South,27,10206,2013,0,0,0,"Prairie Spy",,21882,PI,589898,.06,NULL,USDA,981,dessert
+14,North,25,10256,2013,0,0,0,Primate,,12362,PI,589229,.06,NULL,USDA,998,dessert
+12,South,3,10257,2013,0,0,1,Primate,,12362,PI,589229,.06,NULL,USDA,998,dessert
+14,North,15,9324,2013,0,0,0,Primrouge,,17156,PI,589437,.05,NULL,USDA,914,dessert
+8,South,4,9325,2013,0,0,0,Primrouge,,17156,PI,589437,.05,NULL,USDA,914,dessert
+8,North,6,11161,2013,0,0,1,"Pumpkin Sweet",,13121,PI,589257,.07,NULL,USDA,1081,dessert
+4,South,12,11162,2013,0,0,0,"Pumpkin Sweet",,13121,PI,589257,.07,NULL,USDA,1081,dessert
+7,North,51,11023,2013,0,0,0,"Purpurroter Cousinot",,18339,PI,589594,.05,NULL,USDA,1036,dessert
+16,South,9,11025,2013,0,0,0,"Purpurroter Cousinot",,18339,PI,589594,.05,NULL,USDA,1036,dessert
+3,North,34,11276,2013,0,0,1,Quastresse,,18231,PI,589579,.07,NULL,USDA,1119,cider
+15,South,53,11277,2013,0,0,0,Quastresse,,18231,PI,589579,.07,NULL,USDA,1119,cider
+13,North,11,11296,2013,0,0,0,"Rambour Franc",,18255,PI,589582,.08,NULL,USDA,1126,dessert
+9,South,44,11298,2013,0,0,1,"Rambour Franc",,18255,PI,589582,.08,NULL,USDA,1126,dessert
+3,North,32,10067,2013,0,0,0,Ranger,,15652,PI,589357,.05,NULL,USDA,936,dessert
+19,South,15,10068,2014,0,0,0,Ranger,,15652,PI,589357,.05,NULL,USDA,936,dessert
+15,North,48,11251,2013,0,0,0,"Red Astrachan",,7930,PI,589054,.07,NULL,USDA,1111,dessert
+17,South,58,11252,2013,0,0,0,"Red Astrachan",,7930,PI,589054,.07,NULL,USDA,1111,dessert
+4,North,14,11218,2013,0,0,1,"Red Australian Rome Beauty",,176065,PI,214080,.04,NULL,USDA,1100,cider
+13,South,2,11219,2013,0,0,0,"Red Australian Rome Beauty",,176065,PI,214080,.04,NULL,USDA,1100,cider
+1,North,11,10065,2013,0,0,1,"Red Baron",,21889,PI,589899,.04,NULL,USDA,935,dessert
+3,South,42,10066,2013,0,0,0,"Red Baron",,21889,PI,589899,.04,NULL,USDA,935,dessert
+19,North,60,11131,2013,0,0,1,"Red Cinnamon",,173597,PI,207636,.07,NULL,USDA,1071,dessert
+8,South,54,11132,2013,0,0,0,"Red Cinnamon",,173597,PI,207636,.07,NULL,USDA,1071,dessert
+6,North,7,11059,2013,0,0,0,"Red Cox's Pomona",,189766,PI,246461,.03,NULL,USDA,1048,cider
+16,South,45,11061,2013,0,0,1,"Red Cox's Pomona",,189766,PI,246461,.03,NULL,USDA,1048,cider
+17,North,6,10319,2013,0,0,0,"Red Dijmanszoet",,22047,PI,589923,.07,NULL,USDA,1019,dessert
+1,South,21,10320,2013,0,0,0,"Red Dijmanszoet",,22047,PI,589923,.07,NULL,USDA,1019,dessert
+7,North,33,11080,2013,0,0,0,"Red Joaneting",,132331,PI,123730,.07,NULL,USDA,1055,dessert
+18,South,24,11082,2013,0,0,0,"Red Joaneting",,132331,PI,123730,.07,NULL,USDA,1055,dessert
+1,North,29,10074,2013,0,0,1,"Red Paducah",,13843,PI,589304,.07,NULL,USDA,938,dessert
+1,South,56,10075,2013,0,0,0,"Red Paducah",,13843,PI,589304,.07,NULL,USDA,938,dessert
+3,North,52,11237,2013,0,0,0,"Red Spitzenburg",,8979,PI,589100,.07,NULL,USDA,1106,dessert
+7,South,18,11238,2013,0,0,0,"Red Spitzenburg",,8979,PI,589100,.07,NULL,USDA,1106,dessert
+18,North,29,10223,2013,0,0,0,"Red Spy",,21276,PI,589842,.05,NULL,USDA,987,cider
+10,South,55,10225,2013,0,0,0,"Red Spy",,21276,PI,589842,.05,NULL,USDA,987,cider
+12,North,60,11026,2013,0,0,0,Redgold,,8233,PI,589067,.05,NULL,USDA,1037,dessert
+12,South,46,11027,2013,0,0,1,Redgold,,8233,PI,589067,.05,NULL,USDA,1037,dessert
+14,North,1,11028,2013,1,0,1,Redgold,,8233,PI,589067,.05,NULL,USDA,1037,dessert
+16,North,32,11206,2013,0,0,0,Redhook,,8108,PI,589062,.08,NULL,USDA,1096,dessert
+15,South,6,11207,2013,0,0,1,Redhook,,8108,PI,589062,.08,NULL,USDA,1096,dessert
+4,North,6,10184,2013,0,0,0,Redwell,,21899,PI,589901,.06,NULL,USDA,975,dessert
+16,South,27,10185,2013,0,0,0,Redwell,,21899,PI,589901,.06,NULL,USDA,975,dessert
+5,North,38,10163,2013,0,0,1,Regent,,21905,PI,589902,.04,NULL,USDA,968,dessert
+3,South,57,10164,2014,0,0,0,Regent,,21905,PI,589902,.04,NULL,USDA,968,dessert
+5,North,51,10209,2013,0,0,0,"Reid's Seedling",,172771,PI,206031,.07,NULL,USDA,982,dessert
+3,South,28,10210,2013,0,0,0,"Reid's Seedling",,172771,PI,206031,.07,NULL,USDA,982,dessert
+17,North,10,11167,2013,0,0,0,"Reinette d' Anjou",,24718,PI,590135,.03,NULL,USDA,1083,dessert
+11,South,6,11169,2013,0,0,0,"Reinette d' Anjou",,24718,PI,590135,.03,NULL,USDA,1083,dessert
+3,North,24,10083,2013,0,0,1,"Reinette do Chenee",,134023,PI,131828,.10,NULL,USDA,941,dessert
+2,South,48,10084,2013,0,0,0,"Reinette do Chenee",,134023,PI,131828,.10,NULL,USDA,941,dessert
+4,North,56,10295,2013,0,0,0,"Reinette Grise",,18300,PI,589588,.10,NULL,USDA,1011,dessert
+6,South,25,10297,2013,0,0,1,"Reinette Grise",,18300,PI,589588,.10,NULL,USDA,1011,dessert
+3,North,58,11233,2013,0,0,1,"Reinette Jaeghers",,133985,PI,131561,.04,NULL,USDA,1105,cider
+12,South,62,11234,2013,1,0,0,"Reinette Jaeghers",,133985,PI,131561,.04,NULL,USDA,1105,cider
+3,South,27,11235,2013,0,0,1,"Reinette Jaeghers",,133985,PI,131561,.04,NULL,USDA,1105,cider
+3,North,51,11294,2013,0,0,0,"Reinette van Ekenstein",,161404,PI,188521,.05,NULL,USDA,1125,dessert
+10,South,35,11295,2013,0,0,0,"Reinette van Ekenstein",,161404,PI,188521,.05,NULL,USDA,1125,dessert
+11,North,48,10127,2013,0,0,0,"Repinaldo do Liebana",,128379,PI,105528,.07,NULL,USDA,956,cider
+1,South,2,10128,2013,0,0,0,"Repinaldo do Liebana",,128379,PI,105528,.07,NULL,USDA,956,cider
+18,North,51,10109,2013,0,0,0,Reta,,19503,PI,589721,.09,NULL,USDA,950,cider
+12,South,7,10110,2013,0,0,0,Reta,,19503,PI,589721,.09,NULL,USDA,950,cider
+15,North,42,10226,2013,0,0,0,"Reveles Bumbierabols",,199437,PI,262968,.10,NULL,USDA,988,dessert
+6,South,29,10227,2013,0,0,0,"Reveles Bumbierabols",,199437,PI,262968,.10,NULL,USDA,988,dessert
+18,North,35,11231,2013,0,0,0,"Rose de Benauge",,239421,PI,322033,.05,NULL,USDA,1104,cider
+15,South,50,11232,2013,0,0,0,"Rose de Benauge",,239421,PI,322033,.05,NULL,USDA,1104,cider
+14,North,54,10010,2013,0,0,0,"Rosu de Cluj",,17303,PI,589457,.06,NULL,USDA,917,dessert
+1,South,25,10011,2013,0,0,1,"Rosu de Cluj",,17303,PI,589457,.06,NULL,USDA,917,dessert
+18,North,24,11092,2013,0,0,0,Rougemont,,135322,PI,141243,.07,NULL,USDA,1059,dessert
+11,South,39,11093,2013,0,0,0,Rougemont,,135322,PI,141243,.07,NULL,USDA,1059,dessert
+2,North,36,10229,2013,0,0,0,"Roxbury Russet",,6428,PI,588971,.10,NULL,USDA,989,cider
+18,South,47,10231,2013,0,0,0,"Roxbury Russet",,6428,PI,588971,.10,NULL,USDA,989,cider
+11,North,11,13016,2013,0,0,1,"Royale d'Angleterre",,134745,PI,136605,.06,NULL,USDA,1193,dessert
+1,South,30,13018,2013,0,0,0,"Royale d'Angleterre",,134745,PI,136605,.06,NULL,USDA,1193,dessert
+14,North,16,12107,2013,0,0,1,"Rubra Precoce Breviglieri",,210164,PI,282934,.11,NULL,USDA,1174,dessert
+9,South,5,12108,2013,0,0,1,"Rubra Precoce Breviglieri",,210164,PI,282934,.11,NULL,USDA,1174,dessert
+8,North,7,12089,2013,0,0,1,Safstaholm,,168735,PI,199421,.08,NULL,USDA,1168,dessert
+7,South,24,12090,2013,0,0,0,Safstaholm,,168735,PI,199421,.08,NULL,USDA,1168,dessert
+15,North,24,12007,2013,0,0,0,"Saltcote Pipin",,132352,PI,123967,.12,NULL,USDA,1142,cider
+14,South,56,12009,2013,0,0,0,"Saltcote Pipin",,132352,PI,123967,.12,NULL,USDA,1142,cider
+3,North,13,12019,2013,0,0,0,Sharon,,14660,PI,589322,.07,NULL,USDA,1146,cider
+5,South,53,12021,2013,0,0,0,Sharon,,14660,PI,589322,.07,NULL,USDA,1146,cider
+10,North,44,12032,2013,0,0,0,Sipolins,,199431,PI,262960,.05,NULL,USDA,1150,dessert
+5,South,57,12033,2013,0,0,1,Sipolins,,199431,PI,262960,.05,NULL,USDA,1150,dessert
+12,North,39,13067,2013,0,0,0,Smokehouse,,21910,PI,589903,.05,NULL,USDA,1210,dessert
+1,South,52,13068,2013,0,0,0,Smokehouse,,21910,PI,589903,.05,NULL,USDA,1210,dessert
+9,North,48,11305,2013,0,0,0,Smordodina,,222596,PI,293886,.06,NULL,USDA,1129,dessert
+14,South,45,11307,2013,0,0,1,Smordodina,,222596,PI,293886,.06,NULL,USDA,1129,dessert
+16,North,15,13029,2013,0,0,0,Snow,,2638,PI,588793,.05,NULL,USDA,1197,cider
+7,South,43,13030,2013,0,0,1,Snow,,2638,PI,588793,.05,NULL,USDA,1197,cider
+6,North,52,13077,2013,0,0,0,Sparreholm,,128326,PI,104813,.04,NULL,USDA,1213,cider
+15,South,16,13078,2013,0,0,0,Sparreholm,,128326,PI,104813,.04,NULL,USDA,1213,cider
+16,North,25,12146,2013,0,0,0,Spencer,,6555,PI,588979,.08,NULL,USDA,1187,dessert
+9,South,24,12147,2013,0,0,0,Spencer,,6555,PI,588979,.08,NULL,USDA,1187,dessert
+9,North,28,13052,2013,0,0,0,"St. Anna Rode Boskoop",,180454,PI,223666,.05,NULL,USDA,1205,cider
+10,South,17,13054,2013,0,0,0,"St. Anna Rode Boskoop",,180454,PI,223666,.05,NULL,USDA,1205,cider
+5,North,16,12002,2013,0,0,0,Stafford,,13864,PI,589307,.06,NULL,USDA,1140,dessert
+11,South,42,12003,2013,0,0,0,Stafford,,13864,PI,589307,.06,NULL,USDA,1140,dessert
+10,North,60,11312,2013,0,0,0,Starking,,11331,PI,589192,.09,NULL,USDA,1131,cider
+16,South,10,11313,2013,0,0,0,Starking,,11331,PI,589192,.09,NULL,USDA,1131,cider
+10,North,32,12023,2013,0,0,0,"Stone Pippin",,134248,PI,133750,.05,NULL,USDA,1147,cider
+2,South,18,12024,2013,0,0,0,"Stone Pippin",,134248,PI,133750,.05,NULL,USDA,1147,cider
+11,North,17,13025,2013,0,0,0,Suislepper,,128327,PI,104815,.05,NULL,USDA,1196,dessert
+2,South,30,13027,2013,0,0,1,Suislepper,,128327,PI,104815,.05,NULL,USDA,1196,dessert
+12,North,49,12040,2013,0,0,0,Sundance,,25044,PI,590209,.03,NULL,USDA,1153,dessert
+17,South,26,12042,2013,0,0,0,Sundance,,25044,PI,590209,.03,NULL,USDA,1153,dessert
+17,North,29,13023,2013,0,0,0,Sunset,,19047,PI,589694,.05,NULL,USDA,1195,cider
+7,South,6,13024,2013,0,0,0,Sunset,,19047,PI,589694,.05,NULL,USDA,1195,cider
+1,North,40,13059,2013,0,0,0,"Sweet Caroline",,22050,PI,589924,.05,NULL,USDA,1207,dessert
+15,South,26,13060,2013,0,0,0,"Sweet Caroline",,22050,PI,589924,.05,NULL,USDA,1207,dessert
+4,North,21,13055,2013,0,0,1,Tayeshnoe,,239941,PI,322715,.08,NULL,USDA,1206,dessert
+4,South,5,13056,2013,0,0,0,Tayeshnoe,,239941,PI,322715,.08,NULL,USDA,1206,dessert
+18,North,54,12025,2013,0,0,0,"Teign Harvey",,152077,PI,175549,.05,NULL,USDA,1148,cider
+17,South,41,12027,2013,0,0,0,"Teign Harvey",,152077,PI,175549,.05,NULL,USDA,1148,cider
+15,North,44,12005,2013,0,0,0,Tilsith,,134380,PI,134673,.07,NULL,USDA,1141,dessert
+15,South,35,12006,2013,0,0,0,Tilsith,,134380,PI,134673,.07,NULL,USDA,1141,dessert
+12,North,32,13071,2013,0,0,0,"Tohoku 2",,196059,PI,255898,.05,NULL,USDA,1211,cider
+4,South,56,13072,2013,0,0,0,"Tohoku 2",,196059,PI,255898,.05,NULL,USDA,1211,cider
+14,North,56,12080,2013,0,0,0,"Tom Putt",,132694,PI,125271,.06,NULL,USDA,1165,cider
+12,South,25,12081,2013,0,0,0,"Tom Putt",,132694,PI,125271,.06,NULL,USDA,1165,cider
+1,North,16,12094,2013,0,0,0,Trebu,,17130,PI,589433,.05,NULL,USDA,1170,dessert
+15,South,1,12095,2013,1,0,1,Trebu,,17130,PI,589433,.05,NULL,USDA,1170,dessert
+3,South,24,12096,2013,0,0,1,Trebu,,17130,PI,589433,.05,NULL,USDA,1170,dessert
+12,North,19,12061,2013,0,0,0,"Tydemans Early Worcester",,187873,PI,241965,.07,NULL,USDA,1160,dessert
+8,South,30,12063,2013,0,0,0,"Tydemans Early Worcester",,187873,PI,241965,.07,NULL,USDA,1160,dessert
+10,North,37,13073,2013,0,0,0,Uljanisceva,,199434,PI,262965,.05,NULL,USDA,1212,cider
+5,South,8,13075,2013,0,0,0,Uljanisceva,,199434,PI,262965,.05,NULL,USDA,1212,cider
+1,North,14,12097,2013,0,0,1,Wealthy,,2524,PI,588788,.07,NULL,USDA,1171,dessert
+17,South,21,12099,2013,0,0,0,Wealthy,,2524,PI,588788,.07,NULL,USDA,1171,dessert
+8,North,54,12074,2013,0,0,1,"William Crump",,13885,PI,589309,.06,NULL,USDA,1163,cider
+13,South,52,12075,2013,0,0,0,"William Crump",,13885,PI,589309,.06,NULL,USDA,1163,cider
+17,North,54,13005,2013,0,0,0,"Worcester Pearmain",,172774,PI,206035,.10,NULL,USDA,1189,dessert
+18,South,3,13006,2013,0,0,0,"Worcester Pearmain",,172774,PI,206035,.10,NULL,USDA,1189,dessert
+12,North,59,12058,2013,0,0,0,Wright,,14708,PI,589326,.08,NULL,USDA,1159,dessert
+8,South,23,12060,2013,0,0,0,Wright,,14708,PI,589326,.08,NULL,USDA,1159,dessert
+13,North,38,12085,2013,0,0,0,"Yellow Bellflower",,11371,PI,589195,.12,NULL,USDA,1167,cider
+14,South,54,12086,2013,0,0,1,"Yellow Bellflower",,11371,PI,589195,.12,NULL,USDA,1167,cider
+19,North,20,11314,2013,0,0,0,"Yellow Delicious",,103901,PI,589856,.04,NULL,USDA,1132,dessert
+9,South,31,11316,2013,0,0,0,"Yellow Delicious",,103901,PI,589856,.04,NULL,USDA,1132,dessert
+5,North,33,12067,2013,0,0,0,"Zimnieje Piervoskhodnoie",,197627,PI,259456,.09,NULL,USDA,1162,dessert
+18,South,31,12068,2013,0,0,0,"Zimnieje Piervoskhodnoie",,197627,PI,259456,.09,NULL,USDA,1162,dessert
+16,North,9,12046,2013,0,0,0,"Zoete Ermgaard",,22053,PI,589925,.06,NULL,USDA,1155,dessert
+14,South,6,12048,2013,0,0,0,"Zoete Ermgaard",,22053,PI,589925,.06,NULL,USDA,1155,dessert
+5,South,11,7315,2013,0,0,0,"Ottawa 533",,NULL,,NULL,,84,Kentville,695,NULL
+8,North,29,8006,2013,0,0,0,S19-17-31,,NULL,,NULL,,84,Kentville,698,NULL
+5,South,21,8007,2013,0,0,0,S19-17-31,,NULL,,NULL,,84,Kentville,698,NULL
+9,North,59,8013,2013,0,0,0,S16-15-106,,NULL,,NULL,,84,Kentville,700,NULL
+16,South,40,8014,2013,0,0,1,S16-15-106,,NULL,,NULL,,84,Kentville,700,NULL
+16,North,46,8021,2013,0,0,0,"Hardy Cumberland",,25263,PI,590220,.02,NULL,USDA,703,NULL
+8,South,19,8023,2013,0,0,0,"Hardy Cumberland",,25263,PI,590220,.02,NULL,USDA,703,NULL
+3,North,16,8028,2013,0,0,1,"King Harry",,151828,PI,175010,.05,NULL,USDA,705,NULL
+18,South,38,8029,2013,0,0,0,"King Harry",,151828,PI,175010,.05,NULL,USDA,705,NULL
+19,North,30,8039,2013,0,0,0,Hibernal,,21966,PI,589911,.06,NULL,USDA,709,NULL
+19,South,45,8041,2013,0,0,0,Hibernal,,21966,PI,589911,.06,NULL,USDA,709,NULL
+3,North,21,8055,2013,0,0,0,Gewurzluiken,,134066,PI,132225,.05,NULL,USDA,714,NULL
+5,South,47,8056,2013,0,0,0,Gewurzluiken,,134066,PI,132225,.05,NULL,USDA,714,NULL
+1,North,31,8058,2013,0,0,1,"Ellison's Orange",,18199,PI,589575,.06,NULL,USDA,715,NULL
+15,South,59,8059,2013,0,0,0,"Ellison's Orange",,18199,PI,589575,.06,NULL,USDA,715,NULL
+14,North,36,8061,2013,0,0,0,"Inducoa No. II",,84065,PI,613830,.01,NULL,USDA,716,NULL
+16,South,14,8062,2013,0,0,0,"Inducoa No. II",,84065,PI,613830,.01,NULL,USDA,716,NULL
+16,North,38,8081,2013,0,0,0,"Frequin Audievre",,139563,PI,161838,.09,NULL,USDA,723,NULL
+5,South,6,8082,2013,0,0,1,"Frequin Audievre",,139563,PI,161838,.09,NULL,USDA,723,NULL
+4,North,18,8084,2013,0,0,0,Frostproof,,11099,PI,589182,.10,NULL,USDA,724,NULL
+15,South,19,8086,2013,0,0,0,Frostproof,,11099,PI,589182,.10,NULL,USDA,724,NULL
+7,North,16,8090,2013,0,0,1,"Lombart's Calville",,22029,PI,589920,.08,NULL,USDA,726,NULL
+18,South,15,8091,2013,0,0,0,"Lombart's Calville",,22029,PI,589920,.08,NULL,USDA,726,NULL
+8,North,56,8096,2013,0,0,0,"Graue Renette Von Zabergau",,12481,PI,589233,.07,NULL,USDA,728,NULL
+17,South,32,8097,2013,0,0,1,"Graue Renette Von Zabergau",,12481,PI,589233,.07,NULL,USDA,728,NULL
+19,North,55,8102,2013,0,0,1,"Gold Canel",,137675,PI,157207,.04,NULL,USDA,730,NULL
+10,South,52,8103,2013,0,0,0,"Gold Canel",,137675,PI,157207,.04,NULL,USDA,730,NULL
+2,North,27,8105,2013,0,0,0,Launette,,140215,PI,162732,.05,NULL,USDA,731,NULL
+16,South,30,8106,2013,0,0,0,Launette,,140215,PI,162732,.05,NULL,USDA,731,NULL
+6,North,28,8138,2013,0,0,1,"Golden Reinette",,287720,PI,383507,.07,NULL,USDA,742,NULL
+13,South,11,8139,2013,0,0,0,"Golden Reinette",,287720,PI,383507,.07,NULL,USDA,742,NULL
+2,South,1,8140,2013,1,0,0,"Golden Reinette",,287720,PI,383507,.07,NULL,USDA,742,NULL
+17,North,26,8142,2013,0,0,0,Liaofu,,97029,PI,644170,.01,NULL,USDA,743,NULL
+1,South,50,8143,2013,0,0,0,Liaofu,,97029,PI,644170,.01,NULL,USDA,743,NULL
+1,North,45,8148,2013,0,0,0,"Gruzhovka of Moscow",,287723,PI,383510,.12,NULL,USDA,745,NULL
+15,South,47,8149,2013,0,0,0,"Gruzhovka of Moscow",,287723,PI,383510,.12,NULL,USDA,745,NULL
+3,North,18,8159,2013,0,0,1,"Kandil Kitaika",,239940,PI,322714,.13,NULL,USDA,749,NULL
+5,South,9,8161,2013,0,0,1,"Kandil Kitaika",,239940,PI,322714,.13,NULL,USDA,749,NULL
+7,North,13,8165,2013,0,0,0,"Krievu Rosmarins",,199439,PI,262970,.07,NULL,USDA,751,NULL
+18,South,50,8167,2013,0,0,0,"Krievu Rosmarins",,199439,PI,262970,.07,NULL,USDA,751,NULL
+6,North,18,8168,2013,0,0,0,"Hua Guan",,97113,PI,644171,.01,NULL,USDA,752,NULL
+1,South,3,8169,2013,0,0,0,"Hua Guan",,97113,PI,644171,.01,NULL,USDA,752,NULL
+2,North,53,8183,2013,0,0,1,Frogmore,,128323,PI,104790,.08,NULL,USDA,757,NULL
+15,South,29,8185,2013,0,0,0,Frogmore,,128323,PI,104790,.08,NULL,USDA,757,NULL
+11,North,42,8204,2013,0,0,0,"Feys Record",,132778,PI,125686,.05,NULL,USDA,764,NULL
+17,South,60,8206,2013,0,0,0,"Feys Record",,132778,PI,125686,.05,NULL,USDA,764,NULL
+17,North,9,8219,2013,0,0,0,Galicia,,96214,PI,613966,.01,NULL,USDA,769,NULL
+5,South,58,8221,2013,0,0,0,Galicia,,96214,PI,613966,.01,NULL,USDA,769,NULL
+11,North,26,8228,2013,0,0,0,"Kitaika Zolotaia Ranniaia",,222194,PI,292930,.07,NULL,USDA,772,NULL
+10,South,23,8230,2013,0,0,0,"Kitaika Zolotaia Ranniaia",,222194,PI,292930,.07,NULL,USDA,772,NULL
+17,North,55,8231,2013,0,0,0,Korobovka,,287726,PI,383513,.07,NULL,USDA,773,NULL
+6,South,33,8232,2013,0,0,0,Korobovka,,287726,PI,383513,.07,NULL,USDA,773,NULL
+9,North,56,8249,2013,0,0,0,Jefferis,,11133,PI,589185,.06,NULL,USDA,779,NULL
+7,South,25,8250,2013,0,0,1,Jefferis,,11133,PI,589185,.06,NULL,USDA,779,NULL
+4,North,54,8256,2013,0,0,0,"Holaart Doux",,18273,PI,589585,.07,NULL,USDA,781,NULL
+11,South,19,8257,2013,0,0,0,"Holaart Doux",,18273,PI,589585,.07,NULL,USDA,781,NULL
+6,North,24,8267,2013,0,0,1,"Isle of Wight Pippin",,24691,PI,590131,.04,NULL,USDA,785,NULL
+13,South,56,8268,2013,0,0,0,"Isle of Wight Pippin",,24691,PI,590131,.04,NULL,USDA,785,NULL
+18,North,60,8271,2013,0,0,0,"Geoagiu 21",,730490,PI,651009,.01,NULL,USDA,786,NULL
+14,South,11,8272,2013,0,0,0,"Geoagiu 21",,730490,PI,651009,.01,NULL,USDA,786,NULL
+16,North,54,8279,2013,0,0,1,Lande,,140211,PI,162724,.08,NULL,USDA,789,NULL
+4,South,55,8281,2013,0,0,0,Lande,,140211,PI,162724,.08,NULL,USDA,789,NULL
+10,North,51,8282,2013,0,0,0,Lemoen,,139431,PI,161407,.05,NULL,USDA,790,NULL
+15,South,3,8283,2013,0,0,0,Lemoen,,139431,PI,161407,.05,NULL,USDA,790,NULL
+16,North,62,8284,2013,1,0,0,Lemoen,,139431,PI,161407,.05,NULL,USDA,790,NULL
+6,North,3,8292,2013,0,0,0,"Kandil Sinap",,562967,PI,613948,.03,NULL,USDA,793,NULL
+4,South,11,8293,2013,0,0,0,"Kandil Sinap",,562967,PI,613948,.03,NULL,USDA,793,NULL
+13,North,13,8294,2013,0,0,1,"Frequin Tardive de la Sarthe",,19007,PI,589689,.07,NULL,USDA,794,NULL
+4,South,35,8296,2013,0,0,0,"Frequin Tardive de la Sarthe",,19007,PI,589689,.07,NULL,USDA,794,NULL
+13,North,20,8309,2013,0,0,0,"Gibbs Golden Gage",,229179,PI,306321,.05,NULL,USDA,799,NULL
+2,South,11,8311,2013,0,0,0,"Gibbs Golden Gage",,229179,PI,306321,.05,NULL,USDA,799,NULL
+9,North,44,8312,2013,0,0,0,"Merton 778",,19155,PI,589709,.07,NULL,USDA,800,NULL
+6,South,17,8314,2013,0,0,0,"Merton 778",,19155,PI,589709,.07,NULL,USDA,800,NULL
+3,North,9,8324,2013,0,0,0,"Loop Giant Spy",,11928,PI,589207,.05,NULL,USDA,804,NULL
+19,South,35,8325,2013,0,0,0,"Loop Giant Spy",,11928,PI,589207,.05,NULL,USDA,804,NULL
+5,North,41,8331,2013,0,0,0,"Honey Ball",,172768,PI,206026,.07,NULL,USDA,806,NULL
+17,South,42,8332,2013,0,0,0,"Honey Ball",,172768,PI,206026,.07,NULL,USDA,806,NULL
+4,North,38,9003,2013,0,0,0,Jonalicious,,7034,PI,613815,.06,NULL,USDA,808,NULL
+5,South,45,9004,2013,0,0,1,Jonalicious,,7034,PI,613815,.06,NULL,USDA,808,NULL
+8,North,61,9006,2013,0,0,0,Kitanosachi,,24813,PI,590154,.07,NULL,USDA,809,NULL
+5,South,23,9008,2013,0,0,0,Kitanosachi,,24813,PI,590154,.07,NULL,USDA,809,NULL
+8,North,60,9048,2013,0,0,0,Ivan,,18613,PI,589637,.08,NULL,USDA,823,NULL
+15,South,46,9050,2013,0,0,0,Ivan,,18613,PI,589637,.08,NULL,USDA,823,NULL
+11,North,23,9058,2013,0,0,0,Goldsmith,,87539,PI,613833,.02,NULL,USDA,826,NULL
+10,South,15,9059,2013,0,0,0,Goldsmith,,87539,PI,613833,.02,NULL,USDA,826,NULL
+12,North,9,9060,2013,0,0,0,Ermak,,287719,PI,383505,.06,NULL,USDA,827,NULL
+6,South,47,9061,2013,0,0,0,Ermak,,287719,PI,383505,.06,NULL,USDA,827,NULL
+7,North,1,9062,2013,1,0,1,Ermak,,287719,PI,383505,.06,NULL,USDA,827,NULL
+19,North,35,9066,2013,0,0,0,"Keegan's Crab",,171048,PI,203814,.07,NULL,USDA,829,NULL
+3,South,12,9067,2013,0,0,0,"Keegan's Crab",,171048,PI,203814,.07,NULL,USDA,829,NULL
+4,North,27,9072,2013,0,0,1,"Jewett Red",,674975,PI,644185,.01,NULL,USDA,831,NULL
+10,South,28,9073,2013,0,0,0,"Jewett Red",,674975,PI,644185,.01,NULL,USDA,831,NULL
+11,North,6,9075,2013,0,0,0,"Flower of Kent",,10921,PI,589174,.06,NULL,USDA,832,NULL
+13,South,17,9076,2013,0,0,0,"Flower of Kent",,10921,PI,589174,.06,NULL,USDA,832,NULL
+6,North,10,9081,2013,0,0,1,"June Wealthy",,9775,PI,589131,.07,NULL,USDA,834,NULL
+11,South,35,9083,2013,0,0,0,"June Wealthy",,9775,PI,589131,.07,NULL,USDA,834,NULL
+16,North,21,9084,2013,0,0,1,"Lambrook Pippin",,139564,PI,161839,.03,NULL,USDA,835,NULL
+15,South,25,9085,2013,0,0,0,"Lambrook Pippin",,139564,PI,161839,.03,NULL,USDA,835,NULL
+10,South,61,9092,2013,0,0,0,"Granite Beauty",,674978,PI,644186,.01,NULL,USDA,837,NULL
+13,North,16,9097,2013,0,0,0,"Koidu Renett",,775041,PI,657748,.01,NULL,USDA,839,NULL
+18,South,61,9098,2013,0,0,0,"Koidu Renett",,775041,PI,657748,.01,NULL,USDA,839,NULL
+10,North,36,9099,2013,0,0,0,"Ernst Bosch",,12678,PI,589238,.08,NULL,USDA,840,NULL
+17,South,24,9101,2013,0,0,0,"Ernst Bosch",,12678,PI,589238,.08,NULL,USDA,840,NULL
+17,North,13,9123,2013,0,0,0,"Jakob Fischer",,254931,PI,341744,.07,NULL,USDA,848,NULL
+12,South,60,9125,2013,0,0,0,"Jakob Fischer",,254931,PI,341744,.07,NULL,USDA,848,NULL
+2,North,35,9126,2013,0,0,0,"Lamb Abbey Pearmain-A",,168732,PI,199418,.08,NULL,USDA,849,NULL
+9,South,46,9128,2013,0,0,0,"Lamb Abbey Pearmain-A",,168732,PI,199418,.08,NULL,USDA,849,NULL
+12,North,58,9135,2013,0,0,0,"Ikorocavka Alaja",,168843,PI,199690,.09,NULL,USDA,852,NULL
+12,South,48,9136,2013,0,0,0,"Ikorocavka Alaja",,168843,PI,199690,.09,NULL,USDA,852,NULL
+4,North,34,9139,2013,0,0,1,Komlensk,,287725,PI,383512,.04,NULL,USDA,853,NULL
+8,South,50,9140,2013,0,0,0,Komlensk,,287725,PI,383512,.04,NULL,USDA,853,NULL
+11,North,8,9144,2013,0,0,0,Euzia,,134822,PI,137042,.09,NULL,USDA,855,NULL
+10,South,14,9145,2013,0,0,0,Euzia,,134822,PI,137042,.09,NULL,USDA,855,NULL
+8,South,1,9146,2013,1,0,0,Euzia,,134822,PI,137042,.09,NULL,USDA,855,NULL
+14,North,5,9147,2013,0,0,0,"Gloria Mundi",,7601,PI,589040,.10,NULL,USDA,856,NULL
+9,South,36,9149,2013,0,0,0,"Gloria Mundi",,7601,PI,589040,.10,NULL,USDA,856,NULL
+2,North,15,9150,2013,0,0,0,Heiya,,134613,PI,135689,.05,NULL,USDA,857,NULL
+13,South,28,9152,2013,0,0,0,Heiya,,134613,PI,135689,.05,NULL,USDA,857,NULL
+13,North,2,9156,2013,0,0,0,"Egri Piros",,331988,PI,437052,.05,NULL,USDA,859,NULL
+15,South,55,9157,2013,0,0,1,"Egri Piros",,331988,PI,437052,.05,NULL,USDA,859,NULL
+10,North,16,9160,2013,0,0,0,"Elisa Ratkee",,186391,PI,238028,.06,NULL,USDA,860,NULL
+18,South,27,9161,2013,0,0,1,"Elisa Ratkee",,186391,PI,238028,.06,NULL,USDA,860,NULL
+3,North,39,9163,2013,0,0,0,"Lemon Pippin",,138056,PI,157731,.05,NULL,USDA,861,NULL
+12,South,33,9164,2013,0,0,0,"Lemon Pippin",,138056,PI,157731,.05,NULL,USDA,861,NULL
+10,North,27,9165,2013,0,0,0,"Hubbardston Nonsuch",,11766,PI,589202,.10,NULL,USDA,862,NULL
+3,South,34,9166,2013,0,0,0,"Hubbardston Nonsuch",,11766,PI,589202,.10,NULL,USDA,862,NULL
+1,North,8,9171,2013,0,0,0,Jewel,,136005,PI,148478,.04,NULL,USDA,864,NULL
+7,South,56,9173,2013,0,0,0,Jewel,,136005,PI,148478,.04,NULL,USDA,864,NULL
+14,North,3,9177,2013,0,0,0,Longfield,,23373,PI,590024,.05,NULL,USDA,866,NULL
+13,South,18,9179,2013,0,0,1,Longfield,,23373,PI,590024,.05,NULL,USDA,866,NULL
+13,North,52,9180,2013,0,0,0,Iunost,,222595,PI,293885,.05,NULL,USDA,867,NULL
+4,South,29,9181,2013,0,0,0,Iunost,,222595,PI,293885,.05,NULL,USDA,867,NULL
+3,North,40,9189,2013,0,0,0,Langworthy,,139575,PI,161851,.03,NULL,USDA,870,NULL
+18,South,14,9190,2013,0,0,0,Langworthy,,139575,PI,161851,.03,NULL,USDA,870,NULL
+16,North,16,9195,2013,0,0,0,"Frequin Lacaille",,190015,PI,247314,.05,NULL,USDA,872,NULL
+13,South,48,9196,2013,0,0,0,"Frequin Lacaille",,190015,PI,247314,.05,NULL,USDA,872,NULL
+18,North,57,9201,2013,0,0,0,Kemp,,172770,PI,206030,.10,NULL,USDA,874,NULL
+6,South,28,9203,2013,0,0,1,Kemp,,172770,PI,206030,.10,NULL,USDA,874,NULL
+15,North,10,9210,2013,0,0,0,Eurika,,17995,PI,589549,.08,NULL,USDA,877,NULL
+17,South,18,9212,2013,0,0,0,Eurika,,17995,PI,589549,.08,NULL,USDA,877,NULL
+8,North,44,9213,2013,0,0,0,"Heyer #2",,136202,PI,151255,.04,NULL,USDA,878,NULL
+7,South,19,9214,2013,0,0,0,"Heyer #2",,136202,PI,151255,.04,NULL,USDA,878,NULL
+3,North,54,9216,2013,0,0,0,Gallen,,180726,PI,224609,.06,NULL,USDA,879,NULL
+9,South,50,9218,2013,0,0,0,Gallen,,180726,PI,224609,.06,NULL,USDA,879,NULL
+12,North,23,9219,2013,0,0,0,"Late Strawberry",,8186,PI,589066,.09,NULL,USDA,880,NULL
+9,South,8,9221,2013,0,0,0,"Late Strawberry",,8186,PI,589066,.09,NULL,USDA,880,NULL
+2,South,31,9234,2013,0,0,0,"Jones Favorite",,13787,PI,589296,.04,NULL,USDA,885,NULL
+12,North,61,9235,2013,0,0,0,"Jones Favorite",,13787,PI,589296,.04,NULL,USDA,885,NULL
+9,North,51,9246,2013,0,0,0,"Isayev's Desertnyi",,229883,PI,307515,.06,NULL,USDA,889,NULL
+9,South,41,9248,2013,0,0,0,"Isayev's Desertnyi",,229883,PI,307515,.06,NULL,USDA,889,NULL
+11,North,39,9252,2013,0,0,0,Khashabi,,221718,PI,292134,.07,NULL,USDA,891,NULL
+6,South,37,9253,2013,0,0,0,Khashabi,,221718,PI,292134,.07,NULL,USDA,891,NULL
+13,North,54,9262,2013,0,0,0,"John Standish",,132329,PI,123726,.06,NULL,USDA,894,NULL
+4,South,13,9263,2013,0,0,0,"John Standish",,132329,PI,123726,.06,NULL,USDA,894,NULL
+19,North,59,9270,2013,0,0,0,Kamsomolez,,10773,PI,589169,.10,NULL,USDA,897,NULL
+4,South,6,9271,2013,0,0,0,Kamsomolez,,10773,PI,589169,.10,NULL,USDA,897,NULL
+19,South,16,9273,2013,0,0,0,Greensleeves,,18876,PI,589673,.05,NULL,USDA,1222,NULL
+7,North,50,9275,2013,0,0,0,Greensleeves,,18876,PI,589673,.05,NULL,USDA,1222,NULL
+8,North,28,9276,2013,0,0,0,"Exeter Cross",,18717,PI,589649,.05,NULL,USDA,898,NULL
+16,South,32,9277,2013,0,0,0,"Exeter Cross",,18717,PI,589649,.05,NULL,USDA,898,NULL
+11,North,13,9289,2013,0,0,1,"Freiherr Von Berlepsch",,10756,PI,589167,.13,NULL,USDA,902,NULL
+11,South,48,9290,2013,0,0,0,"Freiherr Von Berlepsch",,10756,PI,589167,.13,NULL,USDA,902,NULL
+19,North,13,9291,2013,0,0,0,"Golden Uralian",,287722,PI,383509,.06,NULL,USDA,903,NULL
+9,South,34,9293,2013,0,0,0,"Golden Uralian",,287722,PI,383509,.06,NULL,USDA,903,NULL
+3,North,37,9298,2013,0,0,0,"Geneva Ontario",,13173,PI,613819,.06,NULL,USDA,905,NULL
+7,South,27,9299,2013,0,0,0,"Geneva Ontario",,13173,PI,613819,.06,NULL,USDA,905,NULL
+16,North,37,9307,2013,0,0,0,Feuillard,,151025,PI,173980,.08,NULL,USDA,908,NULL
+12,South,28,9308,2013,0,0,1,Feuillard,,151025,PI,173980,.08,NULL,USDA,908,NULL
+11,North,10,9312,2013,0,0,1,"Jaune lu Desert",,139526,PI,161762,.04,NULL,USDA,910,NULL
+11,South,43,9313,2013,0,0,0,"Jaune lu Desert",,139526,PI,161762,.04,NULL,USDA,910,NULL
+4,North,37,9321,2013,0,0,1,Loyalist,,24863,PI,590159,.06,NULL,USDA,913,NULL
+14,South,40,9323,2013,0,0,0,Loyalist,,24863,PI,590159,.06,NULL,USDA,913,NULL
+6,South,6,10017,2013,0,0,0,"Rouge Belle de Boskoop",,10227,PI,589143,.07,NULL,USDA,919,NULL
+5,North,44,10018,2013,0,0,0,"Rouge Belle de Boskoop",,10227,PI,589143,.07,NULL,USDA,919,NULL
+2,North,10,10022,2013,0,0,1,"Red Belflower",,200183,PI,264692,.07,NULL,USDA,921,NULL
+18,South,49,10024,2013,0,0,1,"Red Belflower",,200183,PI,264692,.07,NULL,USDA,921,NULL
+14,North,26,10026,2013,0,0,0,"Lyman Prolific",,8580,PI,589086,.08,NULL,USDA,922,NULL
+17,South,49,10027,2013,0,0,0,"Lyman Prolific",,8580,PI,589086,.08,NULL,USDA,922,NULL
+4,North,11,10028,2013,0,0,0,"Richland Crab",,19514,PI,589722,.04,NULL,USDA,923,NULL
+10,South,5,10029,2013,0,0,0,"Richland Crab",,19514,PI,589722,.04,NULL,USDA,923,NULL
+9,North,35,10031,2013,0,0,0,"Oliver or Senator",,23367,PI,590022,.03,NULL,USDA,924,NULL
+12,South,29,10033,2013,0,0,0,"Oliver or Senator",,23367,PI,590022,.03,NULL,USDA,924,NULL
+17,North,11,10037,2013,0,0,0,Oswego,,7311,PI,589028,.06,NULL,USDA,926,NULL
+12,South,54,10039,2013,0,0,1,Oswego,,7311,PI,589028,.06,NULL,USDA,926,NULL
+14,North,52,10041,2013,0,0,0,"Pup's Jeannette",,675290,PI,644189,.01,NULL,USDA,927,NULL
+4,South,14,10042,2013,0,0,0,"Pup's Jeannette",,675290,PI,644189,.01,NULL,USDA,927,NULL
+16,North,26,10043,2013,0,0,0,Marquesa,,96213,PI,613965,.01,NULL,USDA,928,NULL
+10,South,44,10044,2013,0,0,1,Marquesa,,96213,PI,613965,.01,NULL,USDA,928,NULL
+8,North,50,10049,2013,0,0,0,Renown,,133883,PI,131081,.04,NULL,USDA,930,NULL
+4,South,53,10050,2013,0,0,1,Renown,,133883,PI,131081,.04,NULL,USDA,930,NULL
+3,North,27,10055,2013,0,0,1,Paulista,,610646,PI,632625,.01,NULL,USDA,932,NULL
+10,South,3,10057,2013,0,0,0,Paulista,,610646,PI,632625,.01,NULL,USDA,932,NULL
+6,North,60,10058,2013,0,0,0,Northwood,,18705,PI,589647,.07,NULL,USDA,933,NULL
+7,South,41,10060,2013,0,0,1,Northwood,,18705,PI,589647,.07,NULL,USDA,933,NULL
+15,North,26,10077,2013,0,0,1,"Merton Delight",,172619,PI,205461,.09,NULL,USDA,939,NULL
+14,South,46,10078,2013,0,0,1,"Merton Delight",,172619,PI,205461,.09,NULL,USDA,939,NULL
+7,North,59,10085,2013,0,0,0,Mucina,,13819,PI,589300,.06,NULL,USDA,942,NULL
+7,South,34,10086,2013,0,0,1,Mucina,,13819,PI,589300,.06,NULL,USDA,942,NULL
+17,North,37,10088,2013,0,0,0,"Red Canada",,13240,PI,589265,.05,NULL,USDA,943,NULL
+17,South,25,10090,2013,0,0,0,"Red Canada",,13240,PI,589265,.05,NULL,USDA,943,NULL
+4,North,36,10091,2013,0,0,0,Quinte,,15660,PI,589358,.04,NULL,USDA,944,NULL
+4,South,31,10093,2013,0,0,0,Quinte,,15660,PI,589358,.04,NULL,USDA,944,NULL
+15,North,43,10094,2013,0,0,1,"Pomme Thoury",,140133,PI,162548,.07,NULL,USDA,945,NULL
+14,South,59,10095,2013,0,0,0,"Pomme Thoury",,140133,PI,162548,.07,NULL,USDA,945,NULL
+4,North,26,10118,2013,0,0,1,Patul,,3297,PI,588821,.05,NULL,USDA,953,NULL
+1,South,14,10120,2013,0,0,0,Patul,,3297,PI,588821,.05,NULL,USDA,953,NULL
+17,North,49,10121,2013,0,0,0,"Quebec Belle",,7505,PI,589036,.08,NULL,USDA,954,NULL
+15,South,20,10122,2013,0,0,0,"Quebec Belle",,7505,PI,589036,.08,NULL,USDA,954,NULL
+4,North,60,10136,2013,0,0,0,"Qing Guan",,95209,PI,644192,.01,NULL,USDA,959,NULL
+15,South,31,10137,2013,0,0,0,"Qing Guan",,95209,PI,644192,.01,NULL,USDA,959,NULL
+15,North,7,10139,2013,0,0,0,Princesa,,96071,PI,613964,.03,NULL,USDA,960,NULL
+4,South,21,10140,2013,0,0,1,Princesa,,96071,PI,613964,.03,NULL,USDA,960,NULL
+2,North,51,10151,2013,0,0,0,"Miron Sacharanij",,136936,PI,154164,.04,NULL,USDA,964,NULL
+15,South,7,10152,2013,0,0,0,"Miron Sacharanij",,136936,PI,154164,.04,NULL,USDA,964,NULL
+9,North,39,10161,2013,0,0,1,Norland,,17496,PI,589481,.04,NULL,USDA,967,NULL
+18,South,52,10162,2013,0,0,0,Norland,,17496,PI,589481,.04,NULL,USDA,967,NULL
+8,North,38,10178,2013,0,0,0,"Oekonomierat Echter-meyer",,118171,PI,78170,.04,NULL,USDA,973,NULL
+10,North,21,10179,2014,0,0,0,"Oekonomierat Echter-meyer",,118171,PI,78170,.04,NULL,USDA,973,NULL
+2,South,57,10180,2013,0,0,0,"Oekonomierat Echter-meyer",,118171,PI,78170,.04,NULL,USDA,973,NULL
+7,North,11,10187,2013,0,0,1,Primus,,22041,PI,589922,.07,NULL,USDA,976,NULL
+6,South,21,10189,2013,0,0,1,Primus,,22041,PI,589922,.07,NULL,USDA,976,NULL
+3,North,46,10193,2013,0,0,1,Macoun,,21865,PI,589895,.04,NULL,USDA,1229,NULL
+16,South,3,10195,2013,0,0,0,Macoun,,21865,PI,589895,.04,NULL,USDA,1229,NULL
+14,North,55,10196,2013,0,0,0,"Red Sauce",,8587,PI,589087,.07,NULL,USDA,978,NULL
+4,South,30,10197,2013,0,0,1,"Red Sauce",,8587,PI,589087,.07,NULL,USDA,978,NULL
+13,North,32,10200,2013,0,0,1,"Peau d'Ane",,140217,PI,162740,.04,NULL,USDA,979,NULL
+11,South,27,10201,2013,0,0,0,"Peau d'Ane",,140217,PI,162740,.04,NULL,USDA,979,NULL
+8,South,62,10202,2013,1,0,0,"Mitschurins Samenloser",,136937,PI,154165,.05,NULL,USDA,980,NULL
+10,North,8,10203,2013,0,0,1,"Mitschurins Samenloser",,136937,PI,154165,.05,NULL,USDA,980,NULL
+5,South,18,10204,2013,0,0,0,"Mitschurins Samenloser",,136937,PI,154165,.05,NULL,USDA,980,NULL
+16,North,39,10244,2013,0,0,0,Nittany,,3025,PI,588810,.06,NULL,USDA,994,NULL
+16,South,58,10245,2013,0,0,1,Nittany,,3025,PI,588810,.06,NULL,USDA,994,NULL
+4,North,43,10250,2013,0,0,1,Rokewood,,229850,PI,307381,.05,NULL,USDA,996,NULL
+16,South,57,10251,2013,0,0,0,Rokewood,,229850,PI,307381,.05,NULL,USDA,996,NULL
+5,North,31,10253,2013,0,0,1,"Renet Bergamotnyj",,197625,PI,259454,.09,NULL,USDA,997,NULL
+7,South,16,10254,2013,0,0,0,"Renet Bergamotnyj",,197625,PI,259454,.09,NULL,USDA,997,NULL
+6,North,6,10265,2013,0,0,1,Maharaji,,331999,PI,437063,.02,NULL,USDA,1001,NULL
+15,South,48,10267,2013,0,0,1,Maharaji,,331999,PI,437063,.02,NULL,USDA,1001,NULL
+14,North,50,10268,2013,0,0,0,Odin,,208410,PI,279645,.05,NULL,USDA,1002,NULL
+4,South,47,10269,2013,0,0,0,Odin,,208410,PI,279645,.05,NULL,USDA,1002,NULL
+2,North,49,10301,2013,0,0,1,"Old Pearmain",,24708,PI,590133,.04,NULL,USDA,1013,NULL
+12,South,6,10303,2013,0,0,0,"Old Pearmain",,24708,PI,590133,.04,NULL,USDA,1013,NULL
+2,North,16,10316,2013,0,0,0,Redstreak,,152071,PI,175543,.08,NULL,USDA,1018,NULL
+17,South,14,10317,2013,0,0,0,Redstreak,,152071,PI,175543,.08,NULL,USDA,1018,NULL
+7,North,54,10328,2013,0,0,0,"March #1",,10797,PI,589171,.10,NULL,USDA,1022,NULL
+12,South,47,10329,2013,0,0,1,"March #1",,10797,PI,589171,.10,NULL,USDA,1022,NULL
+19,North,44,10341,2013,0,0,0,"Noel Deschamps",,151031,PI,173986,.04,NULL,USDA,1026,NULL
+1,South,51,10342,2013,0,0,0,"Noel Deschamps",,151031,PI,173986,.04,NULL,USDA,1026,NULL
+10,North,47,11005,2013,0,0,0,"Lorna Doone",,139565,PI,161840,.05,NULL,USDA,1030,NULL
+14,South,44,11006,2013,0,0,0,"Lorna Doone",,139565,PI,161840,.05,NULL,USDA,1030,NULL
+18,North,55,11009,2013,0,0,0,"Malt Bagaevskii",,522645,PI,613938,.03,NULL,USDA,1031,NULL
+3,South,22,11010,2013,0,0,0,"Malt Bagaevskii",,522645,PI,613938,.03,NULL,USDA,1031,NULL
+5,North,40,11012,2013,0,0,0,Nanny,,133893,PI,131215,.06,NULL,USDA,1032,NULL
+12,South,27,11013,2013,0,0,0,Nanny,,133893,PI,131215,.06,NULL,USDA,1032,NULL
+15,North,29,11014,2013,0,0,0,Marachal,,9593,PI,589128,.09,NULL,USDA,1033,NULL
+19,South,23,11015,2013,0,0,0,Marachal,,9593,PI,589128,.09,NULL,USDA,1033,NULL
+12,North,40,11017,2013,0,0,0,"Nitschners Erdbeerapfel",,136938,PI,154166,.04,NULL,USDA,1034,NULL
+18,South,30,11018,2013,0,0,1,"Nitschners Erdbeerapfel",,136938,PI,154166,.04,NULL,USDA,1034,NULL
+13,North,39,11038,2013,0,0,0,"Marin Onfroy",,151027,PI,173982,.05,NULL,USDA,1041,NULL
+14,South,31,11040,2013,0,0,1,"Marin Onfroy",,151027,PI,173982,.05,NULL,USDA,1041,NULL
+18,North,39,11041,2013,0,0,0,"Roter Eiserapfel",,18327,PI,589592,.08,NULL,USDA,1042,NULL
+1,South,41,11042,2013,0,0,1,"Roter Eiserapfel",,18327,PI,589592,.08,NULL,USDA,1042,NULL
+5,North,7,11053,2013,0,0,0,"Pommier Llorca",,187593,PI,240817,.04,NULL,USDA,1046,NULL
+1,South,31,11054,2013,0,0,0,"Pommier Llorca",,187593,PI,240817,.04,NULL,USDA,1046,NULL
+7,North,6,11057,2013,0,0,1,"No Blow",,9101,PI,589104,.NA,NULL,USDA,1047,NULL
+17,South,61,11058,2013,0,0,0,"No Blow",,9101,PI,589104,.NA,NULL,USDA,1047,NULL
+1,North,27,11074,2013,0,0,0,Major,,136159,PI,150649,.11,NULL,USDA,1053,NULL
+4,South,40,11075,2013,0,0,0,Major,,136159,PI,150649,.11,NULL,USDA,1053,NULL
+19,North,22,11084,2013,0,0,1,"Renetta Dorata",,128291,PI,104034,.09,NULL,USDA,1056,NULL
+14,South,14,11085,2013,0,0,0,"Renetta Dorata",,128291,PI,104034,.09,NULL,USDA,1056,NULL
+12,North,62,11086,2013,1,0,0,Malabols,,199433,PI,262964,.08,NULL,USDA,1057,NULL
+7,North,38,11087,2013,0,0,0,Malabols,,199433,PI,262964,.08,NULL,USDA,1057,NULL
+10,South,11,11088,2013,0,0,0,Malabols,,199433,PI,262964,.08,NULL,USDA,1057,NULL
+3,North,43,11089,2013,0,0,1,"Peck Pleasant",,12708,PI,589240,.06,NULL,USDA,1058,NULL
+17,South,53,11091,2013,0,0,0,"Peck Pleasant",,12708,PI,589240,.06,NULL,USDA,1058,NULL
+5,South,62,11098,2013,1,0,0,Norhey,,17651,PI,589503,.06,NULL,USDA,1061,NULL
+10,North,24,11099,2013,0,0,0,Norhey,,17651,PI,589503,.06,NULL,USDA,1061,NULL
+7,South,36,11100,2013,0,0,0,Norhey,,17651,PI,589503,.06,NULL,USDA,1061,NULL
+6,North,17,11102,2013,0,0,0,"Rossoshanskoje Polosatoje",,17256,PI,589452,.06,NULL,USDA,1062,NULL
+11,South,59,11103,2013,0,0,1,"Rossoshanskoje Polosatoje",,17256,PI,589452,.06,NULL,USDA,1062,NULL
+3,North,50,11107,2013,0,0,0,"Reinette Thouin",,24736,PI,590140,.03,NULL,USDA,1063,NULL
+8,South,59,11108,2013,0,0,1,"Reinette Thouin",,24736,PI,590140,.03,NULL,USDA,1063,NULL
+4,North,57,11110,2013,0,0,0,"Oetwiler Renette",,134396,PI,134809,.06,NULL,USDA,1064,NULL
+19,South,44,11112,2013,0,0,0,"Oetwiler Renette",,134396,PI,134809,.06,NULL,USDA,1064,NULL
+19,North,56,11116,2013,0,0,1,Mingan,,189018,PI,244724,.09,NULL,USDA,1066,NULL
+1,South,48,11118,2013,0,0,1,Mingan,,189018,PI,244724,.09,NULL,USDA,1066,NULL
+6,North,37,11119,2013,0,0,0,Ortley,,13825,PI,589301,.05,NULL,USDA,1067,NULL
+17,South,37,11121,2013,0,0,0,Ortley,,13825,PI,589301,.05,NULL,USDA,1067,NULL
+9,North,57,11122,2013,0,0,0,"Red Ralls",,331983,PI,437047,.09,NULL,USDA,1068,NULL
+8,South,28,11124,2013,0,0,0,"Red Ralls",,331983,PI,437047,.09,NULL,USDA,1068,NULL
+16,North,11,11134,2013,0,0,0,"Reine des Pommes",,134078,PI,132571,.08,NULL,USDA,1072,NULL
+13,South,38,11135,2013,0,0,1,"Reine des Pommes",,134078,PI,132571,.08,NULL,USDA,1072,NULL
+13,North,42,11140,2013,0,0,0,"Peau de Vache",,134730,PI,136489,.08,NULL,USDA,1074,NULL
+6,South,5,11141,2013,0,0,0,"Peau de Vache",,134730,PI,136489,.08,NULL,USDA,1074,NULL
+9,North,21,11143,2013,0,0,0,"Rambourg d'Automme",,134074,PI,132276,.05,NULL,USDA,1075,NULL
+13,South,22,11144,2013,0,0,0,"Rambourg d'Automme",,134074,PI,132276,.05,NULL,USDA,1075,NULL
+16,North,47,11150,2013,0,0,0,Puregold,,22361,PI,589966,.05,NULL,USDA,1077,NULL
+1,South,35,11151,2013,0,0,0,Puregold,,22361,PI,589966,.05,NULL,USDA,1077,NULL
+1,South,62,11155,2013,1,0,0,"Northern Lights",,24896,PI,590171,.03,NULL,USDA,1079,NULL
+14,North,29,11156,2013,0,0,1,"Northern Lights",,24896,PI,590171,.03,NULL,USDA,1079,NULL
+14,South,55,11157,2013,0,0,0,"Northern Lights",,24896,PI,590171,.03,NULL,USDA,1079,NULL
+12,North,26,11158,2013,0,0,0,"Mill End",,229877,PI,307506,.07,NULL,USDA,1080,NULL
+5,South,31,11160,2013,0,0,0,"Mill End",,229877,PI,307506,.07,NULL,USDA,1080,NULL
+3,North,11,11176,2013,0,0,1,"Pomme Grise",,12820,PI,589242,.06,NULL,USDA,1086,NULL
+12,South,40,11178,2013,0,0,0,"Pomme Grise",,12820,PI,589242,.06,NULL,USDA,1086,NULL
+3,North,7,11182,2013,0,0,0,Quindell,,13836,PI,589303,.07,NULL,USDA,1088,NULL
+18,South,13,11184,2013,0,0,0,Quindell,,13836,PI,589303,.07,NULL,USDA,1088,NULL
+13,North,46,11189,2013,0,0,0,"Reneta Woskowa",,134090,PI,132830,.05,NULL,USDA,1090,NULL
+19,South,22,11190,2013,0,0,0,"Reneta Woskowa",,134090,PI,132830,.05,NULL,USDA,1090,NULL
+4,North,39,11197,2013,0,0,0,Mio,,186422,PI,238074,.10,NULL,USDA,1093,NULL
+1,South,13,11199,2013,0,0,0,Mio,,186422,PI,238074,.10,NULL,USDA,1093,NULL
+13,North,50,11204,2013,0,0,0,"Mr. Prothero",,133128,PI,126887,.07,NULL,USDA,1095,NULL
+3,South,9,11205,2013,0,0,0,"Mr. Prothero",,133128,PI,126887,.07,NULL,USDA,1095,NULL
+5,North,59,11209,2013,0,0,0,"Oratia Beauty",,168846,PI,199692,.08,NULL,USDA,1097,NULL
+4,South,3,11210,2013,0,0,1,"Oratia Beauty",,168846,PI,199692,.08,NULL,USDA,1097,NULL
+14,North,48,11215,2013,0,0,1,"Pervenec Samarkanda",,206835,PI,276718,.05,NULL,USDA,1099,NULL
+13,South,20,11217,2013,0,0,1,"Pervenec Samarkanda",,206835,PI,276718,.05,NULL,USDA,1099,NULL
+9,North,31,11221,2013,0,0,0,"Reineta do Caravia",,128378,PI,105524,.07,NULL,USDA,1101,NULL
+6,South,60,11222,2013,0,0,0,"Reineta do Caravia",,128378,PI,105524,.07,NULL,USDA,1101,NULL
+8,North,55,11242,2013,0,0,0,Nico,,18372,PI,589600,.06,NULL,USDA,1108,NULL
+11,South,3,11244,2013,0,0,0,Nico,,18372,PI,589600,.06,NULL,USDA,1108,NULL
+16,North,36,11248,2013,0,0,1,"Red Canel",,137677,PI,157211,.11,NULL,USDA,1110,NULL
+16,South,62,11249,2013,1,0,1,"Red Canel",,137677,PI,157211,.11,NULL,USDA,1110,NULL
+5,South,60,11250,2013,0,0,0,"Red Canel",,137677,PI,157211,.11,NULL,USDA,1110,NULL
+8,North,43,11287,2013,0,0,0,Maude,,19471,PI,589714,.05,NULL,USDA,1123,NULL
+13,South,44,11289,2013,0,0,0,Maude,,19471,PI,589714,.05,NULL,USDA,1123,NULL
+13,North,26,11290,2013,0,0,0,"Red Dougherty",,19146,PI,589708,.05,NULL,USDA,1124,NULL
+15,South,61,11291,2013,0,0,0,"Red Dougherty",,19146,PI,589708,.05,NULL,USDA,1124,NULL
+4,North,41,11299,2013,0,0,1,"Ruhm aus Kirchwarder",,133113,PI,126588,.05,NULL,USDA,1127,NULL
+6,South,34,11301,2013,0,0,1,"Ruhm aus Kirchwarder",,133113,PI,126588,.05,NULL,USDA,1127,NULL
+8,North,45,11308,2013,0,0,0,"Twistbody Jersey",,152079,PI,175551,.08,NULL,USDA,1130,NULL
+6,South,7,11309,2013,0,0,0,"Twistbody Jersey",,152079,PI,175551,.08,NULL,USDA,1130,NULL
+1,North,24,11317,2013,0,0,0,"Trembletts Bitter",,152078,PI,175550,.09,NULL,USDA,1133,NULL
+8,South,56,11319,2013,0,0,0,"Trembletts Bitter",,152078,PI,175550,.09,NULL,USDA,1133,NULL
+19,North,23,11320,2013,0,0,0,"Royal Jersey",,152073,PI,175545,.05,NULL,USDA,1134,NULL
+7,South,57,11321,2013,0,0,0,"Royal Jersey",,152073,PI,175545,.05,NULL,USDA,1134,NULL
+9,North,36,11323,2013,0,0,0,"Suislepas Rozabols",,199440,PI,262971,.04,NULL,USDA,1135,NULL
+6,South,44,11324,2013,0,0,1,"Suislepas Rozabols",,199440,PI,262971,.04,NULL,USDA,1135,NULL
+19,North,61,11326,2013,0,0,0,Vilberie,,18733,PI,589652,.10,NULL,USDA,1136,NULL
+9,South,61,11328,2013,0,0,1,Vilberie,,18733,PI,589652,.10,NULL,USDA,1136,NULL
+8,North,23,11329,2013,0,0,0,"Seestermuher Zitronenapfel",,133877,PI,131010,.04,NULL,USDA,1137,NULL
+2,South,27,11331,2013,0,0,1,"Seestermuher Zitronenapfel",,133877,PI,131010,.04,NULL,USDA,1137,NULL
+11,North,32,11333,2013,0,0,0,"Yellow Arkad",,287737,PI,383526,.06,NULL,USDA,1138,NULL
+5,South,41,11334,2013,0,0,1,"Yellow Arkad",,287737,PI,383526,.06,NULL,USDA,1138,NULL
+6,North,61,11335,2013,0,0,0,"Surpasse Frequin",,132770,PI,125566,.05,NULL,USDA,1139,NULL
+3,South,62,11336,2013,1,0,0,"Surpasse Frequin",,132770,PI,125566,.05,NULL,USDA,1139,NULL
+15,South,34,11337,2013,0,0,0,"Surpasse Frequin",,132770,PI,125566,.05,NULL,USDA,1139,NULL
+1,North,17,12010,2013,0,0,1,"Teint Fraise",,133237,PI,127370,.13,NULL,USDA,1143,NULL
+4,South,8,12011,2013,0,0,1,"Teint Fraise",,133237,PI,127370,.13,NULL,USDA,1143,NULL
+10,North,7,12013,2013,0,0,0,Spasserud,,19515,PI,589723,.04,NULL,USDA,1144,NULL
+15,South,52,12015,2013,0,0,1,Spasserud,,19515,PI,589723,.04,NULL,USDA,1144,NULL
+12,North,15,12017,2013,0,0,0,"Schoner aus Miltenberg",,17856,PI,589530,.05,NULL,USDA,1145,NULL
+14,South,7,12018,2013,0,0,0,"Schoner aus Miltenberg",,17856,PI,589530,.05,NULL,USDA,1145,NULL
+19,North,28,12028,2013,0,0,0,Vienna,,17831,PI,589527,.04,NULL,USDA,1149,NULL
+7,South,15,12030,2013,0,0,0,Vienna,,17831,PI,589527,.04,NULL,USDA,1149,NULL
+19,North,2,12034,2013,0,0,0,Wainwright,,206369,PI,275292,.12,NULL,USDA,1151,NULL
+1,South,19,12036,2013,0,0,1,Wainwright,,206369,PI,275292,.12,NULL,USDA,1151,NULL
+14,North,61,12037,2013,0,0,0,Williams,,9829,PI,589133,.08,NULL,USDA,1152,NULL
+16,South,53,12039,2013,0,0,0,Williams,,9829,PI,589133,.08,NULL,USDA,1152,NULL
+2,North,29,12044,2013,0,0,0,"Souvenir de Fernand Cognet",,160977,PI,187062,.07,NULL,USDA,1154,NULL
+7,South,46,12045,2013,0,0,0,"Souvenir de Fernand Cognet",,160977,PI,187062,.07,NULL,USDA,1154,NULL
+8,North,21,12049,2013,0,0,0,"White Jersey",,152081,PI,175553,.04,NULL,USDA,1156,NULL
+8,North,62,12050,2013,1,0,0,"White Jersey",,152081,PI,175553,.04,NULL,USDA,1156,NULL
+17,South,10,12051,2013,0,0,0,"White Jersey",,152081,PI,175553,.04,NULL,USDA,1156,NULL
+13,North,29,12052,2013,0,0,0,"Spur Winter Banana",,10491,PI,589154,.12,NULL,USDA,1157,NULL
+1,South,11,12054,2013,0,0,0,"Spur Winter Banana",,10491,PI,589154,.12,NULL,USDA,1157,NULL
+5,North,60,12055,2013,0,0,1,Tasty,,331985,PI,437049,.05,NULL,USDA,1158,NULL
+15,South,18,12057,2013,0,0,0,Tasty,,331985,PI,437049,.05,NULL,USDA,1158,NULL
+14,North,51,12064,2013,0,0,0,Stroming,,19525,PI,589724,.05,NULL,USDA,1161,NULL
+19,South,34,12066,2013,0,0,0,Stroming,,19525,PI,589724,.05,NULL,USDA,1161,NULL
+12,South,11,12070,2013,0,0,0,Sinta,,22350,PI,589964,.04,NULL,USDA,1239,NULL
+16,North,5,12071,2013,0,0,0,Sinta,,22350,PI,589964,.04,NULL,USDA,1239,NULL
+18,North,14,12076,2013,0,0,1,"Signe Tillisch",,128338,PI,105132,.11,NULL,USDA,1164,NULL
+15,South,14,12078,2013,0,0,0,"Signe Tillisch",,128338,PI,105132,.11,NULL,USDA,1164,NULL
+19,North,48,12092,2013,0,0,1,"Stembridge Cluster",,19032,PI,589692,.06,NULL,USDA,1169,NULL
+8,South,41,12093,2013,0,0,1,"Stembridge Cluster",,19032,PI,589692,.06,NULL,USDA,1169,NULL
+13,North,61,12100,2013,0,0,0,"Uralskoje Nalivnoje",,17731,PI,589513,.06,NULL,USDA,1172,NULL
+9,South,6,12101,2013,0,0,1,"Uralskoje Nalivnoje",,17731,PI,589513,.06,NULL,USDA,1172,NULL
+1,North,26,12103,2013,0,0,0,Sharopa,,287730,PI,383517,.05,NULL,USDA,1173,NULL
+19,South,5,12104,2013,0,0,0,Sharopa,,287730,PI,383517,.05,NULL,USDA,1173,NULL
+11,North,28,12109,2013,0,0,0,Tioga,,12314,PI,589226,.06,NULL,USDA,1175,NULL
+12,South,37,12111,2013,0,0,1,Tioga,,12314,PI,589226,.06,NULL,USDA,1175,NULL
+1,North,19,12113,2013,0,0,1,Suvorovets,,287733,PI,383521,.06,NULL,USDA,1176,NULL
+15,South,8,12114,2013,0,0,0,Suvorovets,,287733,PI,383521,.06,NULL,USDA,1176,NULL
+3,North,60,12115,2013,0,0,1,Slocan,,136026,PI,148710,.05,NULL,USDA,1177,NULL
+6,North,62,12116,2013,1,0,0,Slocan,,136026,PI,148710,.05,NULL,USDA,1177,NULL
+2,South,32,12117,2013,0,0,0,Slocan,,136026,PI,148710,.05,NULL,USDA,1177,NULL
+11,North,22,12137,2013,0,0,0,Sensacion,,128380,PI,105531,.07,NULL,USDA,1184,NULL
+2,South,43,12138,2013,0,0,1,Sensacion,,128380,PI,105531,.07,NULL,USDA,1184,NULL
+5,North,28,12140,2013,0,0,1,"San Jacinto",,6259,PI,613814,.06,NULL,USDA,1185,NULL
+19,South,37,12141,2013,0,0,1,"San Jacinto",,6259,PI,613814,.06,NULL,USDA,1185,NULL
+6,North,32,12143,2013,0,0,0,"San Juan",,198143,PI,260002,.07,NULL,USDA,1186,NULL
+16,South,43,12144,2013,0,0,0,"San Juan",,198143,PI,260002,.07,NULL,USDA,1186,NULL
+14,North,8,13008,2013,0,0,0,Slor,,86630,PI,613832,.02,NULL,USDA,1190,NULL
+6,South,16,13009,2013,0,0,0,Slor,,86630,PI,613832,.02,NULL,USDA,1190,NULL
+13,North,21,13013,2013,0,0,0,"Saivanskaiya(Apple-Tree From Saivan)",,580673,PI,644173,.01,NULL,USDA,1192,NULL
+19,South,48,13014,2013,0,0,0,"Saivanskaiya(Apple-Tree From Saivan)",,580673,PI,644173,.01,NULL,USDA,1192,NULL
+9,North,9,13019,2013,0,0,0,Sylvia,,14961,PI,589351,.05,NULL,USDA,1194,NULL
+6,South,35,13020,2013,0,0,0,Sylvia,,14961,PI,589351,.05,NULL,USDA,1194,NULL
+2,North,33,13031,2013,0,0,0,Toko,,216949,PI,287529,.09,NULL,USDA,1198,NULL
+7,South,59,13032,2013,0,0,0,Toko,,216949,PI,287529,.09,NULL,USDA,1198,NULL
+5,North,42,13034,2013,0,0,0,"Stahls Prinz",,14912,PI,589346,.06,NULL,USDA,1199,NULL
+6,South,30,13035,2013,0,0,0,"Stahls Prinz",,14912,PI,589346,.06,NULL,USDA,1199,NULL
+14,North,11,13037,2013,0,0,0,"Beautiful Arcade",,3647,PI,588839,,14,Kentville,1200,NULL
+9,South,26,13038,2013,0,0,0,"Beautiful Arcade",,3647,PI,588839,,14,Kentville,1200,NULL
+18,North,34,13040,2013,0,0,0,"Nova Russet",,NULL,,NULL,,NULL,Kentville,1201,NULL
+11,South,54,13042,2013,0,0,0,"Nova Russet",,NULL,,NULL,,NULL,Kentville,1201,NULL
+3,North,59,13064,2013,0,0,1,Shawnee,,13857,PI,589306,.07,NULL,USDA,1209,NULL
+1,South,26,13066,2013,0,0,0,Shawnee,,13857,PI,589306,.07,NULL,USDA,1209,NULL
+17,North,43,13082,2013,0,0,1,Vogelcalville,,161407,PI,188525,.09,NULL,USDA,1215,NULL
+18,South,9,13084,2013,0,0,1,Vogelcalville,,161407,PI,188525,.09,NULL,USDA,1215,NULL
+10,North,22,13106,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+18,North,2,13107,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+4,North,22,13108,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+16,North,22,13109,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+8,North,42,13110,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+14,North,42,13111,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+2,North,42,13112,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+12,South,2,13113,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+6,South,2,13114,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+10,South,22,13115,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+18,South,2,13116,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+4,South,22,13117,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+16,South,22,13118,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+8,South,42,13119,2013,0,1,1,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+14,South,42,13123,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+2,South,42,13124,2013,0,1,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL
+15,North,3,13125,2014,0,0,0,SweeTango,,NULL,,NULL,,113,Kentville,1232,NULL

@@ -1,0 +1,391 @@
+---
+title: "Correlation of GCMS Analysis Date with Harvest Date"
+output: html_notebook
+---
+
+```{r, setup, include = FALSE}
+# set the root directory
+knitr::opts_knit$set(root.dir = '/Users/tayabsoomro/Documents/Projects/GCMS-Project/apple-aroma')
+
+```
+
+### Library Imports
+```{r warning = FALSE, message = FALSE}
+library(readxl)
+library(stringr)
+library(dplyr)
+library(questionr)
+library(xlsx)
+library(ggplot2)
+```
+
+### Problem
+
+We found that there is correlation between harvest date and samples total volatile content (STVC). We would like to know
+whether this is a true biological phenomenon or whether it is an artifact of some sort. To do that, we would like to see
+if there is a correlation between the date the volatile data was collected and the harvest date. If we see a high
+correlation between the two values, this means that harvest date is largely explained by the date on which the volatile
+was quantified. If that is the case, we do not have a strong position to propose that there is a biological relationship
+between harvest date and other attributes.
+
+### Data Loading
+We have information about when (i.e., `YYYY-MM-DD` formatted date) the samples were analyzed on the GC-MS machine. We will
+be loading that.
+
+```{r}
+date_data <- read_excel('data/raw/apple_quality_2017_analysis_date.xlsx')
+dim(date_data)
+```
+There are 3 columns and 140830 rows.
+
+### Data Check & Curation
+Let's see what the column names are for the data:
+```{r}
+colnames(date_data)
+```
+We need to change the column names so that they are easier to work with. Also, we probably do not need all of these columns.
+We only really need the `Date` and `FileName` column.
+```{r}
+colnames(date_data) <- c("Peak_Number", "Date", "FileName")
+date_data <- date_data[, -1]
+colnames(date_data)
+```
+There we go! We only have the `Date` and `FileName` column now.
+
+<br />
+
+#### Investigating Data Format
+
+Let's take a look at the data in the file to see what the format is:
+```{r}
+head(date_data)
+```
+It looks like the date is `YYY-MM-DD` format.
+The FileName is the same FileName that we had previously from which we extracted the nursery id and then
+finally extracted the `apple id`.
+
+##### Removing unwanted rows from the `date_data`
+The rows with Blanks in the `FileName` column are the runs where instead of apple samples, Blanks were run as part of
+calibration process. There are other unnecessary rows that are not interesting. I am going to remove it before
+proceeding. In other words, I am only going to be keeping the rows which have the `eunit` keyword in them because these
+rows are the ones that truly correspond to a nursery id and an apple id.
+
+```{r}
+rows_to_keep <- which(grepl("eunit", date_data$FileName))
+length(rows_to_keep)
+```
+There are ``r length(rows_to_keep)`` rows which we will be keeping, the rest are going to be thrown away.
+
+```{r}
+date_data <- date_data[rows_to_keep,]
+nrow(date_data)
+```
+After cleanup, we end up with ``r nrow(date_data)`` rows.
+
+Final check to see what the `head` of the data looks like:
+```{r}
+head(date_data)
+```
+<br />
+
+##### Investigating the correctness of date format
+
+There are supposed to be ``r nrow(date_data)`` rows in the `date_data` data frame. Therefore, if I match the
+format `YYYY-MM-DD` in the Date column, I should get exactly that number of records if all the dates have
+the same format.
+
+```{r}
+correct_dates <- str_extract(date_data$Date, regex("[0-9]{4}-[0-9]{2}-[0-9]{2}"))
+length(correct_dates)
+```
+The number of rows in the data ``r nrow(date_data)`` matches the number of correctly formatted dates
+(``r length(correct_dates)``). Therefore, I conclude that the dates are correctly formatted.
+
+<br />
+
+##### Investigating the correctness of FileName format
+
+In the FileName, I expect all the rows to have an `e-unit` ID (which is used to
+get to the apple id). Therefore, a good check would be to verify that all the rows have `e-unit` value.
+
+To do this, I am going to match the `FileName` value to a regular expression.
+
+```{r}
+correct_file_names <- str_extract(date_data$FileName, regex('eunit [0-9]{1,}_(1|[0-9]{1,})'))
+length(correct_file_names)
+```
+The number of rows in the data ``r nrow(date_data)`` matches the number of correctly formatted `FileName`
+values (``r length(correct_file_names)``). Therefore, I conclude that the `FileName` data are
+correctly formatted.
+
+
+<br />
+
+#### Joining apple ids to the data frame
+In order to get to the apple ids, I first need to extract the nursery ids from `FileName`
+column. I do that as follows:
+```{r}
+# parsing out the nursery ids (A.K.A eunit ids)
+combined <- !is.na(str_extract(date_data$FileName, 'eunit [0-9]{2,}_[0-9]{2,}'))
+nurseryIds <- gsub('eunit ', '', str_extract(date_data$FileName, 'eunit [0-9]{1,}'))
+length(nurseryIds)
+length(combined)
+head(nurseryIds)
+
+```
+
+Now I have vector of `r length(nurseryIds)` rows which corresponds to the nursery ids for
+each of the row in the `date_data` data frame. I will add that to the data frame:
+
+```{r}
+date_data$NurseryId <- nurseryIds
+date_data$Combined <- combined
+```
+Now, the `FileName` column is no longer required. I will remove that so that we only have the `Date` and `NurseryId`
+column.
+
+```{r}
+date_data <- date_data[, c("Date", "NurseryId", "Combined")]
+head(date_data)
+```
+
+<br />
+
+There are going to be lots of duplicated rows because many compounds were analyzed for a single nursery id. And all the
+nursery ids were analyzed on the same day. Therefore, I need to remove the duplicated rows and only keep the unique ones.
+```{r}
+nrow(date_data)
+nrow(unique(date_data))
+```
+There are `r nrow(date_data)` rows, but most of them are duplicates. If we remove duplicated rows, we end up with `r nrow(unique(date_data))` rows.
+
+Removing duplicated rows:
+```{r}
+date_data <- unique(date_data)
+
+length(unique(date_data$NurseryId))
+```
+
+The next job is to attach apple ids to the data frame. I do this through a pivot table that
+I generated a while back which maps nursery ids to apple ids. I am going to join that pivot
+table to the `date_data` data frame.
+
+```{r}
+pivot_tbl <- read.table('data/raw/nursery-id_apple-id_pivot.tsv')
+
+head(pivot_tbl)
+
+# make sure that both columns are character so that it matches the class of date_data
+pivot_tbl$nursery_id <- as.character(pivot_tbl$nursery_id)
+pivot_tbl$apple_id <- as.character(pivot_tbl$apple_id)
+```
+
+```{r}
+nrow(pivot_tbl)
+```
+There are `r nrow(pivot_tbl)` rows. We also notice from above that there are duplicated apple ids. The reason is that
+there are multiple nursery ids that correspond to a single apple ids. This duplication should not be a problem, because
+we are matching the nursery id so regardless of which of the two nursery ids we end up picking, they all correspond to
+the same apple id.
+
+```{r}
+final.df <- inner_join(date_data, pivot_tbl, by = c("NurseryId" = "nursery_id"))
+head(final.df)
+```
+
+```{r}
+nrow(final.df)
+```
+The final number (`r nrow(final.df)`) is exactly the same as the initial number (`r nrow(date_data)`) that we had for
+`date_data`.
+
+<br />
+
+#### Joining the harvest date data
+
+```{r}
+abc_pheno_tbl <- read_excel('data/processed/sup_tbl_2-abc_phenotype_table_v2.xlsx')
+
+#we only need to keep certain columns
+abc_pheno_tbl <- abc_pheno_tbl[, c("apple_id", "date_jul_17_harv")]
+
+# convert the apple_id to character so that it is comparable to the column in final.df
+abc_pheno_tbl$apple_id <- as.character(abc_pheno_tbl$apple_id)
+
+head(abc_pheno_tbl)
+head(final.df)
+```
+
+Perfect, the above data looks good, the next step is to attach this data to the `final.df`
+
+```{r}
+final.df <- inner_join(final.df, abc_pheno_tbl, by = "apple_id")
+head(final.df)
+```
+I will clean up the column names again:
+
+```{r}
+colnames(final.df) <- c("AnalysisDate", "NurseryId", "Combined", "AppleID", "HarvestDate")
+```
+Perfect! In order to make the `AnalysisDate` and `HarvestDate` to be compatible, I will need to convert the `AnalysisDate`
+to julian days. For that I've written up the following function:
+
+```{r}
+
+#' FUNCTION: is_leap_year
+#' DESCRIPTION: Returns TRUE if a given year is leap year, FALSE otherwise
+#' INPUT: year - a YYYY formatted year
+#' OUTPUT: TRUE if year is leap year, FALSE otherwise
+is_leap_year <- function(year) {
+  if (is.na(str_extract(year, regex('[0-9]{4}')))) {
+    stop(paste0("ERROR: ", year, " is not a properly formatted year. The format should be YYYY"))
+  } else {
+    year_n <- as.numeric(year)
+    if ((year_n %% 4 == 0) &
+      (year_n %% 100 == 0) &
+      (year_n %% 400 == 0)) {
+      return(TRUE)
+    } else return(FALSE)
+  }
+}
+
+#' FUNCTION: convert_julian
+#' DESCRIPTION: Converts a YYYY-MM-DD formatted date into julian days
+#' INPUT: date - a YYYY-MM-DD formatted date
+#' OUTPUT: a number representing the julian days of date
+convert_julian <- function(date) {
+  date_regex <- '[0-9]{4}-[0-9]{2}-[0-9]{2}'
+  if (is.na(str_extract(date, regex(date_regex)))) { # check to see if date is valid
+    stop(paste0("ERROR: ", date, " is not a valid date! The format should be YYYY-MM-DD"))
+  } else {
+    date_split <- str_split(date, "-")[[1]]
+    year <- as.numeric(date_split[1])
+    month <- as.numeric(date_split[2])
+    day <- as.numeric(date_split[3])
+
+    # calculate days in a year
+    if (is_leap_year(year)) {
+      days_in_year <- c(31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+    } else {
+      days_in_year <- c(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+    }
+  }
+  julian_value <- sum(days_in_year[1:(month - 1)]) + day
+  return(julian_value)
+}
+```
+
+
+I am going to be using the above function to convert the `AnalysisDate` to julian days:
+
+
+```{r}
+analysis_dates <- as.character(as.POSIXct(final.df$AnalysisDate, format = "%Y-%m-%d"))
+analysis_julian_days <- NULL
+for (i in seq_along(analysis_dates)) {
+  date <- analysis_dates[i]
+  analysis_julian_days[i] <- convert_julian(date)
+}
+final.df$AnalysisDateJulian <- analysis_julian_days
+dim(final.df)
+```
+
+```{r}
+# removing the replicates from the date_tbl
+replicates_to_remove <- c(6167, 1009, 1197, 2250, 9304, 9132, 8087)
+final.df <- final.df[-which(final.df$NurseryId %in% replicates_to_remove),]
+
+# write this for future
+openxlsx::write.xlsx(as.data.frame(final.df), "data/processed/harvest_date_analysis_date_pivot.xlsx", row.names = FALSE)
+
+head(final.df)
+```
+
+Great, now we have the analysis date in julian format. We are ready to do correlation. But, before we do that, I want
+to explore the data a little.
+
+<br />
+
+### Data Investigation
+
+#### What is the distribution of the dates?
+
+It looks like the analysis seems to have spanned from mid-April to end-May. Most of the analyses were done
+in the month of April.
+```{r}
+hist(date_data$Date, breaks = 100, main = "Distribution of Analysis Dates", xlab = "Analysis Date")
+```
+
+#### Were th analyses done on the same day?
+
+```{r}
+date_tbl <- sort(table(date_data$Date))
+date_tbl
+hist(date_tbl, breaks = 25, main = "", xlab = "Number of anlalysis run on a given day")
+```
+
+There definitely were analysis that were run on the same day. `r names(tail(date_tbl,1))` was the day on which there were
+the highest number (`r tail(date_tbl,1)`) of analyses run.
+
+### Harvest Date & Analysis Date Correlation
+
+Uhm... there seems to be a positive correlation between the harvest dat and analysis date. This correlation also seems to
+be statistically significant. I am going to plot out the values on X-Y plot line of best fit
+
+```{r}
+analysis_date <- final.df$AnalysisDateJulian
+harvest_date <- final.df$HarvestDate
+fit.hv_dt_analysis <- lm(analysis_date ~ harvest_date)
+summary(fit.hv_dt_analysis)
+ggplot(data.frame(analysis_date, harvest_date), aes(x = harvest_date, y = analysis_date)) +
+  geom_point(alpha = 0.5, color = "black") +
+  geom_line(aes(x = harvest_date, y = fit.hv_dt_analysis$fitted.values),  # predicted data
+            color = 'black', alpha = 0.3) +
+  xlab("Harvest Date") +
+  ylab("Analysis Date")
+
+```
+Looking at this graph, it is a little re-assuring that the that it is not a perfect correlation between the harvest date
+and analysis date. There seems to be sort of an outlier for late harvested apples. It almost feels like some late harvested
+apples were run at the very last.
+
+<br />
+
+The next thing I am going to do is assess the correlation of compound abundance and harvest date with analysis date as
+co-factor in order to see if the correlation still exists.
+
+```{r}
+
+gcms_pheno_tbl <- read_excel('data/processed/sup_tbl_1-final_gcms_phenotype_table_v2.xlsx')
+dim(gcms_pheno_tbl)
+
+gcms_pheno_tbl$STVC <- rowSums(gcms_pheno_tbl[, 2:ncol(gcms_pheno_tbl)])
+
+# only keep relevant columns
+gcms_pheno_tbl <- gcms_pheno_tbl[, c("appleid", "STVC")]
+
+# convert appleid column to character to be compatible with final.df
+gcms_pheno_tbl$appleid <- as.character(gcms_pheno_tbl$appleid)
+
+# looking at the data
+head(gcms_pheno_tbl)
+
+```
+
+We will now join this GC-MS STVC data with the `final.df` in order to perform correlation between abundance and harvest
+date.
+
+```{r}
+nrow(final.df)
+colnames(gcms_pheno_tbl)
+final.df <- inner_join(final.df, gcms_pheno_tbl, by = c("AppleID" = "appleid"))
+nrow(final.df)
+head(final.df)
+```
+```{r}
+stvc <- final.df$STVC
+fit.hv_dt_w_cofactor <- lm(stvc ~ harvest_date + analysis_date)
+summary(fit.hv_dt_w_cofactor)
+```
+The R^2 value seems to have significantly decreased, meaning that the correlation gets weaker as we account for the analysis
+date, which is reassuring. However, the p-value still seems significant.
