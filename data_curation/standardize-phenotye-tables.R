@@ -23,6 +23,9 @@ library(dplyr)
 library(ggplot2)
 library(ggpubr)
 
+
+source('themes/theme_main.R')
+
 # importing the standards data frame
 std.df <- read_excel(
   'data/raw/InternalStandardData.xlsx',
@@ -205,6 +208,24 @@ annotate_figure(ggarrange(plotlist = plots,nrow=1,ncol=2))
 
 nrow(nursery_id_std_area_vals)
 # 561
+
+# Generate plot for distribution of Benzaldehyde across samples
+benz.std.plot <- ggplot(data.frame(Val=nursery_id_std_area_vals[,3])) + 
+  geom_histogram(aes(x=Val), fill="white", colour="black") + 
+  GLOBAL_THEME + scale_y_continuous(expand = c(0,0))
+
+bez.std.qqplot <- ggqqplot(nursery_id_std_area_vals[,3]) + theme(
+  axis.text.x = element_blank(),
+  axis.text.y = element_blank()
+) + xlab("expected") + ylab("observed")
+
+c("rain, mm", expression("light,"~W~m^-2))
+
+final.benz.std.plot <- ggdraw() + 
+  draw_plot(benz.std.plot) + 
+  draw_plot(bez.std.qqplot,x = 0.6, y = .5, width = .3, height = .3) + 
+  annotate(geom='text', x=0.9,y=0.5,label = bquote(W=0.97~p=.(tayab_x)))
+print(final.benz.std.plot)
 
 # writing the nursery id standard area values table
 colnames(nursery_id_std_area_vals) <- c(
