@@ -74,28 +74,41 @@ length(all_compounds)
 compound_map_peak <- hash()
 top_hits <- data.frame()
 
-# get the top hits for class_corrected gwas and gwas_1
+# get the top hits for class_corrected gwas
 c(top_hits,compound_map_peak) %<-% update_top_hits(
   compounds_to_compare_between_two_gwas,
   class_corrected_gwas_compound_files,
   top_hits, compound_map_peak
 )
 dim(top_hits)
-# [1] 6 5
+# [1] 6 6
 
-c(top_hits,compound_map_peak) %<-% update_top_hits(compounds_to_compare_between_two_gwas, gwas_1_compound_files, top_hits, compound_map_peak)
+# get the top hits for class_corrected gwas_1
+c(top_hits,compound_map_peak) %<-% update_top_hits(
+  compounds_to_compare_between_two_gwas, 
+  gwas_1_compound_files, 
+  top_hits, compound_map_peak
+)
 dim(top_hits)
-# [1] 12 5
+# [1] 12 6
 
-# get the top hits for only class_corrected
-c(top_hits,compound_map_peak) %<-% update_top_hits(compounds_only_in_gwas_1, gwas_1_compound_files, top_hits, compound_map_peak)
+# get the top hits for only class_corrected gwas
+c(top_hits,compound_map_peak) %<-% update_top_hits(
+  compounds_only_in_gwas_1, 
+  gwas_1_compound_files, 
+  top_hits, compound_map_peak
+)
 dim(top_hits)
-# [1] 15 5
+# [1] 15 6
 
 # get the top hits for only gwas_1
-c(top_hits,compound_map_peak) %<-% update_top_hits(compounds_only_in_class_corrected_gwas, class_corrected_gwas_compound_files, top_hits, compound_map_peak)
+c(top_hits,compound_map_peak) %<-% update_top_hits(
+  compounds_only_in_class_corrected_gwas, 
+  class_corrected_gwas_compound_files, 
+  top_hits, compound_map_peak
+)
 dim(top_hits)
-# [1] 17 5
+# [1] 17 6
 
 
 ###############################################################

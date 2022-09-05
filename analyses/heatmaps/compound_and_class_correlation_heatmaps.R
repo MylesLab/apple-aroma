@@ -123,10 +123,10 @@ sup_fig_2a.plot <- sup_fig_2.df %>%
   labs(fill = "Pearson correlation (r)") +
   guides(
     fill = guide_colorbar(
-      barwidth       = 15, barheight = 1,
+      barwidth       = 30, barheight = 2,
       title.position = "top",
       title.hjust    = 0.5,
-      title.theme    = element_text(size = 24, family = "Times")
+      title.theme    = element_text(size = 34, family = "Times")
     )
   )
 

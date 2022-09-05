@@ -19,15 +19,18 @@ abc_phenotype_names <- c("acidity_17_harv", "percent_acidity_17","brix_17_harv",
 "date_jul_17_harv", "flowering_jul_16_harv", "percent_firmness_avg_17")
 
 # get all the ABC phenotypes
-abc_pheno_tbl <- 
-  read_excel('data/processed/sup_tbl_2-abc_phenotype_table.xlsx') %>% 
-  select(all_of(c("apple_id",abc_phenotype_names)))
+abc_pheno_tbl <- read_excel(
+  'data/processed/Supplementary_Data.xlsx',
+  sheet='Apple Traits Data'
+)
+abc_pheno_tbl <- abc_pheno_tbl[,c("apple_id",abc_phenotype_names)]
 dim(abc_pheno_tbl)
-# [1] 553 11
+# [1] 515 11
 
 # get the supplementary table data
 gcms_pheno_tbl <- read_excel(
-  'data/processed/sup_tbl_1-final_gcms_phenotype_table_v2.xlsx'
+  'data/processed/Supplementary_Data.xlsx',
+  sheet='GCMS Data'
 )
 dim(gcms_pheno_tbl)
 # [1] 515 107
@@ -39,7 +42,8 @@ abc_pretty_phenos.df <- read_excel(
 
 # load the compound classification data
 cmpd_cls.df <- read_excel(
-  'data/processed/classification_pivot.xlsx'
+  'data/processed/Supplementary_Data.xlsx',
+  sheet = 'Compound Class'
 )
 dim(cmpd_cls.df)
 # [1] 106 2
@@ -107,7 +111,7 @@ abc_gcms.cor.melted <-
 
 # combine the merged dataset with the class data
 abc_gcms.cor.melted <- 
-  inner_join(abc_gcms.cor.melted,cmpd_cls.df, by = c("gcms_compound" = "Name"))
+  inner_join(abc_gcms.cor.melted,cmpd_cls.df, by = c("gcms_compound" = "Compound name"))
 
 abc_gcms.cor.melted %>%
   arrange(Classification, gcms_compound) %>%
@@ -116,7 +120,7 @@ abc_gcms.cor.melted %>%
   ) %>%
   ggplot(aes(x = gcms_compound, y = abc_phenotype, fill=r)) + 
   geom_tile(color = "white") +
-  scale_fill_distiller(palette = "RdBu", direction = 1) +
+  scale_fill_distiller(palette = "RdBu", limit = c(-1, 1)) +
   theme_classic() +
   scale_x_discrete(guide = guide_axis(check.overlap = TRUE)) +
   scale_y_discrete(guide = guide_axis(check.overlap = TRUE)) +
@@ -144,7 +148,7 @@ abc_gcms.cor.melted %>%
     )
   )
 ggsave(
-  filename = "analyses/heatmaps/figures/sup_fig_3a.png",
+  filename = "analyses/heatmaps/figures/sup_fig_3a.pdf",
   plot     = last_plot(),
   dpi      = 600, width = 25, height = 15, units = "in"
 )

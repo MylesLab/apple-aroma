@@ -136,16 +136,16 @@ ggsave(
 fit.harv_dt_vs_pc1 <- lm(pcs.df$PC1 ~ pcs.df$HarvestDate)
 summary(fit.harv_dt_vs_pc1)
 fig_3b.plot <- ggplot(pcs.df, aes(x = HarvestDate, y = PC1)) +
-  geom_point(alpha = 0.4, size = 4) +
+  geom_point(alpha = 0.4, size = 2) +
   geom_line(
     aes(x = HarvestDate, y = fit.harv_dt_vs_pc1$fitted.values),  # predicted data
     color = 'black') +
-  geom_text(size=8,aes(label = sprintf("R² = %f", summary(fit.harv_dt_vs_pc1)$r.squared), x = 280, y = -15)) +
-  geom_text(size=8,aes(label = sprintf("p-value = %s", format(summary(fit.harv_dt_vs_pc1)$coefficients[2, 4], scientific = TRUE)), x = 280, y = -17)) +
-  GLOBAL_THEME +
+  annotate("text",size=8, label = sprintf("R² = %0.2f", summary(fit.harv_dt_vs_pc1)$r.squared), x = 280, y = -15) +
+  annotate("text",size=8, label = sprintf("p-value = %s", format(summary(fit.harv_dt_vs_pc1)$coefficients[2, 4], scientific = TRUE)), x = 280, y = -17) +
+  theme_classic2() + 
   theme(
-    axis.title.x = element_text(size=24),
-    axis.title.y = element_text(size=24)
+    axis.title.x = element_text(size=11),
+    axis.title.y = element_text(size=11)
   ) +
   xlab("Harvest Date (julian days)") +
   ylab("PC1")
@@ -163,16 +163,16 @@ ggsave(
 fit.harv_dt_vs_num_vols <- lm(pcs.df$VolatileUbiquityBySample ~ pcs.df$HarvestDate)
 summary(fit.harv_dt_vs_num_vols)
 fig_3c.plot <- ggplot(pcs.df, aes(x = HarvestDate, y = VolatileUbiquityBySample)) +
-  geom_point(alpha = 0.4, size = 4) +
+  geom_point(alpha = 0.4, size = 2) +
   geom_line(
     aes(x = HarvestDate, y = fit.harv_dt_vs_num_vols$fitted.values),  # predicted data
     color = 'black') +
-  geom_text(size=8,aes(label = sprintf("R² = %f", summary(fit.harv_dt_vs_num_vols)$r.squared), x = 280, y = 66)) +
-  geom_text(size=8,aes(label = sprintf("p-value = %s", format(summary(fit.harv_dt_vs_num_vols)$coefficients[2, 4], scientific = TRUE)), x = 280, y = 64)) +
-  GLOBAL_THEME +
+  annotate("text", size=8, label = sprintf("R² = %f", summary(fit.harv_dt_vs_num_vols)$r.squared), x = 280, y = 66) + 
+  annotate("text", size=8, label = sprintf("p-value = %s", format(summary(fit.harv_dt_vs_num_vols)$coefficients[2, 4], scientific = TRUE)), x = 280, y = 64) + 
+  theme_classic2() + 
   theme(
-    axis.title.x = element_text(size=24),
-    axis.title.y = element_text(size=24)
+    axis.title.x = element_text(size=11),
+    axis.title.y = element_text(size=11)
   ) +
   xlab("Harvest Date (julian days)") +
   ylab("Number of volatiles\n detected")
@@ -190,16 +190,16 @@ ggsave(
 fit.harv_dt_vs_tva <- lm(pcs.df$TotalVolatileAbundanceBySample ~ pcs.df$HarvestDate)
 summary(fit.harv_dt_vs_tva)
 fig_3d.plot <- ggplot(pcs.df, aes(x = HarvestDate, y = TotalVolatileAbundanceBySample)) +
-  geom_point(alpha = 0.4, size = 4) +
+  geom_point(alpha = 0.4, size = 2) +
   geom_line(
     aes(x = HarvestDate, y = fit.harv_dt_vs_tva$fitted.values),  # predicted data
     color = 'black') +
-  geom_text(size=8, aes(label = sprintf("R² = %f", summary(fit.harv_dt_vs_tva)$r.squared), x = 280, y = 750)) +
-  geom_text(size=8, aes(label = sprintf("p-value = %s", format(summary(fit.harv_dt_vs_tva)$coefficients[2, 4], scientific = TRUE)), x = 280, y = 720)) +
-  GLOBAL_THEME +
+  annotate("text",size=8,label = sprintf("R² = %f", summary(fit.harv_dt_vs_tva)$r.squared), x=280, y=750) +
+  annotate("text",size=8,label = sprintf("p-value = %s", format(summary(fit.harv_dt_vs_tva)$coefficients[2, 4], scientific = TRUE)), x=280, y=720) +
+  theme_classic2() + 
   theme(
-    axis.title.x = element_text(size=24),
-    axis.title.y = element_text(size=24)
+    axis.title.x = element_text(size=11),
+    axis.title.y = element_text(size=11)
   ) +
   xlab("Harvest Date (julian days)") +
   ylab("Total volatile abundance (TIC)")
@@ -223,10 +223,10 @@ fig_3.plot <- ggarrange(
   labels = c("A", "B", "C", "D")
 )
 ggsave(
-  "figures/Figure_3.png",
+  "figures/Figure_3.pdf",
   plot = fig_3.plot,
   bg = "white",
-  width = 10,
+  width = 15,
   height = 10,
   units = "in"
 )

@@ -88,12 +88,12 @@ generate_pca_biplot <- function(dat, choices, color_phenotype, limits, proportio
       ),
       size = ifelse(is.null(dot_size),2,dot_size)
     ) +
-    GLOBAL_THEME +
     scale_color_viridis(
       name = pheno_title,
       option = "magma",
       direction = -1
     ) +
+    theme_classic2() + 
     theme(
       legend.position = c(0.9,0.3),
       axis.text.x = element_text(
