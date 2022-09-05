@@ -1,5 +1,6 @@
-# Description: This document contains the code relevant for assessing the various metric
-#              such as ubiquity and abundance of the volatile data
+# Description: This document contains the code relevant for assessing the
+#              various metric such as ubiquity and abundance of the volatile
+#              data
 
 
 #####################
@@ -12,7 +13,7 @@ library(grid)
 library(ggpubr)
 library(forcats)
 library("viridis")
-source('themes/theme_main.R')
+source("themes/theme_main.R")
 
 
 #################
@@ -22,7 +23,8 @@ source('themes/theme_main.R')
 # 1. TotalVolatileUbiquityBySample:
 #       This is the number of volatiles that are detected for a given sample.
 # 2. TotalVolatileAbundanceBySample:
-#       The total cumulative sum of all the volatile concentrations for a given sample
+#       The total cumulative sum of all the volatile concentrations for a given
+#       sample
 # 3. TotalSampleUbiquityByVolatile:
 #       The total number of samples that the given volatile is expressed in
 
@@ -31,7 +33,10 @@ source('themes/theme_main.R')
 #############################
 
 # loading the GCMS phenotype table
-gcms_pheno_tbl <- read_excel('data/processed/Supplementary_Data.xlsx', sheet = 'GCMS Data')
+gcms_pheno_tbl <- read_excel(
+  "data/processed/Supplementary_Data.xlsx",
+  sheet = "GCMS Data"
+)
 dim(gcms_pheno_tbl)
 # [1] 515 107
 
@@ -41,7 +46,7 @@ dim(gcms_pheno_tbl.noaid)
 # [1] 515 106
 
 # load the volatile classification data
-classification_pivot <- read_excel('data/processed/Supplementary_Data.xlsx', sheet = 'Compound Class')
+classification_pivot <- read_excel("data/processed/Supplementary_Data.xlsx", sheet = "Compound Class")
 dim(classification_pivot)
 # [1] 106 2
 
@@ -51,17 +56,19 @@ dim(classification_pivot)
 
 ## Figure 1A: Distribution of total abundance & ubiquity
 
-# We will create a data frame which holds the total volatile ubiquity and total volatile abundance for plotting.
-TotalSampleUbiquityByVolatiles  <- colSums(gcms_pheno_tbl.noaid != 0)
+# We will create a data frame which holds the total volatile ubiquity and total
+# volatile abundance for plotting.
+TotalSampleUbiquityByVolatiles <- colSums(gcms_pheno_tbl.noaid != 0)
 TotalSampleAbundanceByVolatiles <- colSums(gcms_pheno_tbl.noaid)
-fig_1a.df                       <- data.frame(
+fig_1a.df <- data.frame(
   Name      = names(TotalSampleUbiquityByVolatiles),
   Ubiquity  = TotalSampleUbiquityByVolatiles,
   Abundance = TotalSampleAbundanceByVolatiles
 )
 head(fig_1a.df)
 
-# Now, we generate a scatter plot which shows the total volatile ubiquity against the total volatile abundance
+# Now, we generate a scatter plot which shows the total volatile ubiquity
+# against the total volatile abundance
 fig_1a.plot <- fig_1a.df %>%
   mutate(Abundance = as.integer(Abundance / 1e3)) %>%
   ggplot(aes(x = Ubiquity, y = Abundance)) +
@@ -69,7 +76,7 @@ fig_1a.plot <- fig_1a.df %>%
   GLOBAL_THEME +
   theme(
     axis.text.y = element_text(hjust = 0.5)
-  ) + 
+  ) +
   xlab("Total volatile ubiquity") +
   ylab("Total volatile abundnace (TIC)") +
   theme(
@@ -87,26 +94,37 @@ ggsave(
 
 #### Figure 1D: Distribution of volatiles detected
 TotalVolatileUbiquityBySample <- rowSums(gcms_pheno_tbl.noaid != 0)
-fig_1d.df                     <- data.frame(
+fig_1d.df <- data.frame(
   Sample                        = seq_along(TotalVolatileUbiquityBySample),
   TotalVolatileUbiquityBySample = TotalVolatileUbiquityBySample
 )
-fig_1d.plot                   <-
+fig_1d.plot <-
   ggplot(
     fig_1d.df,
-    aes(x = reorder(Sample, -TotalVolatileUbiquityBySample), y = TotalVolatileUbiquityBySample)) +
-    geom_bar(stat = "identity", position = position_dodge(width = 0.5), fill = "white", colour = "#1B1716") +
-    geom_hline(yintercept = min(TotalVolatileUbiquityBySample), colour = "red") +
-    GLOBAL_THEME +
-    theme(
-      axis.text.x  = element_blank(),
-      axis.ticks.x = element_blank()) +
-    scale_y_continuous(
-      expand = c(0, 0),
-      limits = c(0, max(fig_1d.df$TotalVolatileUbiquityBySample)),
-      breaks = seq(0, max(fig_1d.df$TotalVolatileUbiquityBySample), 10)) +
-    xlab("Samples") +
-    ylab("Number of volatiles detected")
+    aes(
+      x = reorder(
+        Sample, -TotalVolatileUbiquityBySample
+      ),
+      y = TotalVolatileUbiquityBySample
+    )
+  ) +
+  geom_bar(
+    stat = "identity",
+    position = position_dodge(width = 0.5), fill = "white", colour = "#1B1716"
+  ) +
+  geom_hline(yintercept = min(TotalVolatileUbiquityBySample), colour = "red") +
+  GLOBAL_THEME +
+  theme(
+    axis.text.x  = element_blank(),
+    axis.ticks.x = element_blank()
+  ) +
+  scale_y_continuous(
+    expand = c(0, 0),
+    limits = c(0, max(fig_1d.df$TotalVolatileUbiquityBySample)),
+    breaks = seq(0, max(fig_1d.df$TotalVolatileUbiquityBySample), 10)
+  ) +
+  xlab("Samples") +
+  ylab("Number of volatiles detected")
 ggsave(
   "figures/data-availability/fig_1d.png",
   plot   = fig_1d.plot,
@@ -120,16 +138,18 @@ ggsave(
 #### Figure 1E: Distribution of volatiles abundance
 
 TotalVolatileAbundnaceBySample <- rowSums(gcms_pheno_tbl.noaid)
-fig_1e.df                      <- data.frame(
+fig_1e.df <- data.frame(
   Sample    = seq_along(TotalVolatileAbundnaceBySample),
-  Abundance = TotalVolatileAbundnaceBySample)
-fig_1e.plot                    <- ggplot(fig_1e.df, aes(x = reorder(Sample, -Abundance), y = Abundance)) +
+  Abundance = TotalVolatileAbundnaceBySample
+)
+fig_1e.plot <- ggplot(fig_1e.df, aes(x = reorder(Sample, -Abundance), y = Abundance)) +
   geom_bar(stat = "identity", fill = "white", colour = "#1B1716") +
   geom_hline(yintercept = min(TotalVolatileAbundnaceBySample), colour = "red") +
   GLOBAL_THEME +
   theme(
     axis.text.x  = element_blank(),
-    axis.ticks.x = element_blank()) +
+    axis.ticks.x = element_blank()
+  ) +
   scale_y_continuous(expand = c(0, 0)) +
   xlab("Samples") +
   ylab("Total volatile abundance (TIC)")
@@ -153,19 +173,24 @@ fig_1b.df <- classification_pivot %>%
 fig_1c.df <- fig_1a.df[, c("Name", "Abundance")] %>%
   inner_join(., classification_pivot, by = c("Name" = "Compound name")) %>%
   group_by(Classification) %>%
-  dplyr::summarize(TotalAbundance = sum(Abundance)) 
+  dplyr::summarize(TotalAbundance = sum(Abundance))
 
 fig_1b_1c.df <- inner_join(fig_1b.df, fig_1c.df)
 
 fig_1b.plot <- fig_1b_1c.df %>%
   mutate(Classification = fct_reorder(Classification, desc(Count))) %>%
   ggplot(aes(fill = Classification)) +
-  geom_bar(position = "stack", stat = "identity", aes(x = 1, y = Count, fill = Classification)) +
+  geom_bar(
+    position = "stack", 
+    stat = "identity", 
+    aes(x = 1, y = Count, fill = Classification)
+  ) +
   scale_fill_manual(
-    guide  = guide_legend(reverse = TRUE),
+    guide = guide_legend(reverse = TRUE),
     values = c(
-      "#ED6A5A", "#F4F1BB", "#023047", "#9BC1BC", "#5CA4A9", "#E6EBE0", "#D4E79E", "#922D50", "#3C1B43", "#501537",
-      "#593959", "#6B4B3E", "#55D6BE"
+      "#ED6A5A", "#F4F1BB", "#023047", "#9BC1BC", "#5CA4A9", "#E6EBE0",
+      "#D4E79E", "#922D50", "#3C1B43", "#501537", "#593959", "#6B4B3E",
+      "#55D6BE"
     )
   ) +
   coord_flip() +
@@ -199,11 +224,16 @@ ggsave(
 fig_1c.plot <- fig_1b_1c.df %>%
   mutate(Classification = fct_reorder(Classification, desc(TotalAbundance))) %>%
   ggplot(aes(fill = Classification, x = 1, y = TotalAbundance)) +
-  geom_bar(position = "stack", stat = "identity", aes(x = 1, fill = Classification)) +
+  geom_bar(
+    position = "stack", stat = "identity",
+    aes(x = 1, fill = Classification)
+  ) +
   scale_fill_manual(
-    guide  = guide_legend(reverse = TRUE),
+    guide = guide_legend(reverse = TRUE),
     values = c(
-      "#ED6A5A", "#F4F1BB", "#023047", "#9BC1BC", "#501537", "#E6EBE0", "#5CA4A9", "#6B4B3E", "#3C1B43", "#922D50", "#D4E79E", "#593959", "#55D6BE"
+      "#ED6A5A", "#F4F1BB", "#023047", "#9BC1BC", "#501537", "#E6EBE0",
+      "#5CA4A9", "#6B4B3E", "#3C1B43", "#922D50", "#D4E79E", "#593959",
+      "#55D6BE"
     )
   ) +
   coord_flip() +
@@ -232,17 +262,19 @@ ggsave(
 
 #### Arranging Figure 1 as a multi-panel figure
 
-fig1_plots      <- list()
+fig1_plots <- list()
 fig1_plots[[1]] <- fig_1a.plot
 fig1_plots[[2]] <- ggarrange(
   fig_1b.plot, fig_1c.plot,
-  nrow          = 2, ncol = 1,
+  nrow = 2, ncol = 1,
   common.legend = T,
-  labels        = c("B", "C")
+  labels = c("B", "C")
 )
 fig1_plots[[3]] <- fig_1d.plot
 fig1_plots[[4]] <- fig_1e.plot
-figure_1.plot   <- ggarrange(plotlist = fig1_plots, nrow = 2, ncol = 2, labels = c("A", "", "D", "E"))
+figure_1.plot <- ggarrange(
+  plotlist = fig1_plots, nrow = 2, ncol = 2, labels = c("A", "", "D", "E")
+)
 ggsave(
   filename = "figures/final_figures/Figure_1.svg",
   figure_1.plot,
@@ -255,26 +287,33 @@ ggsave(
 
 ### Supplementary Figure 1: Distribution of Sample Ubiquity for Volatiles
 
-fig_s1.plot <- ggplot(fig_1a.df, aes(x = reorder(Name, -Ubiquity), y = Ubiquity)) +
-  geom_bar(stat = "identity", fill="white", colour="black") +
+fig_s1.plot <- ggplot(
+  fig_1a.df, aes(x = reorder(Name, -Ubiquity), y = Ubiquity)
+  ) +
+  geom_bar(stat = "identity", fill = "white", colour = "black") +
   coord_flip() +
   GLOBAL_THEME +
-  theme_avenir(panel_x = F, panel_y = F, grid = F, axis = F, axis_col = "black", ticks = T) +
+  theme_avenir(
+    panel_x = F, panel_y = F, grid = F, axis = F, axis_col = "black", ticks = T
+  ) +
   theme(
     axis.ticks.y = element_blank(),
     axis.text.x  = element_text(hjust = 0.5, vjust = -0.5),
-    axis.title.x = element_text(size = 13, hjust = 0.5, margin = margin(t = 10, r = 0, b = 0, l = 0)),
-    axis.title.y = element_text(size = 13, hjust = 0.5, margin = margin(t = 0, r = 10, b = 0, l = 0)),
+    axis.title.x = element_text(
+      size = 13, hjust = 0.5, margin = margin(t = 10, r = 0, b = 0, l = 0)
+    ),
+    axis.title.y = element_text(
+      size = 13, hjust = 0.5, margin = margin(t = 0, r = 10, b = 0, l = 0)
+    ),
   ) +
   ylab("Number of samples") +
   xlab("") +
   scale_y_continuous(expand = c(0, 0))
 ggsave(
-  'figures/final_figures/Figure_S1.svg',
+  "figures/final_figures/Figure_S1.svg",
   fig_s1.plot,
   width  = 600,
   height = 1000,
   units  = "px",
   dpi    = 75
 )
-
