@@ -14,6 +14,7 @@ library(ggpubr)
 library(forcats)
 library("viridis")
 source("themes/theme_main.R")
+source("utils/basic_stats.R")
 
 
 #################
@@ -61,13 +62,7 @@ dim(classification_pivot_tbl)
 
 # We will create a data frame which holds the total volatile ubiquity and total
 # volatile abundance for plotting.
-tot_sample_ubiq_volatiles <- colSums(gcms_pheno_noaid_tbl != 0)
-tot_sample_abund_volatiles <- colSums(gcms_pheno_noaid_tbl)
-fig_1a_df <- data.frame(
-  Name      = names(tot_sample_ubiq_volatiles),
-  Ubiquity  = tot_sample_ubiq_volatiles,
-  Abundance = tot_sample_abund_volatiles
-)
+fig_1a_df <- get_aroma_basic_stats_df(gcms_pheno_noaid_tbl)
 head(fig_1a_df)
 
 # Now, we generate a scatter plot which shows the total volatile ubiquity
