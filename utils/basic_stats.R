@@ -1,11 +1,4 @@
-get_aroma_basic_stats_df <- function(gcms_pheno_tbl) {
-    #' @description This function is responsible for generating the basic stats
-    #'  from GCMS dataframe (without appleid column)
-    #' @param gcms_pheno_tbl - GCMS dataframe (without appleid column)
-    #' @return a dataframe containing the basic stats
-
-
-    # get the basic stats
+get_aroma_stats_by_volatles <- function(gcms_pheno_tbl) {
     tot_sample_ubiq_volatiles <- colSums(gcms_pheno_tbl != 0)
     tot_sample_abund_volatiles <- colSums(gcms_pheno_tbl)
     return(
@@ -13,6 +6,19 @@ get_aroma_basic_stats_df <- function(gcms_pheno_tbl) {
             Name      = names(tot_sample_ubiq_volatiles),
             Ubiquity  = tot_sample_ubiq_volatiles,
             Abundance = tot_sample_abund_volatiles
+        )
+    )
+}
+
+get_aroma_stats_by_samples <- function(gcms_pheno_tbl) {
+    tot_volatile_ubiq_sample <- rowSums(gcms_pheno_tbl != 0)
+    tot_volatile_abund_sample <- rowSums(gcms_pheno_tbl)
+
+    return(
+        data.frame(
+            Sample      = seq_along(tot_volatile_ubiq_sample),
+            Ubiquity  = tot_volatile_ubiq_sample,
+            Abundance = tot_volatile_abund_sample
         )
     )
 }

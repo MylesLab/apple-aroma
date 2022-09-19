@@ -16,19 +16,6 @@ library("viridis")
 source("themes/theme_main.R")
 source("utils/basic_stats.R")
 
-
-#################
-## DEFINITIONS ##
-#################
-
-# 1. TotalVolatileUbiquityBySample:
-#       This is the number of volatiles that are detected for a given sample.
-# 2. TotalVolatileAbundanceBySample:
-#       The total cumulative sum of all the volatile concentrations for a given
-#       sample
-# 3. TotalSampleUbiquityByVolatile:
-#       The total number of samples that the given volatile is expressed in
-
 #############################
 ## DATA LOADING & CURATION ##
 #############################
@@ -62,7 +49,7 @@ dim(classification_pivot_tbl)
 
 # We will create a data frame which holds the total volatile ubiquity and total
 # volatile abundance for plotting.
-fig_1a_df <- get_aroma_basic_stats_df(gcms_pheno_noaid_tbl)
+fig_1a_df <- get_aroma_stats_by_volatles(gcms_pheno_noaid_tbl)
 head(fig_1a_df)
 
 # Now, we generate a scatter plot which shows the total volatile ubiquity
@@ -89,26 +76,23 @@ ggsave(
   device = cairo_pdf
 )
 
-#### Figure 1D: Distribution of volatiles detected
-tot_volatile_ubiq_sample <- rowSums(gcms_pheno_noaid_tbl != 0)
-fig_1d_df <- data.frame(
-  Sample = seq_along(tot_volatile_ubiq_sample),
-  TotalVolatileUbiquityBySample = tot_volatile_ubiq_sample
-)
+
+#### Figure 1D: Distribution of volatiles detected and abundance
+fig_1de_df <- get_aroma_stats_by_samples(gcms_pheno_noaid_tbl)
 fig_1d_plot <- ggplot(
-    fig_1d_df,
+    fig_1de_df,
     aes(
       x = reorder(
-        Sample, -tot_volatile_ubiq_sample
+        Sample, -Ubiquity
       ),
-      y = tot_volatile_ubiq_sample
+      y = Ubiquity
     )
   ) +
   geom_bar(
     stat = "identity",
     position = position_dodge(width = 0.5), fill = "white", colour = "#1B1716"
   ) +
-  geom_hline(yintercept = min(tot_volatile_ubiq_sample), colour = "red") +
+  geom_hline(yintercept = min(fig_1de_df$Ubiquity), colour = "red") +
   GLOBAL_THEME +
   theme(
     axis.text.x  = element_blank(),
@@ -116,8 +100,8 @@ fig_1d_plot <- ggplot(
   ) +
   scale_y_continuous(
     expand = c(0, 0),
-    limits = c(0, max(fig_1d_df$TotalVolatileUbiquityBySample)),
-    breaks = seq(0, max(fig_1d_df$TotalVolatileUbiquityBySample), 10)
+    limits = c(0, max(fig_1de_df$Ubiquity)),
+    breaks = seq(0, max(fig_1de_df$Ubiquity), 10)
   ) +
   xlab("Samples") +
   ylab("Number of volatiles detected")
@@ -131,18 +115,11 @@ ggsave(
   device = cairo_pdf
 )
 
-#### Figure 1E: Distribution of volatiles abundance
-
-tot_volatile_abund_sample <- rowSums(gcms_pheno_noaid_tbl)
-fig_1e_df <- data.frame(
-  Sample    = seq_along(tot_volatile_abund_sample),
-  Abundance = tot_volatile_abund_sample
-)
 fig_1e_plot <- ggplot(
-  fig_1e_df, aes(x = reorder(Sample, -Abundance), y = Abundance)
+  fig_1de_df, aes(x = reorder(Sample, -Abundance), y = Abundance)
   ) +
   geom_bar(stat = "identity", fill = "white", colour = "#1B1716") +
-  geom_hline(yintercept = min(tot_volatile_abund_sample), colour = "red") +
+  geom_hline(yintercept = min(fig_1de_df$Abundance), colour = "red") +
   GLOBAL_THEME +
   theme(
     axis.text.x  = element_blank(),

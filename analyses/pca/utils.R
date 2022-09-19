@@ -1,6 +1,4 @@
-# Title     : Utility Functions
 # Objective : This script contains all the utility functions for PCA
-# Created on: 2021-07-28
 
 source('themes/theme_avenir.R')
 
@@ -56,13 +54,18 @@ generate_variance_plot <- function(dat, options = NULL) {
   )
 }
 
-generate_pca_biplot <- function(dat, choices, color_phenotype, limits, proportion_of_variance,options = NULL) {
+generate_pca_biplot <- function(
+  dat, choices, color_phenotype, limits, proportion_of_variance, options = NULL
+) {
     #' Generate the PCA bi-plot
     #'
     #' @param dat - data frame with Legend, Variance and Phenotype columns
     #' @param choices - a vector representing the PCs for plotting
-    #' @param color_phenotype - the phenotype that the data should be colored by
-    #' @param proportion_of_variance - dataframe containing the proportion of variances
+    #' @param color_phenotype - a vector containing the phenotype that the data
+    #'  should be colored by as well as the legend.
+    #'  For example c("HarvestDate","Harvest Date (Julian days)")
+    #' @param proportion_of_variance - dataframe containing the proportion of
+    #'  variances
     #' @param options - any extra options
     #'
     #' @return a ggplot object containing the plot.
