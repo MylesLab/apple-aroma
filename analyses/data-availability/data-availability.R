@@ -1,6 +1,14 @@
-# Description: This document contains the code relevant for assessing the
-#              various metric such as ubiquity and abundance of the volatile
-#              data
+################
+## FIGS INDEX ##
+################
+
+# FIGS
+## fig_1a - Distribution of total abundance & ubiquity
+## fig_1d - Distribution of volatiles detected and abundance
+## fig_1e - Distribution of volatiles abundance
+## fig_1b - Distribution of volatile classes detected
+## fig_1c - Distribution of volatile classes abundance
+## fig_s1 - Distribution of Sample Ubiquity for Volatiles
 
 
 #####################
@@ -9,12 +17,13 @@
 
 library(readxl)
 library(tidyverse)
-library(grid)
 library(ggpubr)
-library(forcats)
-library("viridis")
 source("themes/theme_main.R")
 source("utils/basic_stats.R")
+
+library(grid)
+library(forcats)
+library("viridis")
 
 #############################
 ## DATA LOADING & CURATION ##
@@ -41,11 +50,11 @@ classification_pivot_tbl <- read_excel(
 dim(classification_pivot_tbl)
 # [1] 106 2
 
-######################
-## GENERATE FIGURES ##
-######################
+###################
+## GENERATE FIGS ##
+###################
 
-## Figure 1A: Distribution of total abundance & ubiquity
+## fig_1a - Distribution of total abundance & ubiquity
 
 # We will create a data frame which holds the total volatile ubiquity and total
 # volatile abundance for plotting.
@@ -68,7 +77,7 @@ fig_1a_plot <- fig_1a_df %>%
     legend.position = "none"
   )
 ggsave(
-  "figures/data-availability/fig_1a.pdf",
+  "analyses/data-availability/figs/fig_1a.pdf",
   plot   = fig_1a_plot,
   width  = 10,
   height = 5,
@@ -77,7 +86,7 @@ ggsave(
 )
 
 
-#### Figure 1D: Distribution of volatiles detected and abundance
+#### fig_1d: Distribution of abundance and the volatiles detected
 fig_1de_df <- get_aroma_stats_by_samples(gcms_pheno_noaid_tbl)
 fig_1d_plot <- ggplot(
     fig_1de_df,
@@ -106,7 +115,7 @@ fig_1d_plot <- ggplot(
   xlab("Samples") +
   ylab("Number of volatiles detected")
 ggsave(
-  "figures/data-availability/fig_1d.pdf",
+  "analyses/data-availability/figs/fig_1d.pdf",
   plot   = fig_1d_plot,
   bg     = "white",
   width  = 10,
@@ -129,7 +138,7 @@ fig_1e_plot <- ggplot(
   xlab("Samples") +
   ylab("Total volatile abundance (TIC)")
 ggsave(
-  "figures/data-availability/fig_1e.pdf",
+  "analyses/data-availability/figs/fig_1e.pdf",
   plot   = fig_1e_plot,
   bg     = "white",
   width  = 10,
@@ -138,19 +147,18 @@ ggsave(
   device = cairo_pdf
 )
 
-#### Figure 1B & 1C: Distribution of volatile classes
+#### Fig 1B & 1C: Distribution of volatile classes
 
 fig_1b_df <- classification_pivot_tbl %>%
-  dplyr::group_by(Classification) %>%
-  dplyr::summarize(Count = n())
+  group_by(Classification) %>%
+  summarize(Count = n())
 
 fig_1c_df <- fig_1a_df[, c("Name", "Abundance")] %>%
   inner_join(., classification_pivot_tbl, by = c("Name" = "Compound name")) %>%
   group_by(Classification) %>%
-  dplyr::summarize(TotalAbundance = sum(Abundance))
+  summarize(TotalAbundance = sum(Abundance))
 
 fig_1b_1c_df <- inner_join(fig_1b_df, fig_1c_df)
-
 
 fig_1b_plot <- fig_1b_1c_df %>%
   mutate(Classification = fct_reorder(Classification, desc(Count))) %>%
@@ -184,7 +192,7 @@ fig_1b_plot <- fig_1b_1c_df %>%
   )
 
 ggsave(
-  "figures/data-availability/fig_1b.pdf",
+  "analyses/data-availability/figs/fig_1b.pdf",
   plot   = fig_1b_plot,
   bg     = "white",
   width  = 20,
@@ -193,8 +201,7 @@ ggsave(
   device = cairo_pdf
 )
 
-
-#### Figure 1C: Distribution of volatile abundances
+#### fig_1c: Distribution of volatile abundances
 
 fig_1c_plot <- fig_1b_1c_df %>%
   mutate(Classification = fct_reorder(Classification, desc(TotalAbundance))) %>%
@@ -226,7 +233,7 @@ fig_1c_plot <- fig_1b_1c_df %>%
     legend.text     = element_text(size = 11)
   )
 ggsave(
-  "figures/data-availability/fig_1c.pdf",
+  "analyses/data-availability/figs/fig_1c.pdf",
   plot   = fig_1c_plot,
   bg     = "white",
   width  = 20,
@@ -235,7 +242,7 @@ ggsave(
   device = cairo_pdf
 )
 
-#### Arranging Figure 1 as a multi-panel figure
+#### Arranging fig 1 as a multi-panel figure
 
 fig1_plots <- list()
 fig1_plots[[1]] <- fig_1a_plot
@@ -251,7 +258,7 @@ figure_1_plot <- ggarrange(
   plotlist = fig1_plots, nrow = 2, ncol = 2, labels = c("A", "", "D", "E")
 )
 ggsave(
-  filename = "figures/data-availability/Figure_1.pdf",
+  filename = "analyses/data-availability/figs/fig_1.pdf",
   figure_1_plot,
   dpi      = 600,
   bg       = "white",
@@ -261,7 +268,7 @@ ggsave(
   device = cairo_pdf
 )
 
-### Supplementary Figure 1: Distribution of Sample Ubiquity for Volatiles
+### fig_s1: Distribution of Sample Ubiquity for Volatiles
 
 fig_s1_plot <- ggplot(
   fig_1a_df, aes(x = reorder(Name, -Ubiquity), y = Ubiquity)
@@ -286,7 +293,7 @@ fig_s1_plot <- ggplot(
   xlab("") +
   scale_y_continuous(expand = c(0, 0))
 ggsave(
-  "figures/data-availability/Figure_S1.pdf",
+  "analyses/data-availability/figs/fig_s1.pdf",
   fig_s1_plot,
   width  = 600,
   height = 1000,
