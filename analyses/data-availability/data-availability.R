@@ -18,12 +18,9 @@
 library(readxl)
 library(tidyverse)
 library(ggpubr)
+library(openxlsx)
 source("themes/theme_main.R")
 source("utils/basic_stats.R")
-
-library(grid)
-library(forcats)
-library("viridis")
 
 #############################
 ## DATA LOADING & CURATION ##
@@ -61,7 +58,11 @@ dim(classification_pivot_tbl)
 fig_1a_df <- get_aroma_stats_by_volatles(gcms_pheno_noaid_tbl)
 head(fig_1a_df)
 
-# write the fig_1a
+# write the fig_1a_df to a file
+write.xlsx(
+  fig_1a_df,
+  file  = "analyses/data-availability/data/fig_1a.xlsx",
+)
 
 # Now, we generate a scatter plot which shows the total volatile ubiquity
 # against the total volatile abundance
@@ -90,6 +91,13 @@ ggsave(
 
 #### fig_1d: Distribution of abundance and the volatiles detected
 fig_1de_df <- get_aroma_stats_by_samples(gcms_pheno_noaid_tbl)
+
+# write the fig_1de_df to a file
+write.xlsx(
+  fig_1de_df,
+  file  = "analyses/data-availability/data/fig_1de.xlsx",
+)
+
 fig_1d_plot <- ggplot(
     fig_1de_df,
     aes(
@@ -161,6 +169,12 @@ fig_1c_df <- fig_1a_df[, c("Name", "Abundance")] %>%
   summarize(TotalAbundance = sum(Abundance))
 
 fig_1b_1c_df <- inner_join(fig_1b_df, fig_1c_df)
+
+# write the fig_1b_1c_df to a file
+write.xlsx(
+  fig_1b_1c_df,
+  file  = "analyses/data-availability/data/fig_1b_1c.xlsx",
+)
 
 fig_1b_plot <- fig_1b_1c_df %>%
   mutate(Classification = fct_reorder(Classification, desc(Count))) %>%
