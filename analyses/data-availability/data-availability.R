@@ -61,6 +61,8 @@ dim(classification_pivot_tbl)
 fig_1a_df <- get_aroma_stats_by_volatles(gcms_pheno_noaid_tbl)
 head(fig_1a_df)
 
+# write the fig_1a
+
 # Now, we generate a scatter plot which shows the total volatile ubiquity
 # against the total volatile abundance
 fig_1a_plot <- fig_1a_df %>%
@@ -242,7 +244,7 @@ ggsave(
   device = cairo_pdf
 )
 
-#### Arranging fig 1 as a multi-panel figure
+#### Arranging fig 1 as a multi-panel fig
 
 fig1_plots <- list()
 fig1_plots[[1]] <- fig_1a_plot
@@ -254,12 +256,12 @@ fig1_plots[[2]] <- ggarrange(
 )
 fig1_plots[[3]] <- fig_1d_plot
 fig1_plots[[4]] <- fig_1e_plot
-figure_1_plot <- ggarrange(
+fig_1_plot <- ggarrange(
   plotlist = fig1_plots, nrow = 2, ncol = 2, labels = c("A", "", "D", "E")
 )
 ggsave(
   filename = "analyses/data-availability/figs/fig_1.pdf",
-  figure_1_plot,
+  fig_1_plot,
   dpi      = 600,
   bg       = "white",
   width    = 20,
