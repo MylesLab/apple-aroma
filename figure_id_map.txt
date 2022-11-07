@@ -1,0 +1,14 @@
+fig_1a - Distribution of total abundance & ubiquity - Figure 1A
+fig_1d - Distribution of volatiles detected and abundance - Figure 1D
+fig_1e - Distribution of volatiles abundance - Figure 1E
+fig_1b - Distribution of volatile classes detected - Figure 1B
+fig_1c - Distribution of volatile classes abundance - Figure 1C
+fig_1  - Volatile composition across 515 apple accessions  - Figure 1
+fig_s1 - Distribution of Sample Ubiquity for Volatiles - Figure S1
+fig_3a - PCA bi-plot with Harvest Date - Figure 3A
+fig_3b - Scatter plot of PC1 and harvest date with linear correlation - Figure 3B
+fig_3c - Scatter plot of the ‘number of volatiles detected’ and harvest date of each sample with linear correlation - Figure 3C
+fig_3d - Scatter plot of ‘total volatile abundance’ and harvest date of each sample with linear correlation - Figure 3D
+
+
+

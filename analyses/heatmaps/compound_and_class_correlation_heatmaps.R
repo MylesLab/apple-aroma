@@ -80,8 +80,8 @@ dim(gcms_data.cor.melted.cls)
 
 ## PLOTTING COMPOUND CORRELATION HEATMAP
 
-# create a dataframe for plotting Figure 2
-sup_fig_2.df <- gcms_data.cor.melted.cls %>%
+# create a dataframe for plotting fig 2
+sup_fig_3.df <- gcms_data.cor.melted.cls %>%
   arrange(Classification.x) %>%
   mutate(
     Var1 = as_factor(Var1),
@@ -89,17 +89,17 @@ sup_fig_2.df <- gcms_data.cor.melted.cls %>%
   ) %>%
   filter(as.integer(Var1) > as.integer(Var2))
 
-dim(sup_fig_2.df)
+dim(sup_fig_3.df)
 # [1] 5565 6
 
 # save the figure 2A data
 openxlsx::write.xlsx(
-  sup_fig_2.df,
-  file  = "data/processed/figures/sup_fig_2.xlsx",
+  sup_fig_3.df,
+  file  = "analyses/heatmaps/data/sup_fig_3.xlsx",
 )
 
 # plot the full-length correlation heatmap
-sup_fig_2a.plot <- sup_fig_2.df %>%
+sup_fig_3a.plot <- sup_fig_3.df %>%
   ggplot(aes(x = Var1, y = Var2, fill = r)) +
   geom_tile(color = "white") +
   scale_fill_distiller(palette = "RdBu", limit = c(-1, 1)) +
@@ -132,55 +132,59 @@ sup_fig_2a.plot <- sup_fig_2.df %>%
 
 # save the plot
 ggsave(
-  filename = "analyses/heatmaps/figures/sup_fig_2a.png",
-  plot     = sup_fig_2a.plot,
+  filename = "analyses/heatmaps/figs/sup_fig_3a.pdf",
+  plot     = sup_fig_3a.plot,
   bg       = "white",
   dpi      = 600, width = 25, height = 15, units = "in"
 )
 
 ## PLOTTING DISTRIBUTION OF r-VALUES
-sup_fig_2b.plot <- sup_fig_2.df %>%
+sup_fig_3b.plot <- sup_fig_3.df %>%
   ggplot(aes(x = r)) +
   geom_histogram(colour = "black", fill = "white") +
   scale_y_continuous(expand = c(0, 0)) +
   GLOBAL_THEME +
-  xlab("Pearson correlation (r)")
+  xlab("Pearson correlation (r)") + ylab("Count")
 
 ggsave(
-  filename = "analyses/heatmaps/figures/sup_fig_2b.png",
-  plot     = sup_fig_2b.plot, bg = "white",
-  dpi      = 300, width = 6, height = 6, units = "in"
+  filename = "analyses/heatmaps/figs/sup_fig_3b.pdf",
+  plot     = sup_fig_3b.plot, bg = "white",
+  dpi      = 300, width = 6, height = 6, units = "in",
+  device = cairo_pdf
 )
 
 bonf_corr_thresh <- 0.05 / ((106 * 105) / 2)
 
 ## PLOTTING DISTRIBUTION OF p-VALUES
-sup_fig_2c.plot <- sup_fig_2.df %>%
+sup_fig_3c.plot <- sup_fig_3.df %>%
   ggplot(aes(x = -log10(p))) +
   geom_histogram(colour = "black", fill = "white", bins = 40) +
   geom_vline(xintercept = bonf_corr_thresh, colour = "red") +
   scale_y_continuous(expand = c(0, 0)) +
   GLOBAL_THEME +
-  xlab("-log10(p)")
+  xlab("-log10(p)") + ylab("Count")
 
 ggsave(
-  filename = "analyses/heatmaps/figures/sup_fig_2c.png",
-  plot     = sup_fig_2c.plot, bg = "white",
-  dpi      = 300, width = 6, height = 6, units = "in"
+  filename = "analyses/heatmaps/figs/sup_fig_3c.pdf",
+  plot     = sup_fig_3c.plot, bg = "white",
+  dpi      = 300, width = 6, height = 6, units = "in",
+  device = cairo_pdf
 )
 
 ## RQ1: How many significant correlations are there?
-n_sig_corr <- sup_fig_2.df[sup_fig_2.df$p < bonf_corr_thresh,] %>% nrow()
+n_sig_corr <- sup_fig_3.df[sup_fig_2.df$p < bonf_corr_thresh,] %>% nrow()
+n_sig_corr
 # [1] 726
-nrow(sup_fig_2.df)
+nrow(sup_fig_3.df)
 # [1] 5565
 # Of the total of 5,565 comparisons, 726 (~13%) are significant.
 
 ## RQ2: How many +'ve significant correlations are there?
-pos_sig_corr.df <- sup_fig_2.df[
-  (sup_fig_2.df$p < bonf_corr_thresh) & (sup_fig_2.df$r > 0),
+pos_sig_corr.df <- sup_fig_3.df[
+  (sup_fig_3.df$p < bonf_corr_thresh) & (sup_fig_2.df$r > 0),
 ]
 n_pos_sig_corr <- nrow(pos_sig_corr.df)
+n_pos_sig_corr
 # [1] 704
 # There are 704 (~13% of all comparisons and ~96% of all the significant correlations) +'ve significant correlations.
 
@@ -194,7 +198,7 @@ pos_sig_corr.df %>%
   head(50) %>% 
   openxlsx::write.xlsx(
     .,
-    file = "data/processed/heatmaps/top_50_positive_significant_correlations_by_r-value.xlsx")
+    file = "analyses/heatmaps/data/top_50_positive_significant_correlations_by_r-value.xlsx")
 
 
 ## RQ2: How many -'ve significant correlations are there?
@@ -202,6 +206,7 @@ neg_sig_corr.df <- sup_fig_2.df[
   (sup_fig_2.df$p < bonf_corr_thresh) & (sup_fig_2.df$r < 0),
 ]
 n_neg_sig_corr <- nrow(neg_sig_corr.df)
+n_neg_sig_corr
 # [1] 22
 # There are 22 (~0.4% of all comparisions and ~3% of all significant correlations) -'ve significant correaltions
 
@@ -213,7 +218,7 @@ neg_sig_corr.df %>%
   select("Var1", "Var2", "Classification Var1", "Classification Var2") %>%
   openxlsx::write.xlsx(
     .,
-    file = "data/processed/heatmaps/negative_significant_correlations.xlsx"
+    file = "analyses/heatmaps/data/negative_significant_correlations.xlsx"
 )
 
 ## RQ3: Are there more positive correlations than there are negative?
@@ -329,7 +334,7 @@ dim(gcms_cls.cor.melted)
 # [1] 78 4
 
 # plot the full-length correlation heatmap
-fig_2a.plot <- gcms_cls.cor.melted %>%
+sup_fig_4a.plot <- gcms_cls.cor.melted %>%
   ggplot(aes(x = Var1, y = Var2, fill = r)) +
   geom_tile(color = "white") +
   scale_fill_distiller(palette = "RdBu", limit = c(-1, 1)) +
@@ -350,7 +355,7 @@ fig_2a.plot <- gcms_cls.cor.melted %>%
   scale_x_discrete(guide = guide_axis(check.overlap = TRUE)) +
   scale_y_discrete(guide = guide_axis(check.overlap = TRUE), position = "right") +
   coord_fixed() +
-  labs(fill = "Pearson correlation (r)") +
+  labs(fill = "Pearson correlation (r)")
   guides(
     fill = guide_colorbar(
       barwidth       = 15, barheight = 1,
@@ -361,59 +366,42 @@ fig_2a.plot <- gcms_cls.cor.melted %>%
   )
 
 ggsave(
-  filename = "analyses/heatmaps/figures/fig_2a.png",
-  plot     = fig_2a.plot,
+  filename = "analyses/heatmaps/figs/sup_fig_4a.pdf",
+  plot     = sup_fig_4a.plot,
   bg       = "white",
-  dpi      = 300, width = 15, height = 5, units = "in"
+  dpi      = 300, width = 10, height = 5, units = "in"
 )
 
 ## PLOTTING DISTRIBUTION OF r-VALUES
-fig_2b.plot <- gcms_cls.cor.melted %>%
+sup_fig_4b.plot <- gcms_cls.cor.melted %>%
   ggplot(aes(x = r)) +
   geom_histogram(colour = "black", fill = "white") +
   scale_y_continuous(expand = c(0, 0)) +
   GLOBAL_THEME +
-  xlab("Pearson correlation (r)")
+  xlab("Pearson correlation (r)") + ylab("Count")
 
 ggsave(
-  filename = "analyses/heatmaps/figures/fig_2b.png",
-  plot     = fig_2b.plot, bg = "white",
-  dpi      = 300, width = 6, height = 6, units = "in"
+  filename = "analyses/heatmaps/figs/sup_fig_4b.pdf",
+  plot     = sup_fig_4b.plot, bg = "white",
+  dpi      = 300, width = 10, height = 10, units = "in",
+  device = cairo_pdf
 )
 
-fig_2_bonf_corr_thresh <- 0.05 / ((13 * 12) / 2)
+fig_4_bonf_corr_thresh <- 0.05 / ((13 * 12) / 2)
 
 ## PLOTTING DISTRIBUTION OF p-VALUES
-fig_2c.plot <- gcms_cls.cor.melted %>%
+fig_4c.plot <- gcms_cls.cor.melted %>%
   ggplot(aes(x = -log10(p))) +
   geom_histogram(colour = "black", fill = "white", bins = 40) +
-  geom_vline(xintercept = -log10(fig_2_bonf_corr_thresh), colour = "red") +
+  geom_vline(xintercept = -log10(fig_4_bonf_corr_thresh), colour = "red") +
   scale_y_continuous(expand = c(0, 0)) +
   GLOBAL_THEME +
-  xlab("-log10(p)")
+  xlab("-log10(p)") + ylab("Count")
 
 ggsave(
-  filename = "analyses/heatmaps/figures/fig_2c.png",
-  plot     = fig_2c.plot, bg = "white",
-  dpi      = 300, width = 6, height = 6, units = "in"
+  filename = "analyses/heatmaps/figs/sup_fig_4c.pdf",
+  plot     = fig_4c.plot, bg = "white",
+  dpi      = 300, width = 6, height = 6, units = "in",
+  device = cairo_pdf
 )
 
-
-fig2_plots      <- list()
-fig2_plots[[1]] <- fig_2a.plot
-fig2_plots[[2]] <- ggarrange(
-  fig_2b.plot, fig_2c.plot,
-  nrow          = 1, ncol = 2,
-  common.legend = T,
-  labels        = c("B", "C")
-)
-figure_2.plot   <- ggarrange(plotlist = fig2_plots, nrow = 1, ncol = 2, labels = c("A", ""))
-ggsave(
-  filename = "figures/final_figures/Figure_2.png",
-  figure_2.plot,
-  dpi      = 600,
-  bg       = "white",
-  width    = 20,
-  height   = 5,
-  units    = "in"
-)

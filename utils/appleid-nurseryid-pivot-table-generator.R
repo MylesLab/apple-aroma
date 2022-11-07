@@ -1,4 +1,3 @@
-# Title     : Apple ID & Nursery ID Pivot Table Generator.
 # Objective : This script is responsible for generating the nursery id and
 # pivot id table
 

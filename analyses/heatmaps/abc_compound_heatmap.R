@@ -60,7 +60,12 @@ dim(pheno_tbl)
 
 # create the subset of ABC and GCMS dataframes
 pheno_tbl.gcms <- pheno_tbl[,2:107]
+dim(pheno_tbl.gcms)
+# [1] 515 106
+
 pheno_tbl.abc <- pheno_tbl[,108:ncol(pheno_tbl)]
+dim(pheno_tbl.abc)
+# [1] 515 10
 
 # perform correlation on ABC and GC-MS data
 abc_gcms_cor.r <- matrix(NA, nrow = 10, ncol = 106)
@@ -120,7 +125,7 @@ abc_gcms.cor.melted %>%
   ) %>%
   ggplot(aes(x = gcms_compound, y = abc_phenotype, fill=r)) + 
   geom_tile(color = "white") +
-  scale_fill_distiller(palette = "RdBu", limit = c(-1, 1)) +
+  scale_fill_distiller(palette = "RdBu", limits=c(-1,1)) +
   theme_classic() +
   scale_x_discrete(guide = guide_axis(check.overlap = TRUE)) +
   scale_y_discrete(guide = guide_axis(check.overlap = TRUE)) +
@@ -148,7 +153,7 @@ abc_gcms.cor.melted %>%
     )
   )
 ggsave(
-  filename = "analyses/heatmaps/figures/sup_fig_3a.pdf",
+  filename = "analyses/heatmaps/figs/sup_fig_2a.pdf",
   plot     = last_plot(),
   dpi      = 600, width = 25, height = 15, units = "in"
 )
@@ -159,11 +164,12 @@ abc_gcms.cor.melted %>%
     geom_histogram(colour = "black", fill = "white") +
     scale_y_continuous(expand = c(0, 0)) +
     GLOBAL_THEME +
-    xlab("Pearson correlation (r)")
+    xlab("Pearson correlation (r)") + ylab("Count")
 ggsave(
-  filename = "analyses/heatmaps/figures/sup_fig_3b.png",
+  filename = "analyses/heatmaps/figs/sup_fig_2b.pdf",
   plot     = last_plot(), bg = "white",
-  dpi      = 300, width = 6, height = 6, units = "in"
+  dpi      = 300, width = 6, height = 6, units = "in",
+  device = cairo_pdf
 )
 
 ########################
@@ -194,7 +200,7 @@ n_neg_sig_corr <- abc_gcms.cor.melted[
 ] %>% nrow()
 n_neg_sig_corr
 # [1] 60
-# There are 60 (~5.7% of all comparisions and ~87% of all significant correlations) -'ve significant correaltions
+# There are 60 (~5.7% of all comparisons and ~87% of all significant correlations) -'ve significant correaltions
 
 ## RQ3: Are there more positive correlations than there are negative?
 # we will answer this through a chi-squared test
