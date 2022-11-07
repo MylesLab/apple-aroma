@@ -1,6 +1,7 @@
 # Objective : This script contains all the utility functions for PCA
 
-source('themes/theme_avenir.R')
+library(viridis)
+source("themes/theme_avenir.R")
 
 generate_variance_plot <- function(dat, options = NULL) {
     #' Generate the variance plot
@@ -54,9 +55,7 @@ generate_variance_plot <- function(dat, options = NULL) {
   )
 }
 
-generate_pca_biplot <- function(
-  dat, choices, color_phenotype, limits, proportion_of_variance, options = NULL
-) {
+generate_pca_biplot <- function(dat, choices, color_phenotype, limits, proportion_of_variance, options = NULL) {
     #' Generate the PCA bi-plot
     #'
     #' @param dat - data frame with Legend, Variance and Phenotype columns
@@ -75,7 +74,7 @@ generate_pca_biplot <- function(
   pheno_name <- color_phenotype[1]
   pheno_title <- color_phenotype[2]
 
-  # other parameters
+  # other option parameters
   dot_size <- options[["dot_size"]]
   axis_text_size <- options[["axis_text_size"]]
   axis_title_size <- options[["axis_title_size"]]

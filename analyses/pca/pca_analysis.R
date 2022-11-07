@@ -1,19 +1,25 @@
-# Objective : This script generates the PCA bi-plots as well as some of the other
-#             plots made from PCA data
+################
+## FIGS INDEX ##
+################
+
+## fig_3a - PCA bi-plot with Harvest Date
+## fig_3b - Scatter plot of PC1 and harvest date with linear correlation
+## fig_3c - Scatter plot of the ‘number of volatiles detected’ and harvest date of each sample with linear correlation
+## fig_3d - Scatter plot of ‘total volatile abundance’ and harvest date of each sample with linear correlation
 
 ############################
 ## IMPORTS & DATA LOADING ##
 ############################
 
 library(readxl)
-library(ggpubr)
-library(dplyr)
-library(viridis)
+library(tidyverse)
 library(openxlsx)
-
+library(ggpubr)
 source("analyses/pca/utils.R")
 source("themes/theme_main.R")
 source("utils/basic_stats.R")
+# library(viridis)
+
 
 # loading the GCMS phenotype table
 gcms_pheno_tbl <-
@@ -95,7 +101,7 @@ fig_3a_plot <- generate_pca_biplot(
   proportion_of_variance = pov
 )
 ggsave(
-  "figures/pca/fig_3a.pdf",
+  "analyses/pca/figs/fig_3a.pdf",
   fig_3a_plot,
   bg = "white",
   width = 815,
@@ -108,7 +114,7 @@ ggsave(
 # PCA bi-plot for powerpoint presentation
 fig_3a_plot_ppt <- generate_pca_biplot(
   pcs_df,
-  choices=c("PC1","PC2"),
+  choices=c("PC1", "PC2"),
   color_phenotype = c("HarvestDate", "Harvest Date\n (julian days)"),
   limits = limits,
   proportion_of_variance = pov,
@@ -121,7 +127,7 @@ fig_3a_plot_ppt <- generate_pca_biplot(
   )
 )
 ggsave(
-  "figures/ppt_figures/fig_3a.png",
+  "analyses/pca/figs/fig_3a_ppt.png",
   fig_3a_plot_ppt,
   bg = "white",
   width = 815,
@@ -130,7 +136,7 @@ ggsave(
   units = "px"
 )
 
-# Figure 3B
+# fig_3b
 fit_harv_dt_vs_pc1 <- lm(pcs_df$PC1 ~ pcs_df$HarvestDate)
 summary(fit_harv_dt_vs_pc1)
 fig_3b_plot <- ggplot(pcs_df, aes(x = HarvestDate, y = PC1)) +
@@ -152,7 +158,7 @@ fig_3b_plot <- ggplot(pcs_df, aes(x = HarvestDate, y = PC1)) +
   xlab("Harvest Date (julian days)") +
   ylab("PC1")
 ggsave(
-  "figures/pca/fig_3b.pdf",
+  "analyses/pca/figs/fig_3b.pdf",
   plot = fig_3b_plot,
   bg = "white",
   width = 815,
@@ -162,7 +168,7 @@ ggsave(
   device = cairo_pdf
 )
 
-# Figure 3C
+# Figure 3C - Scatter plot of the ‘number of volatiles detected’ and harvest date of each sample with linear correlation
 fit_harv_dt_vs_num_vols <-
   lm(pcs_df$VolatileUbiquityBySample ~ pcs_df$HarvestDate)
 summary(fit_harv_dt_vs_num_vols)
@@ -185,7 +191,7 @@ fig_3c_plot <- ggplot(
   xlab("Harvest Date (julian days)") +
   ylab("Number of volatiles detected")
 ggsave(
-  "figures/pca/fig_3c.pdf",
+  "analyses/pca/figs/fig_3c.pdf",
   plot = fig_3c_plot,
   bg = "white",
   width = 815,
@@ -195,7 +201,7 @@ ggsave(
   device = cairo_pdf
 )
 
-# Figure 3D
+# Figure 3D - Scatter plot of ‘total volatile abundance’ and harvest date of each sample with linear correlation
 fit_harv_dt_vs_tva <-
   lm(pcs_df$TotalVolatileAbundanceBySample ~ pcs_df$HarvestDate)
 summary(fit_harv_dt_vs_tva)
@@ -220,7 +226,7 @@ fig_3d_plot <- ggplot(
   xlab("Harvest Date (julian days)") +
   ylab("Total volatile abundance (TIC)")
 ggsave(
-  "figures/pca/fig_3d.pdf",
+  "analyses/pca/figs/fig_3d.pdf",
   plot = fig_3d_plot,
   bg = "white",
   width = 815,
@@ -240,7 +246,7 @@ fig_3_plot <- ggarrange(
   labels = c("A", "B", "C", "D")
 )
 ggsave(
-  "figures/pca/Figure_3.pdf",
+  "analyses/pca/figs/fig_3.pdf",
   plot = fig_3_plot,
   bg = "white",
   width = 15,
@@ -250,23 +256,18 @@ ggsave(
 )
 
 
-# supplementary figure 1
-# A
-# total_sample_ubiquity_by_volatiles_plot.png
-# B
-
 ######################################
 ## PCs TO ABC PHENOTYPE CORRELATION ##
 ######################################
 
 abc_pheno_tbl <- pheno_tbl[, c(1, 112:ncol(pheno_tbl))]
 dim(abc_pheno_tbl)
-# [1] 515 42
+# [1] 515 40
 
 abc_pheno_noaid_tbl <- abc_pheno_tbl[, -1]
 abc_pheno_noaid_tbl <- as.matrix(abc_pheno_noaid_tbl)
 dim(abc_pheno_noaid_tbl)
-# [1] 515 41
+# [1] 515 39
 
 # function for getting pcs
 pcs <- function(x) {
@@ -330,7 +331,7 @@ dat[which(dat$Legend == 5), "Legend"] <- "PC5"
 
 variance_plot <- generate_variance_plot(dat)
 ggsave(
-  filename = "figures/pca/pca_variance.pdf",
+  filename = "analyses/pca/figs/pca_variance.pdf",
   plot = variance_plot,
   dpi = 600,
   width = 8,
@@ -358,7 +359,7 @@ variance_plot_2017 <- generate_variance_plot(
   )
 )
 ggsave(
-  filename = "figures/pca/pca_variance_subset.pdf",
+  filename = "analyses/pca/figs/pca_variance_subset.pdf",
   plot = variance_plot_2017,
   dpi = 600,
   width = 20,
